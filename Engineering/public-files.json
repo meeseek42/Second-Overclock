@@ -374,9 +374,19 @@
       "sha256": "f2daba1db8de047e897e7f151d3e83e405f99108ab5020060016382e9bcfd9bb"
     },
     {
+      "path": "Docs/KNOWN_ISSUES.en.md",
+      "bytes": 5346,
+      "sha256": "c83c7d1e746ce4daa62626e790864da1ad2c6fadc231dba5da85dfd9572ab309"
+    },
+    {
+      "path": "Docs/KNOWN_ISSUES.zh-CN.md",
+      "bytes": 4446,
+      "sha256": "9702c1dbd7cbe1e95ca459c648ce2c68450114f2411f5f68b96b943972007f9e"
+    },
+    {
       "path": "Engineering/CONTRIBUTOR-WORKFLOW.md",
-      "bytes": 11670,
-      "sha256": "da4b8118c4245bbfb96880d3008c3c1945bfe3055e4713fb4899916056334ad6"
+      "bytes": 11861,
+      "sha256": "ab388a951e45245c48d564e57c0fdb5cf242fa0f4b0948781417302ee8ac3ebe"
     },
     {
       "path": "Engineering/PUBLIC-TOOLCHAIN.md",
@@ -887,6 +897,16 @@
       "path": "NuGet.Config",
       "bytes": 217,
       "sha256": "f545a7e2ea14ac53cdfb91217cae67b8ff14275313f6298f9a3331d205b6c948"
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 4396,
+      "sha256": "42c919ff4ce28e600c82775194ae63504d8d81ee64663199cf48b2cc9f20c7e4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3910,
+      "sha256": "bfffb27683878080e97e018f34f4ca49daee633020ef8ea60ffc217707d3fa0b"
     },
     {
       "path": "Scripts/Assert-DORCookReferences.ps1",

@@ -80,4 +80,4 @@ The public source candidate identity is `0.93.14-alpha170-contributor-reviewed16
 
 Only files in `Engineering/public-files.json` form the prepared publication payload. Generated runtime output, native assets/exports/binaries, engine/template, packages/caches, `.local/`, original classification discussions, private snapshot manifests, player data/logs, old bug history and build results are excluded. Native object paths/numbers in maintained recipes and curated expectations are retained intentionally. This is a technical boundary, not a redistribution-rights or license determination.
 
-README languages, license, known-issue wording and feedback wording are reserved for the project owner and are not authored here.
+Project overview, TODO and feedback guidance are maintained in [README](../README.md) and [English README](../README.en.md). Known issues and unimplemented combinations are maintained under `Docs/`. See [LICENSE](../LICENSE) and [LICENSE-SCOPE.md](../LICENSE-SCOPE.md) for the repository's license and third-party scope.
