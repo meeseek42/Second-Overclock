@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DOR GF03 Resolved Native Inputs",
+  "type": "object",
+  "required": ["schema", "contractSha256", "inputs", "roots", "carriers", "carrierSources", "carrierGateEvidence"],
+  "properties": {
+    "schema": {"const": "dor.gf03.resolved-native-inputs.v1"},
+    "contractSha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "inputs": {"type": "array", "items": {"type": "object", "required": ["sourceObjectPath", "classPath", "fields", "exportEvidence", "packageEvidence", "payloadEvidence"]}},
+    "roots": {"type": "array", "items": {"type": "object", "required": ["sourceObjectPath", "nativeGuid", "orderedLeafObjectPaths", "exportEvidence", "packageEvidence", "payloadEvidence"]}},
+    "carriers": {"type": "array", "minItems": 3, "maxItems": 3},
+    "carrierSources": {"type": "array"},
+    "carrierGateEvidence": {"type": "object", "required": ["path", "sha256"]}
+  }
+}

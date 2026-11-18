@@ -1,0 +1,36 @@
+{
+  "schema": "dual-overclock-reward.weapon-mirrors.v1",
+  "gameBuild": "FSD main CL 148500",
+  "verticalOnly": true,
+  "weapons": [
+    {
+      "weapon": "PlasmaCarbine",
+      "testIndex": 388,
+      "pairId": "a2edc4fa1d61b86f",
+      "sourceWeaponPackage": "/Game/WeaponsNTools/PlasmaCarbine/WPN_PlasmaCarbine",
+      "sourceWeaponObject": "WPN_PlasmaCarbine",
+      "sourceWeaponUassetSha256": "ca78876bd94e3a6ac2ead84f0d89d858a4e82aa77027c9b14cb638aac3a7c8c8",
+      "sourceWeaponUexpSha256": "f80837347644fb9f2ee860c3155117a6149aafa971b0f30fe467185a78080812",
+      "sourceBankPackage": "/Game/WeaponsNTools/PlasmaCarbine/Overclocks/OSB_PlasmaCarbine",
+      "sourceBankObject": "OSB_PlasmaCarbine",
+      "sourceBankUassetSha256": "08faf409bfe950aa59a31957ac7f1ff0c903f9b2ccff450b659408cc7e0b2637",
+      "sourceBankUexpSha256": "3c9e26b712121d89a3634d242abb1cb2d5b47e4bfae56cd1af67bc97d8d765a4",
+      "sourceItemIdPackage": "/Game/WeaponsNTools/PlasmaCarbine/ID_PlasmaCarbine",
+      "sourceItemIdObject": "ID_PlasmaCarbine",
+      "sourceItemIdUassetSha256": "4a8541750342b59c03cdc77d204a6f21beab95ad05883fcacb32e55da212316f",
+      "sourceItemIdUexpSha256": "e2d990584d713118d00cffb9ea38a4295384fb2358235fdde20ed324810991ea",
+      "mirrorWeaponPackage": "/Game/DualOverclockReward/Weapons/PlasmaCarbine/WPN_DOR_PlasmaCarbine",
+      "mirrorWeaponObject": "WPN_DOR_PlasmaCarbine",
+      "mirrorBankPackage": "/Game/DualOverclockReward/Weapons/PlasmaCarbine/OSB_DOR_PlasmaCarbine",
+      "mirrorBankObject": "OSB_DOR_PlasmaCarbine",
+      "mirrorSavegameId": "D0388A25-7A11-4B9D-9338-A2EDC4FA1D61",
+      "mirrorItemIdPackage": "/Game/DualOverclockReward/Weapons/PlasmaCarbine/ID_DOR_PlasmaCarbine",
+      "mirrorItemIdObject": "ID_DOR_PlasmaCarbine",
+      "mirrorItemIdPath": "/Game/DualOverclockReward/Weapons/PlasmaCarbine/ID_DOR_PlasmaCarbine.ID_DOR_PlasmaCarbine",
+      "nativeItemIdPath": "/Game/WeaponsNTools/PlasmaCarbine/ID_PlasmaCarbine.ID_PlasmaCarbine",
+      "weaponItemIdMode": "native",
+      "fusionRootPath": "/Game/DualOverclockReward/Pairs/PlasmaCarbine/DORPair_388_a2edc4fa1d61b86f.DORPair_388_a2edc4fa1d61b86f",
+      "fusionSchematicPath": "/Game/DualOverclockReward/Schematics/PlasmaCarbine/DORSchematic_388_a2edc4fa1d61b86f.DORSchematic_388_a2edc4fa1d61b86f"
+    }
+  ]
+}

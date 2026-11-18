@@ -1,0 +1,1052 @@
+{
+  "schema": 1,
+  "policy": "Default exclude; publication payload consists only of these files plus Engineering/public-files.json itself",
+  "snapshot": "contributor-0.93.14",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 733,
+      "sha256": "acd0a82476b2ebe91be014e8361a183015a05e84bb16bfb8d20982b9c5918408"
+    },
+    {
+      "path": "Analysis/config/build-readback-expectations.json",
+      "bytes": 369391,
+      "sha256": "276cafcd01030876425317c45a24ee186f6ae67f2b6126fe764f9bcdc56a5031"
+    },
+    {
+      "path": "Analysis/config/game-build.json",
+      "bytes": 357,
+      "sha256": "069fbf43da5a801c09731df4df6c1f27de2487b2924edb9ca2ce99fe29c09059"
+    },
+    {
+      "path": "Analysis/config/game-paths.example.json",
+      "bytes": 217,
+      "sha256": "fc3bfa29fa72c9cab6222462c8d84da292c525077f13c553c4c1d8aec0e92157"
+    },
+    {
+      "path": "Analysis/config/weapon-mirrors.vertical.json",
+      "bytes": 2308,
+      "sha256": "04c24db18d70edfc0ecd053f71ab7673d9e3d8ecbcb2e37986bd2e9495067efe"
+    },
+    {
+      "path": "Analysis/data/manual/gf03-recipes.schema.json",
+      "bytes": 1502,
+      "sha256": "d9ffca92ef9f05f825f6f030e015180c122030279ae71bc0d046bf3758f0708a"
+    },
+    {
+      "path": "Analysis/data/manual/gf03-resolved-native-inputs.schema.json",
+      "bytes": 953,
+      "sha256": "af95e8ac6a070591e08b3530632ec2ac21bc6e3f6cce8e626c0044d543d8bd55"
+    },
+    {
+      "path": "Analysis/data/manual/gf04-recipes.schema.json",
+      "bytes": 9084,
+      "sha256": "dfdfa922cc0a2bc6dc737e3ee68aacd27526b5b9e130a06ae0ade9df01892163"
+    },
+    {
+      "path": "Analysis/data/manual/gf04-resolved-native-inputs.schema.json",
+      "bytes": 481,
+      "sha256": "427d5da81b0d5b1301d542bd16cd8121318588611b3b4cdf58730a9e14a5135f"
+    },
+    {
+      "path": "Analysis/data/manual/high-load-policy.json",
+      "bytes": 2901,
+      "sha256": "305bba78035df163faf92ad35b7494d4bf0d39292c3cf33f85e14b5fb7d95a7f"
+    },
+    {
+      "path": "Analysis/data/manual/implementation-overrides.json",
+      "bytes": 3123,
+      "sha256": "9359289789c54058c60513b236b99577c302dabd1b7109d25dd33bf7f921aff6"
+    },
+    {
+      "path": "Analysis/data/manual/numeric-stack-policy.json",
+      "bytes": 4348,
+      "sha256": "a17efcbc2908fafea4bafb930c2182e2c8987fabac30b4b1839349bed821f184"
+    },
+    {
+      "path": "Analysis/data/manual/pair-overrides.json",
+      "bytes": 33718,
+      "sha256": "f778c74a83b4fe78e90687d72ca2a0fb25f8f6d0074a3cdc46f297f873d447e9"
+    },
+    {
+      "path": "Analysis/schemas/compatibility-research.schema.json",
+      "bytes": 1559,
+      "sha256": "95be84eb1e7012ad2e90983845717d240cf29d88e574833cb151d3092535531f"
+    },
+    {
+      "path": "Analysis/schemas/overclock-implementation.schema.json",
+      "bytes": 2014,
+      "sha256": "d911ea714e3ed71e79f91003c92f55485e4f3d45904d0d27a7e1cac5e27b5a3e"
+    },
+    {
+      "path": "Analysis/schemas/pair-assessment.schema.json",
+      "bytes": 1174,
+      "sha256": "d3946a61133459397781e86cb9d7e361904100e1b1aed9aeff6f49544f4f120f"
+    },
+    {
+      "path": "Analysis/schemas/runtime-evidence.schema.json",
+      "bytes": 874,
+      "sha256": "03bfef354f257ef5905e9c6af56287082c83cfa8425b7cc4b8747bfd4f896bce"
+    },
+    {
+      "path": "Analysis/schemas/runtime-manifest.schema.json",
+      "bytes": 1432,
+      "sha256": "145fa53ca2b99d932f6caffcd7486a1f040ce738fc054eca06e0d1865dba99d7"
+    },
+    {
+      "path": "Analysis/src/assess/assess-pairs.mjs",
+      "bytes": 12172,
+      "sha256": "bfc2b98b6377ad9a88b9facd37e131574231f25dd5783d808b489d5e7614a336"
+    },
+    {
+      "path": "Analysis/src/authoring/build-authoring.mjs",
+      "bytes": 9908,
+      "sha256": "028ec60548c3175a05dcc4a396b83753d2a42a8c8be500756e4ffcf83eb419d5"
+    },
+    {
+      "path": "Analysis/src/authoring/native-semantics.mjs",
+      "bytes": 8964,
+      "sha256": "221aed919b2624f6a991261ff8f49b3a3ce21d72ea8eeaea631dbdd06f747786"
+    },
+    {
+      "path": "Analysis/src/authoring/prepare-native-inputs.mjs",
+      "bytes": 10869,
+      "sha256": "ae37e4e80fa321bc67f18301d2623fe13f5799f6fe16dc56fef1afa1ff45b803"
+    },
+    {
+      "path": "Analysis/src/authoring/prepared-inputs.mjs",
+      "bytes": 8324,
+      "sha256": "56648778fd477d0d2de44501d6f4d3711b6d0baa479c8e3b7ef2b09d733243ec"
+    },
+    {
+      "path": "Analysis/src/cli.mjs",
+      "bytes": 1375,
+      "sha256": "1e31eefe4e6a9073a062584f1fc23f7336d58bad66d0b704ec138435ad703159"
+    },
+    {
+      "path": "Analysis/src/contracts/asset-model.mjs",
+      "bytes": 3091,
+      "sha256": "0f8d8cd8d889ff2fdfdb14aef7be5a741ee6e0c333702787166a7a47f994c130"
+    },
+    {
+      "path": "Analysis/src/contracts/build-contracts.mjs",
+      "bytes": 19040,
+      "sha256": "1b5b25f8825cfa4e25b3d7204dba1bff168d5e4bc8e2955b4688b898722f1e3c"
+    },
+    {
+      "path": "Analysis/src/contracts/validate-contracts.mjs",
+      "bytes": 1312,
+      "sha256": "5c379b0a833eef673b925f16fdf9578ab7343e691937d8cc9618b3698510b29a"
+    },
+    {
+      "path": "Analysis/src/diagnostics/export-savegame.mjs",
+      "bytes": 4602,
+      "sha256": "b44f075484ce2991a3fbc4f4f3c2b7decbb65c212651f935f313a634612c8edd"
+    },
+    {
+      "path": "Analysis/src/extract/extract-game.mjs",
+      "bytes": 2884,
+      "sha256": "e4c2991e52af3a80055dd0fd20ce2cad015727e228ea850212732ac5a925a642"
+    },
+    {
+      "path": "Analysis/src/parse/parse-assets.mjs",
+      "bytes": 6805,
+      "sha256": "38fdff4938f53b94b0613b85f80e5754ee9e138a548df0acc4981063a07d7fe8"
+    },
+    {
+      "path": "Analysis/src/reports/build-reports.mjs",
+      "bytes": 5087,
+      "sha256": "d840d8ba96d2552f09f4bad1e383632f6902973e5fb5f5117e8d3407cf10d582"
+    },
+    {
+      "path": "Analysis/src/research/build-compatibility-research.mjs",
+      "bytes": 19359,
+      "sha256": "8a9e047572210d731878978378a5c13909505382180c0a74c833856928c688f6"
+    },
+    {
+      "path": "Analysis/src/runtime/build-runtime-manifest.mjs",
+      "bytes": 35176,
+      "sha256": "9074c992f7730316fdb87bd36fbebf022ac9072b0c4577c91c08862eb4ff91aa"
+    },
+    {
+      "path": "Analysis/src/runtime/effective-numeric-output.mjs",
+      "bytes": 1076,
+      "sha256": "2ee72458755625fde10a3c6b63b53b891ecb5b9d2f78673cf3af713742f7d342"
+    },
+    {
+      "path": "Analysis/src/runtime/gf02-contract.mjs",
+      "bytes": 10196,
+      "sha256": "58c3c00241781123bdb774d12b846c11c941e99b8fb7369c459204be0ad9d276"
+    },
+    {
+      "path": "Analysis/src/runtime/gf02-resolved-inputs.schema.json",
+      "bytes": 1322,
+      "sha256": "1a9f0287cfab8b6c3baf9319a69481cad879626383877d36d60b6445231203cf"
+    },
+    {
+      "path": "Analysis/src/runtime/gf03-contract.mjs",
+      "bytes": 8148,
+      "sha256": "d9ae13f41e4c9cca0a114d2563b7942fff8789040dbd6cab221c1effc4b60eb2"
+    },
+    {
+      "path": "Analysis/src/runtime/gf04-contract.mjs",
+      "bytes": 7906,
+      "sha256": "ca82ceb4f88b8f5db723f7aba48bf4e88e4026c3ebd0b2654fd0c4a096f26b81"
+    },
+    {
+      "path": "Analysis/src/runtime/native-numeric-policy.mjs",
+      "bytes": 5535,
+      "sha256": "f0d3175fcf1425c2ddaa3257723523fe20611f737be2765811b250cade630a34"
+    },
+    {
+      "path": "Analysis/src/runtime/remaining-contract.mjs",
+      "bytes": 8884,
+      "sha256": "1e2d012f6b0cfb6ef54fb42e56c7de7a602e74163e21a9881be1d24277f1be59"
+    },
+    {
+      "path": "Analysis/src/shared/io.mjs",
+      "bytes": 1321,
+      "sha256": "a2a2ee30b7e7be91fe5555d32a94b64f81d5050e29c35a79a9acc74f602ed117"
+    },
+    {
+      "path": "Analysis/src/shared/paths.mjs",
+      "bytes": 3938,
+      "sha256": "afacd43f8fe1467c4ad8fe4b0b502d83f7da968c3d9ee21f8508442c17ccffe7"
+    },
+    {
+      "path": "Analysis/tests/validation/alpha85-pistol-status.test.mjs",
+      "bytes": 5410,
+      "sha256": "1b6de961956b26531349f0c53edfe614354edde357b7611f6e00f81fa7c8747e"
+    },
+    {
+      "path": "Analysis/tests/validation/alpha86-apply001-diagnostic.test.mjs",
+      "bytes": 809,
+      "sha256": "3ca3267cb7e4b5abca6d26548bbe0acce9b97bf1a1419379a2a80bd0732a217c"
+    },
+    {
+      "path": "Analysis/tests/validation/compatibility-research.test.mjs",
+      "bytes": 2849,
+      "sha256": "f8c3ee7eefef048a3ff47a39f10da2a146fb7e1b8eba35daee9cd4f7c8c0b7ff"
+    },
+    {
+      "path": "Analysis/tests/validation/current-artifact-identity.mjs",
+      "bytes": 1537,
+      "sha256": "53a7c6edd73e2b56fe865218ade9ed30763eead65b107c51d93132b24fb13507"
+    },
+    {
+      "path": "Analysis/tests/validation/diagnostic-export.test.mjs",
+      "bytes": 1977,
+      "sha256": "40c86540846000159731414245ee050d73be70c2e0d973da9466427c96a91938"
+    },
+    {
+      "path": "Analysis/tests/validation/pair388-continuation-once.test.mjs",
+      "bytes": 847,
+      "sha256": "f4fb95ffb5c8f222c05aedecf7afbcab63d2dcc2480fef03f10e52c8c9da28d8"
+    },
+    {
+      "path": "Analysis/tests/validation/parse-runner-boundary.test.mjs",
+      "bytes": 3304,
+      "sha256": "2db0355bba3ea5a207b037e1c9a5901a3bb50aa66abbae12514aa5ed26f633c3"
+    },
+    {
+      "path": "Analysis/tests/validation/pipeline.test.mjs",
+      "bytes": 1539,
+      "sha256": "70af2a0bb11234a36a3eeb6fc37d57d43377bd52b9d2d6ab766c806cd9a6ea48"
+    },
+    {
+      "path": "Analysis/tests/validation/remote359-authority.test.mjs",
+      "bytes": 579,
+      "sha256": "9798410ead095944dff51f3e3f810b54c5927d78394d0e5c81a6b063619b0ad8"
+    },
+    {
+      "path": "Analysis/tests/validation/reward-round-refill.test.mjs",
+      "bytes": 1080,
+      "sha256": "10e831e318a72995ec8302dd33785ea20b59124b96bd6f5dcb51373db6b6a100"
+    },
+    {
+      "path": "Analysis/tests/validation/runtime-manifest.test.mjs",
+      "bytes": 21321,
+      "sha256": "53f3bf3afdef1d1d7d295636ae07571c366e490913d734fdec186488176afa52"
+    },
+    {
+      "path": "Analysis/tests/validation/save-safety-modhub.test.mjs",
+      "bytes": 2671,
+      "sha256": "735d31fdd82efdf17c3f5b608a86c87162def4863ce5f4dc326b5734d6a15f3b"
+    },
+    {
+      "path": "Analysis/tests/validation/weapon-mirror.test.mjs",
+      "bytes": 2610,
+      "sha256": "dad65b942a4454bd4478ee074a98730403291eae4d9bcaebc9de1ddcc6796ba2"
+    },
+    {
+      "path": "Analysis/tools/CookedWeaponMirror/CookedWeaponMirror.csproj",
+      "bytes": 385,
+      "sha256": "e272c4c7434f66a6ae720e72381e68847eefe3d5bd7c50e893ff0771946eb3c6"
+    },
+    {
+      "path": "Analysis/tools/CookedWeaponMirror/Program.cs",
+      "bytes": 31823,
+      "sha256": "cd05ea33710c979aaea228b3080bee3b952c69268be5f45d5fa788494f5f7e7c"
+    },
+    {
+      "path": "Analysis/tools/UAssetInspector/Program.cs",
+      "bytes": 2347,
+      "sha256": "b91dc221b8452e63cda788daed7b83a2a41317d50d7062ba959e7ae8e3bb7ed1"
+    },
+    {
+      "path": "Analysis/tools/UAssetInspector/UAssetInspector.csproj",
+      "bytes": 385,
+      "sha256": "e272c4c7434f66a6ae720e72381e68847eefe3d5bd7c50e893ff0771946eb3c6"
+    },
+    {
+      "path": "Authoring/admission.json",
+      "bytes": 44794,
+      "sha256": "c6978f67b76c62ed754e4baa74dab61d9d7cc8353689d9c6f77b13837867ea8b"
+    },
+    {
+      "path": "Authoring/classification.json",
+      "bytes": 1592403,
+      "sha256": "f7411975f186ff0c24e1da22faa007ccbe394cc5c92ce3dfd758ffe6f658f276"
+    },
+    {
+      "path": "Authoring/families.json",
+      "bytes": 9513,
+      "sha256": "63791fc77367b540cee26c6d2db4a157fa772e5f6bcdc80ca6506dc0d6e563e7"
+    },
+    {
+      "path": "Authoring/gf01-pairs.json",
+      "bytes": 575886,
+      "sha256": "8b3c0d0adda0389a9b18f066a4e31795d09414fbd3acbfeb866c216f7647d7f4"
+    },
+    {
+      "path": "Authoring/manifest.json",
+      "bytes": 4382,
+      "sha256": "3d02739d614cd4dd085b1beb911fc53b26357ab2d8225ae1d2dbf9fe66052d24"
+    },
+    {
+      "path": "Authoring/native-compatibility.json",
+      "bytes": 1387218,
+      "sha256": "45d0ecb603d45fbaeccaf5288dccf55636778e5e18a2436742c8a8f4dd68dbe0"
+    },
+    {
+      "path": "Authoring/native-dependencies.json",
+      "bytes": 18505,
+      "sha256": "2a1893dd7f626f342a40a40861615c9452851cf7ce2733e81c1cf6051dd1c6f7"
+    },
+    {
+      "path": "Authoring/native-editor-staging.json",
+      "bytes": 258497,
+      "sha256": "bd1ebb6df29efda8908a838d7df854f39a3c1dd3c947286a5f856eb5fd8722b6"
+    },
+    {
+      "path": "Authoring/overclock-identities.json",
+      "bytes": 222902,
+      "sha256": "4f6cf21bf5125c0b4aec8db9dd83cc346013da8bde95d000ce226314779d9be5"
+    },
+    {
+      "path": "Authoring/recipes/gf02.json",
+      "bytes": 1479631,
+      "sha256": "72237f19cd4a7fb36001820733ab22da2baa63035c977c39e0d6e9eca06ef8b0"
+    },
+    {
+      "path": "Authoring/recipes/gf03.json",
+      "bytes": 2301659,
+      "sha256": "3840fcd55cd1c8768ce595c7d30c2147d3f21391a8a4e045e70a3569a17a49ea"
+    },
+    {
+      "path": "Authoring/recipes/gf04.json",
+      "bytes": 786966,
+      "sha256": "3c4ab1a002ea250caea0886a9d4f2125f4e9f9c90519ea04401aef9102abe430"
+    },
+    {
+      "path": "Authoring/recipes/remaining.json",
+      "bytes": 669988,
+      "sha256": "e3c5c49953e94bc1d8c8bc8b16370498d9014be52dbabd467f48c86fb87d575e"
+    },
+    {
+      "path": "Authoring/runtime-base.json",
+      "bytes": 2121001,
+      "sha256": "655d0dca8616fa659a074fdc5c185295d5917eaf8f6be1a6000a33fe21b54379"
+    },
+    {
+      "path": "Authoring/stable-identities.json",
+      "bytes": 1865237,
+      "sha256": "f2daba1db8de047e897e7f151d3e83e405f99108ab5020060016382e9bcfd9bb"
+    },
+    {
+      "path": "Engineering/CONTRIBUTOR-WORKFLOW.md",
+      "bytes": 11670,
+      "sha256": "da4b8118c4245bbfb96880d3008c3c1945bfe3055e4713fb4899916056334ad6"
+    },
+    {
+      "path": "Engineering/PUBLIC-TOOLCHAIN.md",
+      "bytes": 11219,
+      "sha256": "7ef93f642a6022a2df979f76e2cc1af2b106b64595d5ada51be0ba70c6de5207"
+    },
+    {
+      "path": "Engineering/TOOL-GAPS.md",
+      "bytes": 5480,
+      "sha256": "90e0bb34eeb4d966b89f6c0be01ed03d630cfc7038fd308408cc067148e1720d"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 16726,
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    },
+    {
+      "path": "LICENSE-SCOPE.md",
+      "bytes": 1854,
+      "sha256": "bf34d92b8c2698addaae3c2e5c4e555909132e80841989913a9d6fbd5e7947a9"
+    },
+    {
+      "path": "Mod/Generated/display-overrides.json",
+      "bytes": 86581,
+      "sha256": "11477094f58acb27d8468252170fdc45affc272efbde24c27cb66eb6f50a68f9"
+    },
+    {
+      "path": "Mod/Source/DOREditor/DOREditor.Build.cs",
+      "bytes": 730,
+      "sha256": "49ac6de51f960ef000b07fe27a244c0b0bb1ce8e4b2ac45bc551b815cfb90872"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DOR153Presentation.inl",
+      "bytes": 20679,
+      "sha256": "7db305b86d7d8f23335d52e43322774c16dc4a3b8b2670bd0d8eb8a64684c3d0"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DOR154LocalizedNotices.inl",
+      "bytes": 5458,
+      "sha256": "23fddd6a73e613543608726b6805d3de42d1de781868412e3a5b6d45f0612063"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DOR154PerformanceFilter.inl",
+      "bytes": 7028,
+      "sha256": "07d557abfd3c89d260edf2feab94b4afd40a8bd3da99f6d2f39e7418cb59cdef"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DOR156FailureProbes.inl",
+      "bytes": 12775,
+      "sha256": "31892c111a8f7b02b0aca53a85c003e4ac2e49491dc45cf468c3a863d39fa301"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DOR158Admission.inl",
+      "bytes": 11755,
+      "sha256": "a821b56fea1f019295599a5f8c9297cccfffa745d37e1a17655cb248cf48a69f"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DOR158Probes.inl",
+      "bytes": 10636,
+      "sha256": "c0eb1de61713e0eee2ccd4485fcb9943157e967df80e06f7f0866f423112383d"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORApplicationDiagnostics.inl",
+      "bytes": 16612,
+      "sha256": "9b3ddfb5ca5e9f2e2d5890f7c97e1fafe2b3603e7b8323e3e2740d3b52f97f47"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORBulldogCryoReadback.inl",
+      "bytes": 6948,
+      "sha256": "83dc7ad472430d84b4fc4bacce9f3b8f9e91eb1aea29159eae068b7269a483d7"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORBulldogRicochet.inl",
+      "bytes": 25447,
+      "sha256": "78d0da630a868a8383448868b7fbe3e5410b2b51629713479d5bad90c973e0e1"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORChoiceIngress.inl",
+      "bytes": 9649,
+      "sha256": "f91b8f8064757e48dbd66890f7e2038ea37a9368beb4282eacdeae19459421fc"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORConnectionEquipment.inl",
+      "bytes": 10582,
+      "sha256": "a84f3c59f2135b7dddd6db22dcae70ef2be85ec1c49973d899031c59302aa834"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORConnectionProtocol.inl",
+      "bytes": 77804,
+      "sha256": "4f9da787866da9f7c89739fae812e85a58b13292818a4cf4b3b1b2a45b3560da"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORCryoSnowball.inl",
+      "bytes": 8268,
+      "sha256": "44e225a4d135b0bff1e4eed633ac3f9e9e5bbd2c3b19efd18671418758895f75"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORDebugBatch.inl",
+      "bytes": 91356,
+      "sha256": "222c901b3655388f9a20df98e138fa40348a9144e6d35bf396ca019031a9c458"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORDeepDiveRun.inl",
+      "bytes": 39024,
+      "sha256": "b7a565bcad64414aeb18e5d70b73da8b6ce1fca0e954346626469bc960a746b7"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORDeliveryProbe.inl",
+      "bytes": 22467,
+      "sha256": "300f5de2987cf99dc4b1cc1f2c843dd54463c6aad2d4010c4b86e861a52f3c3e"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORDiagnosticRetention.inl",
+      "bytes": 5182,
+      "sha256": "0f2bf1f024be539b6f05f351c2d601c4ed9f618318d39a5af2f626935658657e"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DOREditor.cpp",
+      "bytes": 1481,
+      "sha256": "a26cbac11ca3edc7607fee119d8ea877b0cc031e5f78044008ded4fab8277149"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORGenerateAssetsCommandlet.cpp",
+      "bytes": 1377386,
+      "sha256": "adadc378d1796591cd862bca6393f0e186ab8686c230aea4fb15d8d88a29eea2"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORHurricaneCarriers.inl",
+      "bytes": 14189,
+      "sha256": "7cbc4ac3513ddd5fecc7cd64a6453af5d1720f86c102ca0d36b83ea7ec6fe97b"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORInitialHandshake.inl",
+      "bytes": 4592,
+      "sha256": "8c36a58d2fba106020f6af5ebce3b85d719450d3c574c3155ec2893a92caa8b2"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORLocalObservability.inl",
+      "bytes": 23072,
+      "sha256": "35e8e9ad1941472499f23b23e427ee26d986db6823ddebed7147d8f88a37b7b8"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORLockOnFullLock.inl",
+      "bytes": 13984,
+      "sha256": "09b5e2ef7eb116ef7a0ac8b78f8a07581a72fe2c61f0ddc3f87d911eae8cd294"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORMaintenance164.inl",
+      "bytes": 47935,
+      "sha256": "3733ad08bcb20976f4c7afefad6f4d32af5d01b27ab14e65a918982a8678e423"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORMaintenance164Readback.inl",
+      "bytes": 11246,
+      "sha256": "806ac119adec170d8fb6854c6e41eade560e7f942b9313ef9b151bd3778ce9d0"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORMaintenance165.inl",
+      "bytes": 35158,
+      "sha256": "b526b7be0ed78e3bcde0549b6ec1aba4f3e07839908700166e15570638caaec2"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORMaintenance165Readback.inl",
+      "bytes": 6815,
+      "sha256": "7c3eeaaeddf8001c50224a1fba6f15764e8f3a534da70d702f39815116cb2be4"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORModHub.inl",
+      "bytes": 136142,
+      "sha256": "02d486840e1a8e5fff8c1f457faa2663f6f89ffd83f594509e94779f0496cbb2"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeBankJournal.inl",
+      "bytes": 44888,
+      "sha256": "55e84fb647ad2b1bb4c43a44bdb9ada58a87505d93fdac31f2b3f023873f330d"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeBankScope.inl",
+      "bytes": 28863,
+      "sha256": "767c343f5ac3d4b0e994776f5835843ece10d873556e0402c424e3c5393b8619"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeClear.inl",
+      "bytes": 13679,
+      "sha256": "1d6076ec59b2aeec02a90bfe01f38550693c6a76beb3765209687c4572ed4d97"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeDescriptor.inl",
+      "bytes": 21611,
+      "sha256": "36a9dfbd4a664704e7c10be06833552b2533a2a191a3e7ff2cd8a8c3c3ab8476"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeDriver.inl",
+      "bytes": 47134,
+      "sha256": "a4c0d8e70b6323466425322bcf9657d53f03ccb6d511cc520f8d5223422f94f6"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeDriverAdmission.inl",
+      "bytes": 17820,
+      "sha256": "df3dc15df3bab34ae7ee56394f36e6ba83b6039807e036097fb44d284c787084"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeExecution.inl",
+      "bytes": 33496,
+      "sha256": "2e4b6de5660e6640a49206274ac446fa84252ec5c273c2163df66444a5e44d68"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeExperimentReceipts.inl",
+      "bytes": 20271,
+      "sha256": "480fec5efb5236342025e0e924e91cc5765363365f46c1e6c174d5ac16220acb"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeInputs.inl",
+      "bytes": 19849,
+      "sha256": "a4ef7155e4278474ee690b93ff50934b940ce39f1cf4e79c77d59a39248938f8"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeJournalLifecycle.inl",
+      "bytes": 22445,
+      "sha256": "c51d0b825fed13d0cb8428acbeb5e014c87b79694779d454ece6e5aa8a0c9cbf"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeLease.inl",
+      "bytes": 22310,
+      "sha256": "027df891a2598aa33b4d800e9f845f1ff69d059c5540e99cb84e5dc01835a3c2"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeLegacy.inl",
+      "bytes": 7357,
+      "sha256": "f9252eb2f0d1cf8241e65902a34f433c860711184854d0cea7426baaa613b440"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeLegacyBridge.inl",
+      "bytes": 38130,
+      "sha256": "ade2aa09cd7d4e65d1bf7ee62771872db2f465420c4cae4df1c97cf44388c5f2"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeLegacyFlow.inl",
+      "bytes": 145034,
+      "sha256": "02baf06e506a7c5eeaf032ce12d4dc761e0b790889cc8398f85d587b490237e7"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeLegacyRecovery.inl",
+      "bytes": 15759,
+      "sha256": "9ab1e04184fd5306db5cf2745f8b0d6ff835f357ead2fc336ea62f680375d3b4"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeLifecycle.inl",
+      "bytes": 31780,
+      "sha256": "ac52b0efd463c3227b97f4ee67a6801e946d2ac1a4dbea699e8bd41dabab97fc"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeOpeningReceipts.inl",
+      "bytes": 33308,
+      "sha256": "085a7f90f2268cb9dc2c9f2031173dcee8df882e68d5da17601c002141b7c99b"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeOwner.inl",
+      "bytes": 20203,
+      "sha256": "ba77d2fbca1c4846f033cf4308c920409b8a9a22f21503f63a4a515d1b5e6494"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeOwnerFirst.inl",
+      "bytes": 16996,
+      "sha256": "61d0f107290f3e70be73ffe430161d2523c83dc52eb991a246d6de17401e1a35"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeOwnerRearm.inl",
+      "bytes": 30256,
+      "sha256": "be10db98e93850ed451c7271b2f50372b0c7b2931355a9906b8b57672cfb5987"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeOwnerSettlement.inl",
+      "bytes": 28691,
+      "sha256": "07ae853a78d2e04c9c80e06beffb2335fda546e994e16c007bf15791c3452e1b"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeOwnerStop.inl",
+      "bytes": 11825,
+      "sha256": "fd5bec1a62bf5e6253bf76c351df9fa65d4edf0eecc6461c2d0eb60bb71a231b"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativePreparationBoundary.inl",
+      "bytes": 13478,
+      "sha256": "4454268ee02bc66d276edf09083b2ab734d1521fd96e782ed39ccc2582628dcb"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeProducers.inl",
+      "bytes": 92648,
+      "sha256": "f88dec6240d44533c2b9fdeffd6c7839063ff7ff7e58155253dfdafbf3326656"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeProof.inl",
+      "bytes": 109506,
+      "sha256": "364ecc98d8ca332ec4454402c524e5a3d27b948f83f1f346de241180e80639fc"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeProtocol.inl",
+      "bytes": 31223,
+      "sha256": "77b9c25cb47d651ccafeca37ed98849946f1ddc4b3bf375630cdce91c4406cd5"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativePump.inl",
+      "bytes": 23806,
+      "sha256": "dcb11def47691f2002cc482e415004013dcaf2fe1a798cd7f835fc3014a38dbd"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeRpcOnly.inl",
+      "bytes": 6595,
+      "sha256": "2465e78241f27e54c7a08ef224ef7e73b57bffd65417b13eb0fd275e82358076"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeRuntime.inl",
+      "bytes": 59290,
+      "sha256": "cb28ae6d58486e9b0e93a329527df90beb3bd40a2b20f4e4b8595e357525cb89"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeSourceSafety.inl",
+      "bytes": 105483,
+      "sha256": "398f00ef0bb181c26cee6469344ae4bd66a29a48203368c48bbc42d1d058b99b"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeStages.inl",
+      "bytes": 23594,
+      "sha256": "78d92fda4297bde4e9da1a2ac9ef871da075ccd2b30df3286640ab4fab778535"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNativeUntouchedCancellation.inl",
+      "bytes": 8481,
+      "sha256": "b00fce3537a35d4963e7755b1798988e20351c532b1bd8e3d0691dfd160687f1"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORNormalDiagnostics.inl",
+      "bytes": 37466,
+      "sha256": "55f3045cedfd43d933b8da117fd6e564842b9cb8f74ecfb4d974e7ae6909b63c"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DOROrdinaryCapability.inl",
+      "bytes": 5511,
+      "sha256": "4d96101ff653874557be334738baae6d766b26ca13732021b5e12da06a4627cd"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DOROrdinaryIntegration.inl",
+      "bytes": 20123,
+      "sha256": "d5aaf801c869782a4a9fa8197a84a8503252f31d7ddcab3dbf31d3e45b368416"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DOROrdinaryRewards.inl",
+      "bytes": 26472,
+      "sha256": "f7cd0a9f51c8f8cf0c5cacea7e327b6ff5a27524aa3149033b68e39265fdc251"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DOROrdinaryScheduler.inl",
+      "bytes": 32530,
+      "sha256": "a3be2e88e7b07cd571bc2956fec49269e19e9021fe9295f0b1904e86c719b7eb"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DOROrdinarySettings.inl",
+      "bytes": 28478,
+      "sha256": "198a9fb551b56805e5e51341c72f0e66f767bd70b7d95578e36f180923cbdf26"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DOROrdinarySupply.inl",
+      "bytes": 20211,
+      "sha256": "97dc8c107c46ed13b775edd6f134cc05dacea865ad747b92f7161d0525cf0ac2"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORPreparedInputs.inl",
+      "bytes": 3466,
+      "sha256": "c8e32597861ddcb8c6dcad91fff472b1d3086e785116269a1ad7911d7953d5e9"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORRecoveryDiagnostics.inl",
+      "bytes": 21449,
+      "sha256": "48f3b823a3738bd186cea46b80260f037084d787bf25cc7a20c7601b53326bd8"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORRemote359.inl",
+      "bytes": 81196,
+      "sha256": "0cf19800b1d88b3ff87648a73a22a7a185b35b07dd8957cf8f73a7074245df2f"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORRemote435Diagnostics.inl",
+      "bytes": 28096,
+      "sha256": "b3656db9b3c9ff58332cb13ea13f6622ec1f1b60cfa48abd2c98ea6701dbc5f2"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORRemote435ReadOnly.inl",
+      "bytes": 85592,
+      "sha256": "a2712f8c1bfe53025b5acd10ff0445e85ea6b93b922d020a089689da982bbd9d"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORReplayAdmission.inl",
+      "bytes": 5715,
+      "sha256": "5b8442857f1a1885eec2789c8c6261fc4978a01e6bc239b322676581991d7d76"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORRewardAdmission.inl",
+      "bytes": 6462,
+      "sha256": "83a6d003d6934edcf34cd16846c53c0c99c4d518db35104e54068dfdcdfb6437"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORRewardContainment.inl",
+      "bytes": 50603,
+      "sha256": "cb0f1f36ef7f3eece0a1ecb06b99b5e7bac7362924f460d7d93c18170f2515bc"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORRewardNotification.inl",
+      "bytes": 10538,
+      "sha256": "41cf58abe20a32be50600247e18e6957fbd712951831f827d75715ec7a19a22f"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORRewardSource.inl",
+      "bytes": 16238,
+      "sha256": "012c47bc342648216c58cc97687c875b77c1b68c7fcf7bc2c4f4878653829186"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORRigEquipmentUI.inl",
+      "bytes": 39887,
+      "sha256": "3abe59ad8875e889286c172ab76ec72c26b249f41dce4ce8171b210373bc3868"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORRotaryPresentation.inl",
+      "bytes": 21821,
+      "sha256": "499cd1b5be8baf4bf73bcf5dac53bc0f9b9088b3f2cfc1601a6a8a80fc149106"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORSaveSafety.inl",
+      "bytes": 82006,
+      "sha256": "e0de61ef392daf31c678230df4e20b1f938f04e96c8cf33cdc3ffdb65bd5a484"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORSelectedSixReadback.inl",
+      "bytes": 4103,
+      "sha256": "de869079e8fa04a5a15fec0ece8619580257acaa2baee4f37c8dec61071721b8"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORSelectionAI.inl",
+      "bytes": 28341,
+      "sha256": "8be3d4941962da7431f52881060ac46ae28a84dc7fe7db76cfe80f5275e8356a"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORSelectionBarrier.inl",
+      "bytes": 29841,
+      "sha256": "7cf9d1fe1e69908b84d985d90778f55d345d481f994fb4aebd2274ff4cf209ed"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORSelectionControl.inl",
+      "bytes": 21178,
+      "sha256": "eef372f4f19e602182e45c8206a86fb32f21188986189ab2e1f82864ced59329"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORSelectionLeech.inl",
+      "bytes": 17658,
+      "sha256": "06941c76b5f6d3ce73cc1f91ea54d98fd77d27b41a877441bf55284188d8e811"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORSelectionMovement.inl",
+      "bytes": 15669,
+      "sha256": "46d765a4ce99795d7db9b64f760c9eee52f1726cda1cecfbfc4c782683ebd71a"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORSharedRuntime.inl",
+      "bytes": 21058,
+      "sha256": "0bd528497de0c068ed2c03cdfc98101b21a037332ab65fed9329f91908fd9bdc"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORSludgeActualProbe.inl",
+      "bytes": 32523,
+      "sha256": "e28ede43681b382ea698b29f60206f7642f72391fb794468dfc6ee9d43719b7b"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORSludgeAdaptations.inl",
+      "bytes": 15999,
+      "sha256": "aace9af8e361f7df830b1ec7a63e177508fe5d76054b1252eede9617530fdf37"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORSludgeCount.inl",
+      "bytes": 11684,
+      "sha256": "fa7d27b50652a970e21c5de794011f3e1f7cf3e77c2fa1c6ae70f15e5e98d64c"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORSpecialPowder.inl",
+      "bytes": 16365,
+      "sha256": "0e39361ea696320eae88626fb19e3386592371a88a4442eca2df151c8f7d300c"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORStage4Presentation.inl",
+      "bytes": 82960,
+      "sha256": "fd1e9e5112b5492337fbb7e585b15ebee4cae1e0e12d3ff29764687533a5df59"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Private/DORValidationGraph.inl",
+      "bytes": 10875,
+      "sha256": "bc7701dc3b103a9ec638da3b4f4f2f9d5891ceb2985c7195216eb1a43e7c3319"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Public/DOREditor.h",
+      "bytes": 206,
+      "sha256": "eb1f7e397ac178e83079ba1c93c01a4f6b46bf45ac7009de70e48efec3cd2d85"
+    },
+    {
+      "path": "Mod/Source/DOREditor/Public/DORGenerateAssetsCommandlet.h",
+      "bytes": 308,
+      "sha256": "a3a1c9330d5b383c72f84b8ba0d66a492dcf75af04034f12a6cd0e043a4f6d59"
+    },
+    {
+      "path": "NuGet.Config",
+      "bytes": 217,
+      "sha256": "f545a7e2ea14ac53cdfb91217cae67b8ff14275313f6298f9a3331d205b6c948"
+    },
+    {
+      "path": "Scripts/Assert-DORCookReferences.ps1",
+      "bytes": 4936,
+      "sha256": "e825b438f711fcffecbdb3b97a6149454bdf087172c00e4d326058bd769e2b5d"
+    },
+    {
+      "path": "Scripts/Assert-DORGameBuild.ps1",
+      "bytes": 1591,
+      "sha256": "82d04d9e0d0f39c3ef8c18ab780c5bd510ef3475b6fef722857217d557e9d16d"
+    },
+    {
+      "path": "Scripts/Build-DORAuthoring.mjs",
+      "bytes": 780,
+      "sha256": "02a35c7ba479b33419cb874bcb314eab37424ec2caff9249edfbdf478b7095b7"
+    },
+    {
+      "path": "Scripts/Build-DORAuthoring.ps1",
+      "bytes": 274,
+      "sha256": "9ac860a34d52f4313aee285fd8df82e4060d7b7ed7bd263d5285bc183fa3de9c"
+    },
+    {
+      "path": "Scripts/Build-DORMod.ps1",
+      "bytes": 7326,
+      "sha256": "a13ba5bbc954ed4729a869091a7d21aaa26a1f61b25aadef22f00616e2aa62c7"
+    },
+    {
+      "path": "Scripts/Build-DORModule.cmd",
+      "bytes": 516,
+      "sha256": "0e62385368d1351848e8cfb7c55205c7ccaa05c0b71111216fbab562f9b8ee73"
+    },
+    {
+      "path": "Scripts/Build-DORNativeStagePlan.mjs",
+      "bytes": 3864,
+      "sha256": "fd4446a8319a81b125bc598bd835575c76b23bfdec811d72b3970b7b789ccee2"
+    },
+    {
+      "path": "Scripts/Build-DORWeaponMirrors.ps1",
+      "bytes": 3255,
+      "sha256": "8c6d540a86a16b3496d06bd8a719d99f7a81768d5a0d178dfbc729d081442772"
+    },
+    {
+      "path": "Scripts/Check-DORBuildReadback.mjs",
+      "bytes": 5779,
+      "sha256": "25e9f693db0b5174cab2bb80fec8df1c940adff7ccc90012da32d4c714fe54b3"
+    },
+    {
+      "path": "Scripts/Check-DORContainment.mjs",
+      "bytes": 28435,
+      "sha256": "51037e7986d24812238110a03f74e00b0486706010f780debcda8911fede3452"
+    },
+    {
+      "path": "Scripts/Check-DORGeneration.mjs",
+      "bytes": 1868,
+      "sha256": "b083a6f0402cbd00bc7ddd37c605dcb656793a2a5f837aafddd9f5751585558b"
+    },
+    {
+      "path": "Scripts/Check-DORPackage.mjs",
+      "bytes": 2410,
+      "sha256": "558d4fe0ebc7c6c95d54d0776e0c32852b5f24eb1fedc78183f6d1abe3053461"
+    },
+    {
+      "path": "Scripts/Collect-DORDiagnostics.cmd",
+      "bytes": 121,
+      "sha256": "ff52c015333f307e00e5f3853014f217b609d30846de61fab4a8830c33d044f5"
+    },
+    {
+      "path": "Scripts/Collect-DORDiagnostics.ps1",
+      "bytes": 8755,
+      "sha256": "82eec000a0458676ffaca847f6b0756fa90425361bfe0b22c477de77993d3094"
+    },
+    {
+      "path": "Scripts/Cook-DORAssets.ps1",
+      "bytes": 8894,
+      "sha256": "dc49ce77182859983621383530a3ef1ff3c3d1daef0ebb0505ee95f7480a4317"
+    },
+    {
+      "path": "Scripts/DOR-AssetSemantics.mjs",
+      "bytes": 13654,
+      "sha256": "f12ef83b99a8ab597768e9e78f48da98504175418c2d35d7e0e15d605763c2e5"
+    },
+    {
+      "path": "Scripts/DOR-BuildEvidence.ps1",
+      "bytes": 3348,
+      "sha256": "8d1cf78d1c5a72f0ca302ad83cfb9b86ff37baf8b66bb852993377999685d76b"
+    },
+    {
+      "path": "Scripts/DOR-Paths.ps1",
+      "bytes": 10748,
+      "sha256": "658dd3074f0889a3c7da4414cd4eceb8bd3057d1c056770c8090c4cf9defcec8"
+    },
+    {
+      "path": "Scripts/DOR-Prepared.ps1",
+      "bytes": 2726,
+      "sha256": "895fea247f22d91e21fcbc77b210cccbeb41624f38e291a873210c3908ba26d9"
+    },
+    {
+      "path": "Scripts/Generate-DORAssets.cmd",
+      "bytes": 133,
+      "sha256": "5909b328c91087eab28496a03d02660bb5dd8c74934784765546919c233cbfb9"
+    },
+    {
+      "path": "Scripts/Generate-DORAssets.ps1",
+      "bytes": 16197,
+      "sha256": "ca78c0b3d2743962b9114b264cd547299af529f902f91ebc0ff70bb6c3bfa267"
+    },
+    {
+      "path": "Scripts/Import-DORInputSnapshot.mjs",
+      "bytes": 3059,
+      "sha256": "1aba9430fdd61c4a0149a1f0b24a2482f4cfe259d13c168889c8118d5c437966"
+    },
+    {
+      "path": "Scripts/Initialize-DORBuildTemplate.ps1",
+      "bytes": 3922,
+      "sha256": "072f4a3d726c814194b1a28d256072fc033777a2bcdb7dc6ea0ae3be5dfe95ae"
+    },
+    {
+      "path": "Scripts/Package-DOR.ps1",
+      "bytes": 2161,
+      "sha256": "7740c0ff0de39bc5b7fa7506f57fb03ea8bb91fbfbd7c482fab75cb33d931d90"
+    },
+    {
+      "path": "Scripts/Prepare-DORNativeInputs.mjs",
+      "bytes": 851,
+      "sha256": "4f26318fed13c9f4621ad29e86d7fc5f3eba27476454bb2bb1aeeb416300b418"
+    },
+    {
+      "path": "Scripts/Prepare-DORNativeInputs.ps1",
+      "bytes": 729,
+      "sha256": "b1a23a098fb5f47ca5322fb370609f45a2a3779e12eadff6a37dce7ba3bc1c21"
+    },
+    {
+      "path": "Scripts/Read-DORBuild.ps1",
+      "bytes": 4628,
+      "sha256": "489cddea01eb4d33d51ad1a059ce82e2d80d00848c8c1bd4d0cb20ed8db20fa0"
+    },
+    {
+      "path": "Scripts/Setup-DORTools.ps1",
+      "bytes": 2322,
+      "sha256": "769e7dc992797a0075874707233fa7f344869209b6c0a5f51692f928d8eb5fbf"
+    },
+    {
+      "path": "Scripts/Test-DORBuildSafety.ps1",
+      "bytes": 4235,
+      "sha256": "f28fbbd0b4f1cef99471784893e40d91c14d3b13a995d50fa13a333fcd2b3ed0"
+    },
+    {
+      "path": "Scripts/Verify-DORRuntime.mjs",
+      "bytes": 1658,
+      "sha256": "d54af5a6f7793cc5158353b15504e7f72d8e913d5fbe996b934b177019a15220"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 256,
+      "sha256": "1cbc94b3c6e00730ea933a2641d8befbd9123da013864399cbf9128a74c0d8a8"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1613,
+      "sha256": "d79a9fe7bd605db223484dd13c6f89ef41e7268f0178c68525564234efd27124"
+    }
+  ]
+}

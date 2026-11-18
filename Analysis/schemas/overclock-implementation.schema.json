@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dual-overclock-reward.overclock-implementations.v1",
+  "type": "object",
+  "required": ["schema", "metadata", "overclocks"],
+  "properties": {
+    "schema": { "const": "dual-overclock-reward.overclock-implementations.v1" },
+    "metadata": { "type": "object" },
+    "overclocks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["overclockId", "objectPath", "weaponName", "nameZh", "dependencies", "leaves", "mechanics", "claims", "gate"],
+        "properties": {
+          "overclockId": { "type": "string" },
+          "objectPath": { "type": "string" },
+          "weaponName": { "type": "string" },
+          "nameZh": { "type": "string" },
+          "dependencies": { "type": "array" },
+          "leaves": { "type": "array" },
+          "mechanics": { "type": "object" },
+          "claims": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["claimId", "claim", "evidenceRefs", "confidence", "reviewStatus"],
+              "properties": {
+                "claimId": { "type": "string" },
+                "claim": { "type": "string" },
+                "evidenceRefs": { "type": "array", "items": { "type": "string" } },
+                "confidence": {
+                  "enum": ["asset-confirmed", "kismet-confirmed", "native-signature-only", "runtime-confirmed", "unresolved"]
+                },
+                "reviewStatus": {
+                  "enum": ["machine-reviewed", "evidence-reviewed", "runtime-reviewed", "needs-review"]
+                }
+              }
+            }
+          },
+          "gate": {
+            "type": "object",
+            "required": ["status", "criticalUnresolved"],
+            "properties": {
+              "status": { "enum": ["ready", "blocked"] },
+              "criticalUnresolved": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        }
+      }
+    }
+  }
+}

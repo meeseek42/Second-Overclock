@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dor.gf04.resolved-native-inputs.v1",
+  "type": "object",
+  "required": ["schema", "contractSha256", "inputs", "roots"],
+  "properties": {
+    "schema": {"const": "dor.gf04.resolved-native-inputs.v1"},
+    "contractSha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "inputs": {"type": "array", "minItems": 172, "maxItems": 172},
+    "roots": {"type": "array", "minItems": 53, "maxItems": 53}
+  }
+}

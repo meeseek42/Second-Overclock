@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DOR GF03 Research Recipe Contract",
+  "type": "object",
+  "required": ["schema", "authority", "policy", "summary", "recipes"],
+  "properties": {
+    "schema": {"const": "dor.gf03.batch-recipes.v1"},
+    "recipes": {
+      "type": "array", "minItems": 79, "maxItems": 79,
+      "items": {
+        "type": "object",
+        "required": ["pairId", "testIndex", "finalFamilyId", "pairRootGuid", "schematicGuid", "orderedLeafOccurrences", "orderedLeafObjectPaths", "finalLeafObjectPaths", "operations", "generatedNumericLeaves", "productionEmissionReady"],
+        "properties": {
+          "pairId": {"type": "string", "pattern": "^[a-f0-9]{16}$"},
+          "testIndex": {"type": "integer"},
+          "finalFamilyId": {"const": "GF-03-MIXED-FLAT-PERCENT-CARRIER-UNKNOWN"},
+          "operations": {"type": "array", "items": {"type": "object", "required": ["operation", "consumer", "sourceOccurrences", "consumedSourceIndices", "placements", "outputLeafObjectPaths", "selection", "executionGate"]}},
+          "generatedNumericLeaves": {"type": "array", "items": {"type": "object", "required": ["operation", "assetCreation", "identity", "sourceIdentity", "sourceClassPath", "sourceOccurrences", "templateObjectPath", "serializedResult", "isPercentage", "extraFieldWrites", "templateSubobjects"]}},
+          "productionEmissionReady": {"const": true},
+          "gameplayConfirmed": {"const": false}
+        }
+      }
+    }
+  }
+}

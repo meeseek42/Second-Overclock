@@ -1,0 +1,115 @@
+{
+  "schema": "dor.contributor.families.v1",
+  "families": [
+    {
+      "id": "GF-01-DIRECT-DISJOINT-LEAF-UNION",
+      "label": "Direct disjoint leaf union",
+      "definition": "Keep both original overclock roots and union leaves whose semantic targets, class filters, event owners and runtime carriers do not overlap.",
+      "inclusionRule": "No same-target recomposition, replacement-slot forwarding, shared input/state conflict or new object fan-out is required.",
+      "exclusionRule": "A different field name alone is insufficient when both leaves still control the same event, replacement slot or runtime state.",
+      "defaultCustomNecessity": "not-required",
+      "semanticGuardrail": "Do not deduplicate repeated original triggers merely because their leaf types match; preserve each original trigger boundary.",
+      "smallestExperiment": "Read back both leaf sets and compare each original trigger/result once on host and client.",
+      "assignedRowCount": 155
+    },
+    {
+      "id": "GF-02-SAME-TARGET-NUMERIC-RECOMPOSITION",
+      "label": "Same-target numeric recomposition",
+      "definition": "Replace overlapping, same-target numeric leaves with deterministic pair-specific leaves after applying the accepted unit and utility policy; union all other original leaves.",
+      "inclusionRule": "The target, unit, neutral value and legal arithmetic are sufficiently known for flat, percentage or multi-target recomposition.",
+      "exclusionRule": "Do not multiply quantities with units or guess mixed flat/percentage order, integer rounding or target utility.",
+      "defaultCustomNecessity": "not-required",
+      "semanticGuardrail": "Numeric merging must not merge event counts, projectiles, impacts, impulses, timers or state transitions.",
+      "smallestExperiment": "Read back the final target value and compare one representative gameplay result against the arithmetic expectation.",
+      "assignedRowCount": 105
+    },
+    {
+      "id": "GF-03-MIXED-FLAT-PERCENT-CARRIER-UNKNOWN",
+      "label": "Mixed flat/percent carrier unknown",
+      "definition": "Preserve separately known contributions while the native formula, order, integer conversion or stable carrier for a mixed flat/percentage target remains unproved.",
+      "inclusionRule": "The desired policy is known or bounded, but the engine carrier cannot yet be shown to express it exactly.",
+      "exclusionRule": "Technical uncertainty is not evidence that gameplay redesign is necessary.",
+      "defaultCustomNecessity": "not-required",
+      "semanticGuardrail": "Do not normalize, cap or discard one contribution to avoid resolving the carrier.",
+      "smallestExperiment": "Probe one final runtime value with asymmetric inputs that distinguish order and rounding.",
+      "assignedRowCount": 79
+    },
+    {
+      "id": "GF-04-ORIGINAL-EVENT-COMPONENT-UNION",
+      "label": "Original event/component union",
+      "definition": "Retain exactly one original owner for a hit counter, overheat callback, persistent actor, status route, input event or other component, and union independent leaves around it.",
+      "inclusionRule": "The original component/event already implements the required behavior and no second competing owner is needed.",
+      "exclusionRule": "Do not clone listeners, timers, actors or RPC paths just because two roots reference the same original mechanism.",
+      "defaultCustomNecessity": "not-required",
+      "semanticGuardrail": "Keep the original event cardinality and lifecycle; one component owner does not mean one aggregated gameplay effect.",
+      "smallestExperiment": "Count component owners and event callbacks for one full lifecycle, including cleanup and reconnect.",
+      "assignedRowCount": 63
+    },
+    {
+      "id": "GF-05-REPLACEMENT-CARRIER-FORWARDING-REMAP",
+      "label": "Replacement carrier forwarding/remap",
+      "definition": "Choose one concrete projectile/object replacement carrier and retarget or forward the other overclock's class-filtered leaves, payloads or numeric fields onto that carrier without changing intended gameplay semantics.",
+      "inclusionRule": "A single replacement slot or class filter would otherwise make one overclock unreachable, but both original effects have a coherent literal union.",
+      "exclusionRule": "A bridge/remap is not a gameplay redesign unless it changes triggers, multiplicity, terminal behavior, cost or effect meaning.",
+      "defaultCustomNecessity": "technical-bridge-only",
+      "semanticGuardrail": "Forward each effect exactly once to the actual resolving payload; never copy it to mother and child objects indiscriminately.",
+      "smallestExperiment": "Use one replacement object and verify each original effect fires once at its original trigger and authority boundary.",
+      "assignedRowCount": 30
+    },
+    {
+      "id": "GF-06-BOUNDED-MULTI-OBJECT-FANOUT",
+      "label": "Bounded multi-object fan-out",
+      "definition": "Preserve an original, statically bounded bounce, pellet, target or child-object fan-out and apply downstream effects independently to each emitted object or impact.",
+      "inclusionRule": "The object/impact bound is evidenced and the fusion does not add recursion or a new unbounded generator.",
+      "exclusionRule": "Do not replace N independent impacts or impulses with one N-scaled aggregate operation.",
+      "defaultCustomNecessity": "not-required",
+      "semanticGuardrail": "No normalization, arbitrary cap or trigger collapse; preserve per-object state and ordering.",
+      "smallestExperiment": "Count emitted objects/impacts and downstream effect calls; the observed counts must match the evidenced bound.",
+      "assignedRowCount": 7
+    },
+    {
+      "id": "GF-07-SHARED-INPUT-STATE-DISPATCH-CONFLICT",
+      "label": "Shared input/state/dispatch conflict",
+      "definition": "Two original mechanisms touch the same input phase, state slot, targeting meaning or dispatch component, so native coexistence and ordering must be discriminated before choosing a bridge or redesign.",
+      "inclusionRule": "One effect can become swallowed, redundant, repeatedly toggled or unreachable even though the asset leaf types differ.",
+      "exclusionRule": "Do not pre-emptively add a state machine or new gameplay rule before the smallest native-union experiment fails.",
+      "defaultCustomNecessity": "unknown",
+      "semanticGuardrail": "Preserve press/release timing, state duration, target selection and one-shot guards; never resolve ambiguity by silently dropping one overclock.",
+      "smallestExperiment": "Exercise the exact input/state sequence with counters that show which branch ran and in what order.",
+      "assignedRowCount": 8
+    },
+    {
+      "id": "GF-08-PERFORMANCE-SENSITIVE-MULTIPLICITY",
+      "label": "Performance-sensitive multiplicity",
+      "definition": "Use original or bridged semantics whose valid object/event count can materially increase with fire rate, lifetime, path samples or parent-child multiplicity and therefore needs measurement.",
+      "inclusionRule": "The pair changes concurrent object/event scale without already requiring new gameplay semantics.",
+      "exclusionRule": "Potential cost alone does not authorize caps, pooling, merged damage/force, reduced trigger frequency or normalization.",
+      "defaultCustomNecessity": "not-required",
+      "semanticGuardrail": "First measure real counts and frame/network cost; any later limit is a separate human-facing tradeoff.",
+      "smallestExperiment": "Record peak live objects, spawn/event rate and cleanup under a representative worst valid use, without a cap.",
+      "assignedRowCount": 2
+    },
+    {
+      "id": "GF-09-PAIR-SPECIFIC-GAMEPLAY-REDESIGN",
+      "label": "Pair-specific gameplay redesign",
+      "definition": "Implement a pair-specific rule because the desired result changes original trigger timing, multiplicity, terminal behavior, cost, reachability or effect meaning rather than merely carrying both original effects.",
+      "inclusionRule": "The gameplay rule is explicitly human-approved or the original mechanisms are semantically incompatible and need a human choice.",
+      "exclusionRule": "A new class, bridge, remap or component is not sufficient evidence of redesign by itself.",
+      "defaultCustomNecessity": "required",
+      "semanticGuardrail": "Preserve the exact approved rule; do not add safety caps, compensation or old AI constants that were not approved.",
+      "smallestExperiment": "Test this pair alone with exact trigger/object/effect counters and host/client authority evidence.",
+      "assignedRowCount": 8
+    },
+    {
+      "id": "GF-10-VERIFIED-CONSTRUCTION-REFERENCE",
+      "label": "Verified construction transaction reference",
+      "definition": "Existing reference rows that validate only construction-time registration and the protected preset rebuild/restore transaction within their recorded scope.",
+      "inclusionRule": "The formal row is one of the four verified framework references.",
+      "exclusionRule": "Framework validation does not prove other weapons, carriers, arithmetic or gameplay behavior.",
+      "defaultCustomNecessity": "not-required",
+      "semanticGuardrail": "Do not use reference status to claim an untested pair or global family is gameplay-confirmed.",
+      "smallestExperiment": "No new experiment for the recorded reference scope; every new family still needs its own representative.",
+      "assignedRowCount": 4
+    }
+  ]
+}

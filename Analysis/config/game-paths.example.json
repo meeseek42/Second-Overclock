@@ -1,0 +1,7 @@
+{
+  "schema": "dual-overclock-reward.game-paths.v1",
+  "gamePak": "<path-to-FSD-WindowsNoEditor.pak>",
+  "unrealPak": "<path-to-UnrealPak.exe>",
+  "fsdTemplate": "<path-to-FSD-Template>",
+  "dotnet": "dotnet"
+}

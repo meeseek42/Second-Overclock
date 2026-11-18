@@ -1,0 +1,101 @@
+{
+  "schema": "dual-overclock-reward.implementation-overrides.v1",
+  "overclocks": {
+    "1bda353b53bbc83d": {
+      "mechanics": {
+        "persistentActor": true,
+        "tickWork": true,
+        "areaWork": true,
+        "statusPropagation": true
+      },
+      "summaryZh": "替换普通弩箭投射物；嵌入后维持周期性范围降温区域。"
+    },
+    "ebb8175ad07c3e6c": {
+      "mechanics": {
+        "persistentActor": true,
+        "tickWork": true,
+        "areaWork": true,
+        "statusPropagation": true
+      },
+      "summaryZh": "替换普通弩箭投射物；嵌入后维持周期性范围升温区域。"
+    },
+    "84edb7e5d5a46d5f": {
+      "mechanics": {
+        "childProjectileGeneration": true
+      },
+      "summaryZh": "一次射击生成三枚独立普通弩箭投射物。"
+    },
+    "fad978297c25efc3": {
+      "mechanics": {
+        "persistentActor": true,
+        "tickWork": true,
+        "areaWork": true,
+        "statusPropagation": true
+      },
+      "summaryZh": "命中地形后生成有寿命的冰棘Actor，并周期执行范围伤害和减速。"
+    },
+    "9e35656d328361c5": {
+      "mechanics": {
+        "persistentActor": true,
+        "tickWork": true,
+        "areaWork": true,
+        "statusPropagation": true
+      },
+      "summaryZh": "通过AddComponent命中回调把地形命中的子弹转换为有寿命的冰冻陷阱。"
+    },
+    "cdc09839ee9a08c7": {
+      "mechanics": {
+        "persistentActor": true,
+        "tickWork": true,
+        "areaWork": true,
+        "statusPropagation": true
+      },
+      "summaryZh": "通过AddComponent命中回调把地形命中的子弹转换为有寿命的电击陷阱。"
+    },
+    "240af97407be7319": {
+      "mechanics": {
+        "persistentActor": true,
+        "tickWork": true,
+        "areaWork": true,
+        "statusPropagation": false
+      },
+      "summaryZh": "充能爆炸生成有寿命的持续电浆伤害区域。"
+    },
+    "734621718170ef81": {
+      "mechanics": {
+        "persistentActor": true,
+        "tickWork": true,
+        "areaWork": true,
+        "statusPropagation": true
+      },
+      "summaryZh": "替换为迷你核弹投射物；爆炸后生成有寿命的辐射伤害区域。"
+    },
+    "18b2907fca21c44d": {
+      "mechanics": {
+        "persistentActor": true,
+        "tickWork": true,
+        "areaWork": true,
+        "statusPropagation": false
+      },
+      "summaryZh": "光束命中地形时生成有寿命的熔岩伤害区域。"
+    },
+    "94d47d8646526372": {
+      "mechanics": {
+        "persistentActor": true,
+        "tickWork": true,
+        "areaWork": true,
+        "statusPropagation": false
+      },
+      "summaryZh": "生成缓慢前进并水平旋转的长寿命等离子线投射物，持续进行碰撞和伤害查询。"
+    },
+    "33256293a3561e96": {
+      "mechanics": {
+        "persistentActor": false,
+        "tickWork": false,
+        "areaWork": true,
+        "statusPropagation": false
+      },
+      "summaryZh": "长按换弹充能后发射横向高温移动投射物；它不是落地驻留区域。"
+    }
+  }
+}

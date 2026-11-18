@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+const [directory,build]=process.argv.slice(2),log=fs.readFileSync(path.join(directory,'generate.log'),'utf8');
+const rows=[...log.matchAll(/DOR-BUILD-TIME (compile|save|validate) (.+) calls=(\d+) seconds=([\d.]+)/g)].map(([,stage,owner,calls,seconds])=>({stage,owner,calls:Number(calls),seconds:Number(seconds)}));
+const compiles=rows.filter(r=>r.stage==='compile'),count=compiles.reduce((n,r)=>n+r.calls,0);
+assert.equal(count,1295,'Reviewed16 explicit compile count');
+for(const [owner,expected] of [['BP_DOR_Master',443],['BP_DOR_SaveSafety',185]])assert.equal(compiles.find(r=>r.owner===owner)?.calls,expected,owner);
+assert.equal(rows.find(r=>r.stage==='save'&&r.owner==='packages')?.calls,1672,'Retained SaveAsset count');
+for(const owner of ['connection-protocol','remote-359-predicates','save-safety'])assert.equal(rows.find(r=>r.stage==='validate'&&r.owner===owner)?.calls,1,owner+' retained audit');
+const skips=log.match(/actorWorldFixtures=SKIPPED[^\r\n]*functions=([^\r\n]+)/)?.[1].split(',');assert.equal(skips?.length,23,'Skipped world fixtures');
+const generationWallSeconds=Number(log.match(/DOR-BUILD-TIME generationWall=([\d.]+)/)?.[1]);assert.ok(generationWallSeconds>0);
+const result={schema:'dor.generation-timing.v1',passed:true,build,generationWallSeconds,explicitBlueprintCompileCalls:count,explicitBlueprintCompileSeconds:compiles.reduce((n,r)=>n+r.seconds,0),unrealBuildToolWallSeconds:Number(log.match(/Total execution time: ([\d.]+) seconds/)?.[1])||null,worldFixturesSkipped:skips.length,rows};
+fs.writeFileSync(path.join(directory,'generation-timing.json'),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify({...result,rows:rows.filter(r=>r.stage!=='compile'||['BP_DOR_Master','BP_DOR_SaveSafety'].includes(r.owner))},null,2));

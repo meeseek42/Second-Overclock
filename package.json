@@ -1,0 +1,31 @@
+{
+  "name": "dual-overclock-reward",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "extract": "node Analysis/src/cli.mjs extract",
+    "parse": "node Analysis/src/cli.mjs parse",
+    "contracts": "node Analysis/src/cli.mjs contracts",
+    "validate:contracts": "node Analysis/src/cli.mjs validate-contracts",
+    "assess": "node Analysis/src/cli.mjs assess",
+    "reports": "node Analysis/src/cli.mjs reports",
+    "runtime": "node Analysis/src/cli.mjs runtime",
+    "research": "node Analysis/src/cli.mjs research",
+    "assets": "pwsh -NoProfile -ExecutionPolicy Bypass -File Scripts/Generate-DORAssets.ps1",
+    "cook": "pwsh -NoProfile -ExecutionPolicy Bypass -File Scripts/Cook-DORAssets.ps1",
+    "mirror": "pwsh -NoProfile -ExecutionPolicy Bypass -File Scripts/Build-DORWeaponMirrors.ps1",
+    "package": "pwsh -NoProfile -ExecutionPolicy Bypass -File Scripts/Package-DOR.ps1",
+    "build:mod": "pwsh -NoProfile -ExecutionPolicy Bypass -File Scripts/Build-DORMod.ps1",
+    "test:build-safety": "pwsh -NoProfile -ExecutionPolicy Bypass -File Scripts/Test-DORBuildSafety.ps1",
+    "test": "node --test Analysis/tests/validation/*.test.mjs",
+    "setup:tools": "pwsh -NoProfile -File Scripts/Setup-DORTools.ps1",
+    "inputs:import": "node Scripts/Import-DORInputSnapshot.mjs",
+    "verify:runtime": "node Scripts/Verify-DORRuntime.mjs",
+    "inputs:prepare": "pwsh -NoProfile -File Scripts/Prepare-DORNativeInputs.ps1",
+    "authoring:build": "pwsh -NoProfile -File Scripts/Build-DORAuthoring.ps1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

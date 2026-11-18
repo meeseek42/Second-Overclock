@@ -1,0 +1,11 @@
+{
+  "schema": "dual-overclock-reward.game-build.v1",
+  "game": "Deep Rock Galactic",
+  "engine": "UE 4.27",
+  "build": "FSD main CL 148500",
+  "pakSha256": "540f476afa77365d0e8e1978d4add05b9c9168a03727a3cb407725f4449a1436",
+  "catalogWeaponCount": 24,
+  "catalogOverclockCount": 160,
+  "catalogPairCount": 461,
+  "extractedAt": "2026-08-11T03:02:07.065Z"
+}

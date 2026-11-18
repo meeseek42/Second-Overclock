@@ -1,0 +1,84 @@
+{
+  "schema": "dual-overclock-reward.numeric-stack-policy.v1",
+  "principleZh": "已知原版运算保持加算或乘算；只有原版运算未知时才按正负效果选择合法加乘候选。混合已知加乘仅选择顺序：两个正面取较不利结果，两个负面或一正一负取较有利结果，结合属性方向判断。两个已知倍率连乘；带量纲平坦量不相乘。整数保留原版逐叶取整；普通float32误差边界保持。",
+  "percentageCandidates": [
+    "additive-deviation-from-neutral",
+    "multiplicative"
+  ],
+  "targetUtility": {
+    "EChargedWeaponUpgrades::ChargeSpeed": "higher-is-better",
+    "ECrossbowUpgrades::ReloadTimeDefaultArrow": "lower-is-better",
+    "EHitScanBaseUpgradeType::WeaponAccuracySpreadMultiplier": "lower-is-better",
+    "EInventoryItemUpgradeType::ManualHeatPerUse": "lower-is-better",
+    "EProjectileLauncherBaseUpgradeType::HorizontalSpread": "lower-is-better"
+  },
+  "leafUtility": {
+    "/Game/WeaponsNTools/MicroMissileLauncher/Overclocks/OCBonusesAndPenalties/Bonus_Accuracy_Vertical_MML.Bonus_Accuracy_Vertical_MML": "lower-is-better"
+  },
+  "pairOverrides": {
+    "cf63212230811ceb": [
+      {
+        "target": "EAmmoDrivenWeapnUpgradeType::RateOfFire",
+        "utility": "higher-is-better",
+        "mode": "flat-additive",
+        "runtimeMerge": true,
+        "mergedAmount": 6,
+        "sourceObjectPaths": [
+          "/Game/WeaponsNTools/SMG/Overclocks/OC_BonusesAndPenalties/Bonus_RoF4_SMG.Bonus_RoF4_SMG",
+          "/Game/WeaponsNTools/SMG/Overclocks/OC_BonusesAndPenalties/Bonus_RoF2_SMG.Bonus_RoF2_SMG"
+        ],
+        "reasonZh": "两枚叶分别为同一RateOfFire目标的平坦增量+4与+2；相加是唯一量纲合法重组，生成一枚+6融合叶替换两枚原叶。"
+      }
+    ],
+    "cbdb1b90f7da184b": [
+      {
+        "target": "EInventoryItemUpgradeType::ManualHeatPerUse",
+        "utility": "lower-is-better",
+        "mode": "multiplicative",
+        "runtimeMerge": true,
+        "mergedAmount": 1.8000000715255737,
+        "sourceObjectPaths": [
+          "/Game/WeaponsNTools/PlasmaCarbine/Overclocks/OC_BonusesAndPenalties/Penalty_HeatPerShot_35Percent_PlasmaCarbine.Penalty_HeatPerShot_35Percent_PlasmaCarbine",
+          "/Game/WeaponsNTools/PlasmaCarbine/Overclocks/OC_BonusesAndPenalties/Penalty_HeatPerShot_50Percent_PlasmaCarbine.Penalty_HeatPerShot_50Percent_PlasmaCarbine"
+        ],
+        "reasonZh": "当前原版两项均为已知乘算，保留1.2与1.5的乘积；普通float32精度边界保持。",
+        "nativeOperatorProvenance": {
+          "operator": "MUL",
+          "evidence": "Analysis/research/numeric-policy-impact-20261014/HANDOFF.md"
+        }
+      },
+      {
+        "target": "EInventoryItemUpgradeType::UnJamDuration",
+        "utility": "lower-is-better",
+        "mode": "strongest-single",
+        "runtimeMerge": true,
+        "mergedAmount": 1.3,
+        "sourceObjectPaths": [
+          "/Game/WeaponsNTools/PlasmaCarbine/Overclocks/OC_BonusesAndPenalties/Penalty_OverheatDuration_50Percent_PlasmaCarbine.Penalty_OverheatDuration_50Percent_PlasmaCarbine",
+          "/Game/WeaponsNTools/PlasmaCarbine/Overclocks/OC_BonusesAndPenalties/Penalty_OverheatDuration_100Percent_PlasmaCarbine.Penalty_OverheatDuration_100Percent_PlasmaCarbine"
+        ],
+        "reasonZh": "实际资产值为1.3与1.0；按已确认方案只保留一次有效惩罚，生成1.3融合叶。"
+      }
+    ],
+    "a2edc4fa1d61b86f": [
+      {
+        "target": "EInventoryItemUpgradeType::ManualHeatPerUse",
+        "utility": "lower-is-better",
+        "mode": "percentage-then-flat",
+        "sourceObjectPaths": [
+          "/Game/WeaponsNTools/PlasmaCarbine/Overclocks/OC_BonusesAndPenalties/Penalty_HeatPerShot_03_Flat_PlasmaCarbine_2.Penalty_HeatPerShot_03_Flat_PlasmaCarbine_2",
+          "/Game/WeaponsNTools/PlasmaCarbine/Overclocks/OC_BonusesAndPenalties/Penalty_HeatPerShot_35Percent_PlasmaCarbine.Penalty_HeatPerShot_35Percent_PlasmaCarbine"
+        ],
+        "reasonZh": "两项单发热量均为惩罚，保留已知运算并先乘后加，取较低热量。只交换两个数值叶的位置。",
+        "nativeOperators": [
+          "ADD",
+          "MUL"
+        ]
+      }
+    ]
+  },
+  "operatorPriority": [
+    "known-native-ADD-or-MUL",
+    "unknown-operator-utility-choice"
+  ]
+}

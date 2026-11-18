@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dual-overclock-reward.runtime-manifest.schema.json",
+  "title": "DualOverclockReward runtime manifest",
+  "type": "object",
+  "required": ["schema", "manifestHash", "metadata", "policy", "overclocks", "pairs"],
+  "properties": {
+    "schema": { "const": "dual-overclock-reward.runtime-manifest.v1" },
+    "manifestHash": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "metadata": {
+      "type": "object",
+      "required": ["weaponCount", "overclockCount", "supportedPairCount", "excludedPairCount"]
+    },
+    "policy": {
+      "type": "object",
+      "required": [
+        "supportedComplexityMaxExclusive",
+        "runtimeNativeDependency",
+        "noMechanicTextInference",
+        "choiceTimeoutSeconds",
+        "debugAuthority",
+        "deepDiveEnabled"
+      ]
+    },
+    "overclocks": { "type": "array", "minItems": 160, "maxItems": 160 },
+    "pairs": {
+      "type": "array",
+      "minItems": 452,
+      "maxItems": 452,
+      "items": {
+        "type": "object",
+        "required": [
+          "pairId",
+          "testIndex",
+          "weaponObjectPath",
+          "pairUpgradeObjectPath",
+          "overclockAObjectPath",
+          "overclockBObjectPath",
+          "finalLeafObjectPaths",
+          "mergedSharedLeaves",
+          "route",
+          "implementationComplexity",
+          "rowHash"
+        ]
+      }
+    }
+  }
+}

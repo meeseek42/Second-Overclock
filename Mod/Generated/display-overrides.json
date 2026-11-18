@@ -1,0 +1,1594 @@
+{
+  "schema": "dor-stage4-display-data.v1",
+  "sourceManifest": "Mod/Generated/runtime-pairs.json",
+  "sourceManifestSha256": "809fd049c22249f1292de71e6adcf6966d05db7bca1108cc8a5e0cf690989540",
+  "confidence": "Community/common English names; naming only, no mechanism or category reassessment. Effects are translations of existing Chinese, including its signs and apparent oddities.",
+  "weapons": [
+    {
+      "weaponFolder": "AssaultRifle",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/AssaultRifle/ID_AssaultRifle.ID_AssaultRifle",
+      "nameZh": "GK2突击步枪",
+      "nameEn": "Deepcore GK2"
+    },
+    {
+      "weaponFolder": "Autocannon",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/Autocannon/ID_Autocannon.ID_Autocannon",
+      "nameZh": "“雷暴云砧”重型双管机炮",
+      "nameEn": "\"Thunderhead\" Heavy Autocannon"
+    },
+    {
+      "weaponFolder": "BoltActionRifle",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/BoltActionRifle/ID_M1000.ID_M1000",
+      "nameZh": "M1000经典步枪",
+      "nameEn": "M1000 Classic"
+    },
+    {
+      "weaponFolder": "BurstFirePistol",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/BurstFirePistol/ID_BurstPistol.ID_BurstPistol",
+      "nameZh": "BRT7连发手枪",
+      "nameEn": "BRT7 Burst Fire Gun"
+    },
+    {
+      "weaponFolder": "ChargeBlaster",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/ChargeBlaster/ID_ChargeBlaster.ID_ChargeBlaster",
+      "nameZh": "实验性等离子蓄能手枪",
+      "nameEn": "Experimental Plasma Charger"
+    },
+    {
+      "weaponFolder": "CoilGun",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/CoilGun/ID_CoilGun.ID_CoilGun",
+      "nameZh": "“武装核心”电磁手炮",
+      "nameEn": "ArmsKore Coil Gun"
+    },
+    {
+      "weaponFolder": "CombatShotgun",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/CombatShotgun/ID_CombatShotgun.ID_CombatShotgun",
+      "nameZh": "“疣猪”210自动霰弹枪",
+      "nameEn": "\"Warthog\" Auto 210"
+    },
+    {
+      "weaponFolder": "Crossbow",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/Crossbow/ID_Crossbow.ID_Crossbow",
+      "nameZh": "尼桑卡 X-80“闪电鲨”战术弩",
+      "nameEn": "Nishanka Boltshark X-80"
+    },
+    {
+      "weaponFolder": "Cryospray",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/Cryospray/ID_Cryospray.ID_Cryospray",
+      "nameZh": "急冻喷射炮",
+      "nameEn": "Cryo Cannon"
+    },
+    {
+      "weaponFolder": "DualMachinePistols",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/DualMachinePistols/ID_DualMPs.ID_DualMPs",
+      "nameZh": "朱可夫NUK17双持冲锋枪",
+      "nameEn": "Zhukov NUK17"
+    },
+    {
+      "weaponFolder": "FlameThrower",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/FlameThrower/ID_FlameThrower.ID_FlameThrower",
+      "nameZh": "CRSPR火焰喷射器",
+      "nameEn": "CRSPR Flamethrower"
+    },
+    {
+      "weaponFolder": "GatlingGun",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/GatlingGun/ID_Gatling.ID_Gatling",
+      "nameZh": "“铅爆”转轮机枪",
+      "nameEn": "\"Lead Storm\" Powered Minigun"
+    },
+    {
+      "weaponFolder": "GooCannon",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/GooCannon/ID_GooCannon.ID_GooCannon",
+      "nameZh": "蚀泥喷射泵",
+      "nameEn": "Corrosive Sludge Pump"
+    },
+    {
+      "weaponFolder": "GrenadeLauncher",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/GrenadeLauncher/ID_GrenadeLauncher.ID_GrenadeLauncher",
+      "nameZh": "深核40毫米便携式榴弹发射器",
+      "nameEn": "Deepcore 40mm PGL"
+    },
+    {
+      "weaponFolder": "HeavyParticleCannon",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/HeavyParticleCannon/ID_HeavyParticleCannon.ID_HeavyParticleCannon",
+      "nameZh": "心石聚能炮",
+      "nameEn": "Shard Diffractor"
+    },
+    {
+      "weaponFolder": "LineCutter",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/LineCutter/ID_LineCutter.ID_LineCutter",
+      "nameZh": "等离子切割器",
+      "nameEn": "Breach Cutter"
+    },
+    {
+      "weaponFolder": "LockOnRifle",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/LockOnRifle/ID_LockOnRifle.ID_LockOnRifle",
+      "nameZh": "LOK-I智能步枪",
+      "nameEn": "LOK-1 Smart Rifle"
+    },
+    {
+      "weaponFolder": "MicroMissileLauncher",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/MicroMissileLauncher/ID_MicroMissileLauncher.ID_MicroMissileLauncher",
+      "nameZh": "“飓风”制导火箭系统",
+      "nameEn": "\"Hurricane\" Guided Rocket System"
+    },
+    {
+      "weaponFolder": "MicrowaveGun",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/MicrowaveGun/ID_MicrowaveGun.ID_MicrowaveGun",
+      "nameZh": "柯莱特微波烹调者",
+      "nameEn": "Colette Wave Cooker"
+    },
+    {
+      "weaponFolder": "Pistol",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/Pistol/ID_Pistol.ID_Pistol",
+      "nameZh": "苏巴特120半自动手枪",
+      "nameEn": "Subata 120"
+    },
+    {
+      "weaponFolder": "PlasmaCarbine",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/PlasmaCarbine/ID_PlasmaCarbine.ID_PlasmaCarbine",
+      "nameZh": "DRAK-25电浆卡宾枪",
+      "nameEn": "DRAK-25 Plasma Carbine"
+    },
+    {
+      "weaponFolder": "Revolver",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/Revolver/ID_Revolver.ID_Revolver",
+      "nameZh": "“斗牛犬”重型左轮手枪",
+      "nameEn": "\"Bulldog\" Heavy Revolver"
+    },
+    {
+      "weaponFolder": "SawedOffShotgun",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/SawedOffShotgun/ID_SawedOffShotgun.ID_SawedOffShotgun",
+      "nameZh": "应急霰弹枪",
+      "nameEn": "Jury-Rigged Boomstick"
+    },
+    {
+      "weaponFolder": "SMG",
+      "weaponIdObjectPath": "/Game/WeaponsNTools/SMG/ID_SMG.ID_SMG",
+      "nameZh": "“百万”伏特微型冲锋枪",
+      "nameEn": "\"Stubby\" Voltaic SMG"
+    }
+  ],
+  "overclocks": [
+    {
+      "overclockId": "c28c3cbe0dd6a730",
+      "objectPath": "/Game/WeaponsNTools/AssaultRifle/Overclocks/OC_AssaultRifle_RoF_B.OC_AssaultRifle_RoF_B",
+      "weaponFolder": "AssaultRifle",
+      "nameZh": "超频撞针",
+      "nameEn": "Overclocked Firing Mechanism",
+      "effectZh": "▲ 显著提高射速；▼ 更强的后坐力",
+      "effectEn": "▲ Greatly increased rate of fire; ▼ More recoil"
+    },
+    {
+      "overclockId": "f5b4924524ae89e2",
+      "objectPath": "/Game/WeaponsNTools/AssaultRifle/Overclocks/OC_AssaultRifle_BurstFire.OC_AssaultRifle_BurstFire",
+      "weaponFolder": "AssaultRifle",
+      "nameZh": "点射扳机",
+      "nameEn": "Burst Fire",
+      "effectZh": "▲ 射击模式变为 3 发点射；▲ 提升伤害和击晕概率；▲ 提升弹匣容量；▼ 降低射速",
+      "effectEn": "▲ Changes firing mode to 3-round burst; ▲ Increased damage and stun chance; ▲ Increased magazine size; ▼ Reduced rate of fire"
+    },
+    {
+      "overclockId": "e257e79e46681c66",
+      "objectPath": "/Game/WeaponsNTools/AssaultRifle/Overclocks/OC_AssaultRifle_ElectricReload_U.OC_AssaultRifle_ElectricReload_U",
+      "weaponFolder": "AssaultRifle",
+      "nameZh": "电击装填",
+      "nameEn": "Electrifying Reload",
+      "effectZh": "▲ 换弹将使被命中的敌人触电；▼ 降低备弹量；▼ 略微减少弹匣容量",
+      "effectEn": "▲ Reloading electrocutes enemies previously hit; ▼ Reduced reserve ammo; ▼ Slightly reduced magazine size"
+    },
+    {
+      "overclockId": "8d890511a32c6f7d",
+      "objectPath": "/Game/WeaponsNTools/AssaultRifle/Overclocks/OC_AssaultRifle_RoFandReload_C.OC_AssaultRifle_RoFandReload_C",
+      "weaponFolder": "AssaultRifle",
+      "nameZh": "气压重导",
+      "nameEn": "Gas Rerouting",
+      "effectZh": "▲ 更快的换弹速度；▲ 提高射速",
+      "effectEn": "▲ Faster reloads; ▲ Increased rate of fire"
+    },
+    {
+      "overclockId": "c1c64147f23244ef",
+      "objectPath": "/Game/WeaponsNTools/AssaultRifle/Overclocks/OC_AssaultRifle_VolatileBullets_B.OC_AssaultRifle_VolatileBullets_B",
+      "weaponFolder": "AssaultRifle",
+      "nameZh": "仁慈超度",
+      "nameEn": "Bullets of Mercy",
+      "effectZh": "▲ 对受点燃、击晕、触电、冻结、中毒影响的目标造成额外伤害。；▲ 显著提高对受点燃、击晕、触电、冻结、中毒等异常状态影响的目标造成的伤害；▼ 降低弹匣容量",
+      "effectEn": "▲ Bonus damage to burning, stunned, electrocuted, frozen or poisoned targets; ▲ Greatly increased damage to targets affected by burning, stun, electrocution, freezing or poison; ▼ Reduced magazine size"
+    },
+    {
+      "overclockId": "7cafd911342e0dcd",
+      "objectPath": "/Game/WeaponsNTools/AssaultRifle/Overclocks/OC_AssaultRifle_ClipSize_C.OC_AssaultRifle_ClipSize_C",
+      "weaponFolder": "AssaultRifle",
+      "nameZh": "压缩弹药",
+      "nameEn": "Compact Ammo",
+      "effectZh": "▲ 提升弹匣容量；▲ 更小的后坐力",
+      "effectEn": "▲ Increased magazine size; ▲ Less recoil"
+    },
+    {
+      "overclockId": "b0ddc2bff06cdfe6",
+      "objectPath": "/Game/WeaponsNTools/AssaultRifle/Overclocks/OC_AssaultRifle_PerfectStability_U.OC_AssaultRifle_PerfectStability_U",
+      "weaponFolder": "AssaultRifle",
+      "nameZh": "智能稳定",
+      "nameEn": "AI Stability Engine",
+      "effectZh": "▲ 射击无后坐力且子弹散布修正迅速；▲ 提高弱点伤害；▼ 降低造成的伤害；▼ 降低射速",
+      "effectEn": "▲ No recoil and rapid spread recovery; ▲ Increased weakpoint damage; ▼ Reduced damage; ▼ Reduced rate of fire"
+    },
+    {
+      "overclockId": "d76455c4330c25fc",
+      "objectPath": "/Game/WeaponsNTools/AssaultRifle/Overclocks/OC_AssaultRifle_RandomDamage_C.OC_AssaultRifle_RandomDamage_C",
+      "weaponFolder": "AssaultRifle",
+      "nameZh": "自制火药",
+      "nameEn": "Homebrew Powder",
+      "effectZh": "▲ 每发造成 80% 至 140% 伤害",
+      "effectEn": "▲ Each shot deals 80% to 140% damage"
+    },
+    {
+      "overclockId": "b27ecc0d0da93e68",
+      "objectPath": "/Game/WeaponsNTools/Autocannon/Overclocks/OC_Autocannon_DamageBig_U.OC_Autocannon_DamageBig_U",
+      "weaponFolder": "Autocannon",
+      "nameZh": "大贝莎",
+      "nameEn": "Big Bertha",
+      "effectZh": "▲ 大幅提升伤害；▲ 缩小基础散布；▼ 降低弹匣容量和备弹量；▼ 降低射速",
+      "effectEn": "▲ Greatly increased damage; ▲ Less base spread; ▼ Reduced magazine size and reserve ammo; ▼ Reduced rate of fire"
+    },
+    {
+      "overclockId": "946d9178af71919d",
+      "objectPath": "/Game/WeaponsNTools/Autocannon/Overclocks/OC_Autocannon_Grenades_B.OC_Autocannon_Grenades_B",
+      "weaponFolder": "Autocannon",
+      "nameZh": "地毯轰炸",
+      "nameEn": "Carpet Bomber",
+      "effectZh": "▲ 更大的作用范围；▲ 显著提升范围伤害；▼ 显著减少直接伤害",
+      "effectEn": "▲ Larger effect radius; ▲ Greatly increased area damage; ▼ Greatly reduced direct damage"
+    },
+    {
+      "overclockId": "fd6d3a4f04e7de09",
+      "objectPath": "/Game/WeaponsNTools/Autocannon/Overclocks/OC_Autocannon_Neurotoxin_U.OC_Autocannon_Neurotoxin_U",
+      "weaponFolder": "Autocannon",
+      "nameZh": "毒素载荷",
+      "nameEn": "Neurotoxin Payload",
+      "effectZh": "▲ 使溅射范围内的敌人中毒；▲ 略微增大作用范围；▼ 降低范围伤害；▼ 降低备弹量",
+      "effectEn": "▲ Poisons enemies within the splash radius; ▲ Slightly increased effect radius; ▼ Reduced area damage; ▼ Reduced reserve ammo"
+    },
+    {
+      "overclockId": "898b99a555efd206",
+      "objectPath": "/Game/WeaponsNTools/Autocannon/Overclocks/OC_Autocannon_MaxAmmo_C.OC_Autocannon_MaxAmmo_C",
+      "weaponFolder": "Autocannon",
+      "nameZh": "复合弹鼓",
+      "nameEn": "Composite Drums",
+      "effectZh": "▲ 更多弹药；▲ 更快的换弹速度",
+      "effectEn": "▲ More ammo; ▲ Faster reloads"
+    },
+    {
+      "overclockId": "ae39717957f927a6",
+      "objectPath": "/Game/WeaponsNTools/Autocannon/Overclocks/OC_Autocannon_MortarProjectiles_U.OC_Autocannon_MortarProjectiles_U",
+      "weaponFolder": "Autocannon",
+      "nameZh": "迫击炮弹",
+      "nameEn": "Mortar Rounds",
+      "effectZh": "▲ 武器射出迫击炮弹；▲ 显著提升范围伤害及作用半径；▼ 降低射速；▼ 显著减少备弹量",
+      "effectEn": "▲ Fires mortar shells; ▲ Greatly increased area damage and radius; ▼ Reduced rate of fire; ▼ Greatly reduced reserve ammo"
+    },
+    {
+      "overclockId": "de327472ad91eb28",
+      "objectPath": "/Game/WeaponsNTools/Autocannon/Overclocks/OC_Autocannon_SplashRange_C.OC_Autocannon_SplashRange_C",
+      "weaponFolder": "Autocannon",
+      "nameZh": "破片弹药",
+      "nameEn": "Splintering Shells",
+      "effectZh": "▲ 略微增大作用范围；▲ 略微提高范围伤害",
+      "effectEn": "▲ Slightly increased effect radius; ▲ Slightly increased area damage"
+    },
+    {
+      "overclockId": "19452e9ff1f8e57d",
+      "objectPath": "/Game/WeaponsNTools/Autocannon/Overclocks/OC_Autocannon_MovementSpeed_B.OC_Autocannon_MovementSpeed_B",
+      "weaponFolder": "Autocannon",
+      "nameZh": "战斗机动",
+      "nameEn": "Combat Mobility",
+      "effectZh": "▲ 更少射击时移速削减；▲ 缩小基础散布；▲ 更快达到最大射速。；▼ 降低弹匣容量",
+      "effectEn": "▲ Less movement slowdown while firing; ▲ Less base spread; ▲ Reaches maximum rate of fire faster; ▼ Reduced magazine size"
+    },
+    {
+      "overclockId": "6dd7847e45a55d75",
+      "objectPath": "/Game/WeaponsNTools/BoltActionRifle/Overclocks/OC_M1000_FocusElectrocute_U.OC_M1000_FocusElectrocute_U",
+      "weaponFolder": "BoltActionRifle",
+      "nameZh": "电击瞄准",
+      "nameEn": "Electrocuting Focus Shots",
+      "effectZh": "▲ 瞄准射击会使被命中的敌人触电；▼ 减少瞄准射击伤害加成",
+      "effectEn": "▲ Focused shots electrocute targets; ▼ Reduced focused-shot damage bonus"
+    },
+    {
+      "overclockId": "ed329b95d0bf1923",
+      "objectPath": "/Game/WeaponsNTools/BoltActionRifle/Overclocks/OC_M1000_FocusDamage_U.OC_M1000_FocusDamage_U",
+      "weaponFolder": "BoltActionRifle",
+      "nameZh": "过冷枪膛",
+      "nameEn": "Supercooling Chamber",
+      "effectZh": "▲ 大幅提升瞄准射击的伤害加成；▲ 增强瞄准射击的弱点伤害加成；▼ 显著减少备弹量；▼ 降低瞄准速度且瞄准时无法移动",
+      "effectEn": "▲ Greatly increased focused-shot damage bonus; ▲ Increased focused-shot weakpoint damage bonus; ▼ Greatly reduced reserve ammo; ▼ Slower focusing; cannot move while focusing"
+    },
+    {
+      "overclockId": "8adf8e9a837bc9f1",
+      "objectPath": "/Game/WeaponsNTools/BoltActionRifle/Overclocks/OC_M1000_Ammo_C1.OC_M1000_Ammo_C1",
+      "weaponFolder": "BoltActionRifle",
+      "nameZh": "精简弹匣",
+      "nameEn": "Minimal Clips",
+      "effectZh": "▲ 提升弹匣容量；▲ 更快的换弹速度",
+      "effectEn": "▲ Increased magazine size; ▲ Faster reloads"
+    },
+    {
+      "overclockId": "2c8c443c7682761d",
+      "objectPath": "/Game/WeaponsNTools/BoltActionRifle/Overclocks/OC_M1000_FocusWeakening_U.OC_M1000_FocusWeakening_U",
+      "weaponFolder": "BoltActionRifle",
+      "nameZh": "死亡标记",
+      "nameEn": "Marked for Death",
+      "effectZh": "▲ 瞄准射击会使敌人短时间内受到更多伤害；▲ 提升瞄准速度；▼ 提升瞄准射击的弹药消耗并减少弹匣容量；▼ 瞄准射击的伤害近乎为零",
+      "effectEn": "▲ Focused shots briefly make targets take more damage; ▲ Increased focus speed; ▼ Focused shots use more ammo; smaller magazine; ▼ Focused-shot damage is nearly zero"
+    },
+    {
+      "overclockId": "bcb83058a8586529",
+      "objectPath": "/Game/WeaponsNTools/BoltActionRifle/Overclocks/OC_M1000_Hipster_B.OC_M1000_Hipster_B",
+      "weaponFolder": "BoltActionRifle",
+      "nameZh": "腰射潮人",
+      "nameEn": "Hipster",
+      "effectZh": "▲ 更快修正子弹散布；▲ 相当多的弹药；▼ 降低造成的伤害",
+      "effectEn": "▲ Faster spread recovery; ▲ Much more ammo; ▼ Reduced damage"
+    },
+    {
+      "overclockId": "e9f0ce4532523fa7",
+      "objectPath": "/Game/WeaponsNTools/BoltActionRifle/Overclocks/OC_M1000_NoMovementPenalty_B.OC_M1000_NoMovementPenalty_B",
+      "weaponFolder": "BoltActionRifle",
+      "nameZh": "主动稳定",
+      "nameEn": "Active Stability System",
+      "effectZh": "▲ 瞄准模式时不受移速惩罚；▲ 更快的瞄准速度；▼ 更长的换弹时间",
+      "effectEn": "▲ No movement penalty while focusing; ▲ Faster focusing; ▼ Longer reload time"
+    },
+    {
+      "overclockId": "acc9917b618dce69",
+      "objectPath": "/Game/WeaponsNTools/BoltActionRifle/Overclocks/OC_M1000_Hoverclock_C.OC_M1000_Hoverclock_C",
+      "weaponFolder": "BoltActionRifle",
+      "nameZh": "专注悬停",
+      "nameEn": "Hoverclock",
+      "effectZh": "▲ 空中使用瞄准模式时短暂减缓下落速度",
+      "effectEn": "▲ Focusing in midair briefly slows your fall"
+    },
+    {
+      "overclockId": "cdc09839ee9a08c7",
+      "objectPath": "/Game/WeaponsNTools/BurstFirePistol/Overclocks/OC_BRT_BombOnHit_C.OC_BRT_BombOnHit_C",
+      "weaponFolder": "BurstFirePistol",
+      "nameZh": "电击陷阱",
+      "nameEn": "Electro Minelets",
+      "effectZh": "▲ 子弹在击中地面后变成带电陷阱；▼ 略微减少伤害；▼ 降低弹匣容量",
+      "effectEn": "▲ Shots become electro minelets on terrain impact; ▼ Slightly reduced damage; ▼ Reduced magazine size"
+    },
+    {
+      "overclockId": "e2513d70609e192b",
+      "objectPath": "/Game/WeaponsNTools/BurstFirePistol/Overclocks/OC_BRT_Ammo_C.OC_BRT_Ammo_C",
+      "weaponFolder": "BurstFirePistol",
+      "nameZh": "复合弹壳",
+      "nameEn": "Composite Casings",
+      "effectZh": "▲ 更多弹药；▲ 每轮射击间隔更短",
+      "effectEn": "▲ More ammo; ▲ Shorter interval between bursts"
+    },
+    {
+      "overclockId": "eb0a46a57c99b780",
+      "objectPath": "/Game/WeaponsNTools/BurstFirePistol/Overclocks/OC_BRT_AmmoB_B.OC_BRT_AmmoB_B",
+      "weaponFolder": "BurstFirePistol",
+      "nameZh": "紧凑弹匣",
+      "nameEn": "Compact Mags",
+      "effectZh": "▲ 相当多的弹药；▼ 每轮射击间隔更长；▼ 更长的换弹时间",
+      "effectEn": "▲ Much more ammo; ▼ Longer interval between bursts; ▼ Longer reload time"
+    },
+    {
+      "overclockId": "8dd21de9a1605968",
+      "objectPath": "/Game/WeaponsNTools/BurstFirePistol/Overclocks/OC_BRT_RandomDamage_C.OC_BRT_RandomDamage_C",
+      "weaponFolder": "BurstFirePistol",
+      "nameZh": "铅弹散射",
+      "nameEn": "Lead Spray",
+      "effectZh": "▲ 显著提升伤害；▼ 扩大基础散布",
+      "effectEn": "▲ Greatly increased damage; ▼ More base spread"
+    },
+    {
+      "overclockId": "83c62d4813ad01e7",
+      "objectPath": "/Game/WeaponsNTools/BurstFirePistol/Overclocks/OC_BRT_Damage_C.OC_BRT_Damage_C",
+      "weaponFolder": "BurstFirePistol",
+      "nameZh": "全腔密封",
+      "nameEn": "Full Chamber Seal",
+      "effectZh": "▲ 略微提升伤害；▲ 更快的换弹速度",
+      "effectEn": "▲ Slightly increased damage; ▲ Faster reloads"
+    },
+    {
+      "overclockId": "92571503511c6e25",
+      "objectPath": "/Game/WeaponsNTools/BurstFirePistol/Overclocks/OC_BRT_DamageB_B.OC_BRT_DamageB_B",
+      "weaponFolder": "BurstFirePistol",
+      "nameZh": "实验弹药",
+      "nameEn": "Experimental Rounds",
+      "effectZh": "▲ 显著提升伤害；▼ 降低弹匣容量；▼ 降低备弹量",
+      "effectEn": "▲ Greatly increased damage; ▼ Reduced magazine size; ▼ Reduced reserve ammo"
+    },
+    {
+      "overclockId": "a5d4682bc19a424a",
+      "objectPath": "/Game/WeaponsNTools/BurstFirePistol/Overclocks/OC_BRT_MicroFlechettes_U.OC_BRT_MicroFlechettes_U",
+      "weaponFolder": "BurstFirePistol",
+      "nameZh": "微型镖弹",
+      "nameEn": "Micro Flechettes",
+      "effectZh": "▲ 大幅提升备弹量；▲ 大幅提升弹匣容量；▲ 减少后坐力和每发散布；▼ 显著减少伤害",
+      "effectEn": "▲ Greatly increased reserve ammo; ▲ Greatly increased magazine size; ▲ Less recoil and spread per shot; ▼ Greatly reduced damage"
+    },
+    {
+      "overclockId": "338765818f018c49",
+      "objectPath": "/Game/WeaponsNTools/ChargeBlaster/Overclocks/OC_EPC_ChargeDirectDMG_U.OC_EPC_ChargeDirectDMG_U",
+      "weaponFolder": "ChargeBlaster",
+      "nameZh": "超载充能",
+      "nameEn": "Overcharger",
+      "effectZh": "▲ 大幅提高充能射击伤害；▲ 更大的作用范围；▼ 增加充能射击的弹药消耗；▲ 更慢的冷却速率",
+      "effectEn": "▲ Greatly increased charged-shot damage; ▲ Larger effect radius; ▼ Charged shots consume more ammo; ▲ Slower cooling"
+    },
+    {
+      "overclockId": "5f5af174f22a6a4e",
+      "objectPath": "/Game/WeaponsNTools/ChargeBlaster/Overclocks/OC_EPC_NormalDamage_B.OC_EPC_NormalDamage_B",
+      "weaponFolder": "ChargeBlaster",
+      "nameZh": "沉重打击",
+      "nameEn": "Heavy Hitter",
+      "effectZh": "▲ 提升普通射击伤害；▼ 降低备弹量；▼ 普通射击产生更多热量",
+      "effectEn": "▲ Increased normal-shot damage; ▼ Reduced reserve ammo; ▼ Normal shots generate more heat"
+    },
+    {
+      "overclockId": "d2c8890b6ce5e2eb",
+      "objectPath": "/Game/WeaponsNTools/ChargeBlaster/Overclocks/OC_EPC_CoolingRate_C.OC_EPC_CoolingRate_C",
+      "weaponFolder": "ChargeBlaster",
+      "nameZh": "磁力制冷",
+      "nameEn": "Magnetic Cooling Unit",
+      "effectZh": "▲ 略微提升冷却速率；▼ 降低完全充能时热量积累的速度",
+      "effectEn": "▲ Slightly increased cooling rate; ▼ Slower heat buildup while fully charged"
+    },
+    {
+      "overclockId": "672432328e9ebf85",
+      "objectPath": "/Game/WeaponsNTools/ChargeBlaster/Overclocks/OC_EPC_ChargeCost_B.OC_EPC_ChargeCost_B",
+      "weaponFolder": "ChargeBlaster",
+      "nameZh": "导热管",
+      "nameEn": "Heat Pipe",
+      "effectZh": "▲ 改良充能效率；▲ 更快的充能速率；▼ 充能射击产生更多热量",
+      "effectEn": "▲ Improved charging efficiency; ▲ Faster charging; ▼ Charged shots generate more heat"
+    },
+    {
+      "overclockId": "e343a18f6e8e288e",
+      "objectPath": "/Game/WeaponsNTools/ChargeBlaster/Overclocks/OC_EPC_ChargeTime_C.OC_EPC_ChargeTime_C",
+      "weaponFolder": "ChargeBlaster",
+      "nameZh": "能量重导",
+      "nameEn": "Energy Rerouting",
+      "effectZh": "▲ 更快的充能速率；▲ 更多弹药",
+      "effectEn": "▲ Faster charging; ▲ More ammo"
+    },
+    {
+      "overclockId": "240af97407be7319",
+      "objectPath": "/Game/WeaponsNTools/ChargeBlaster/Overclocks/OC_EPC_PersistentExplosion_U.OC_EPC_PersistentExplosion_U",
+      "weaponFolder": "ChargeBlaster",
+      "nameZh": "长时电浆",
+      "nameEn": "Persistent Plasma",
+      "effectZh": "▲ 充能射击爆炸将留下能持续造成伤害的电浆；▼ 减少充能射击伤害",
+      "effectEn": "▲ Charged-shot explosions leave damaging persistent plasma; ▼ Reduced charged-shot damage"
+    },
+    {
+      "overclockId": "15eb0369d188f1e1",
+      "objectPath": "/Game/WeaponsNTools/CoilGun/OCs/OC_Coilgun_TrailBoost.OC_Coilgun_TrailBoost",
+      "weaponFolder": "CoilGun",
+      "nameZh": "超磁线圈",
+      "nameEn": "Ultra-Magnetic Coils",
+      "effectZh": "▼ 更长的尾迹持续时间",
+      "effectEn": "▼ Longer trail duration"
+    },
+    {
+      "overclockId": "6a77b1771df4912f",
+      "objectPath": "/Game/WeaponsNTools/CoilGun/OCs/OC_Coilgun_Hellfire.OC_Coilgun_Hellfire",
+      "weaponFolder": "CoilGun",
+      "nameZh": "地狱烈焰",
+      "nameEn": "Hellfire",
+      "effectZh": "▲ 尾迹会点燃敌人；▼ 减少载弹量并减慢充能速度；▼ 更短的尾迹持续时间",
+      "effectEn": "▲ Trail ignites enemies; ▼ Less ammo capacity and slower charging; ▼ Shorter trail duration"
+    },
+    {
+      "overclockId": "e72aebaaf85941a9",
+      "objectPath": "/Game/WeaponsNTools/CoilGun/OCs/OC_Coilgun_LessDamageMoreAmmo.OC_Coilgun_LessDamageMoreAmmo",
+      "weaponFolder": "CoilGun",
+      "nameZh": "返补模块",
+      "nameEn": "Backfeeding Module",
+      "effectZh": "▲ 更多弹药；▼ 更短的尾迹持续时间",
+      "effectEn": "▲ More ammo; ▼ Shorter trail duration"
+    },
+    {
+      "overclockId": "041691752a7329b7",
+      "objectPath": "/Game/WeaponsNTools/CoilGun/OCs/OC_Coilgun_TriBurst.OC_Coilgun_TriBurst",
+      "weaponFolder": "CoilGun",
+      "nameZh": "三重连射",
+      "nameEn": "Triple-Tech Chambers",
+      "effectZh": "▲ 射击后可利用残余能量额外开火两次；▼ 更长的换弹时间；▼ 更慢的充能速率；▼ 更强的后坐力",
+      "effectEn": "▲ Residual energy allows two extra shots after firing; ▼ Longer reload time; ▼ Slower charging; ▼ More recoil"
+    },
+    {
+      "overclockId": "98b3e0c2abbfb51b",
+      "objectPath": "/Game/WeaponsNTools/CoilGun/OCs/OC_Coilgun_Mole.OC_Coilgun_Mole",
+      "weaponFolder": "CoilGun",
+      "nameZh": "鼹鼠",
+      "nameEn": "The Mole",
+      "effectZh": "▲ 基于贯穿地形数获得伤害加成；▲ 增强弹丸贯穿力；▼ 更慢的充能速率",
+      "effectEn": "▲ Bonus damage for each terrain penetration; ▲ More projectile blowthrough; ▼ Slower charging"
+    },
+    {
+      "overclockId": "7df07b101fc6af83",
+      "objectPath": "/Game/WeaponsNTools/CoilGun/OCs/OC_Coilgun_Reatomizer.OC_Coilgun_Reatomizer",
+      "weaponFolder": "CoilGun",
+      "nameZh": "原子重组",
+      "nameEn": "Re-atomizer",
+      "effectZh": "▲ 弹丸将携带被命中敌人身上的异常状态",
+      "effectEn": "▲ Projectiles carry status effects from enemies they hit"
+    },
+    {
+      "overclockId": "67f5df1023c074c8",
+      "objectPath": "/Game/WeaponsNTools/CombatShotgun/Overclocks/OC_CombatShotgun_PumpAction.OC_CombatShotgun_PumpAction",
+      "weaponFolder": "CombatShotgun",
+      "nameZh": "泵动改造",
+      "nameEn": "Pump Action",
+      "effectZh": "▲ 大幅增加弹丸数量及伤害；▲ 弹丸穿透力提升；▼ 降低弹匣容量和备弹量；▼ 降低射速",
+      "effectEn": "▲ Greatly increased pellet count and damage; ▲ More pellet blowthrough; ▼ Reduced magazine size and reserve ammo; ▼ Reduced rate of fire"
+    },
+    {
+      "overclockId": "a0128043953cd7c7",
+      "objectPath": "/Game/WeaponsNTools/CombatShotgun/Overclocks/OC_CombatShotgun_Spread_B.OC_CombatShotgun_Spread_B",
+      "weaponFolder": "CombatShotgun",
+      "nameZh": "磁力势阱",
+      "nameEn": "Magnetic Pellet Alignment",
+      "effectZh": "▲ 显著缩小基础散布；▲ 提升弱点伤害加成；▼ 降低射速",
+      "effectEn": "▲ Greatly reduced base spread; ▲ Increased weakpoint damage bonus; ▼ Reduced rate of fire"
+    },
+    {
+      "overclockId": "ddc9031737eebc58",
+      "objectPath": "/Game/WeaponsNTools/CombatShotgun/Overclocks/OC_CombatShotgun_MiniShells_U.OC_CombatShotgun_MiniShells_U",
+      "weaponFolder": "CombatShotgun",
+      "nameZh": "迷你弹壳",
+      "nameEn": "Mini Shells",
+      "effectZh": "▲ 大幅提升弹匣容量和备弹量；▲ 更小的后坐力；▼ 无法击晕目标；▼ 降低造成的伤害",
+      "effectEn": "▲ Greatly increased magazine size and reserve ammo; ▲ Less recoil; ▼ Cannot stun targets; ▼ Reduced damage"
+    },
+    {
+      "overclockId": "f190418be7633cfb",
+      "objectPath": "/Game/WeaponsNTools/CombatShotgun/Overclocks/OC_CombatShotgun_AmmoNew_C.OC_CombatShotgun_AmmoNew_C",
+      "weaponFolder": "CombatShotgun",
+      "nameZh": "轻量弹匣",
+      "nameEn": "Light-Weight Magazines",
+      "effectZh": "▲ 更多弹药；▲ 更快的换弹速度",
+      "effectEn": "▲ More ammo; ▲ Faster reloads"
+    },
+    {
+      "overclockId": "81cf8cd7c455d55a",
+      "objectPath": "/Game/WeaponsNTools/CombatShotgun/Overclocks/OC_CombatShotgun_ClipSize_B.OC_CombatShotgun_ClipSize_B",
+      "weaponFolder": "CombatShotgun",
+      "nameZh": "眩晕打击",
+      "nameEn": "Stunner",
+      "effectZh": "▲ 命中任何部位都可击晕敌人；▲ 对被击晕目标造成额外伤害",
+      "effectEn": "▲ Can stun enemies by hitting any body part; ▲ Bonus damage to stunned targets"
+    },
+    {
+      "overclockId": "3a9ad8a9742689ad",
+      "objectPath": "/Game/WeaponsNTools/CombatShotgun/Overclocks/OC_CombatShotgun_RoF_U.OC_CombatShotgun_RoF_U",
+      "weaponFolder": "CombatShotgun",
+      "nameZh": "循环过载",
+      "nameEn": "Cycle Overload",
+      "effectZh": "▲ 显著提高射速；▲ 更大的伤害；▼ 扩大基础散布；▼ 更长的换弹时间",
+      "effectEn": "▲ Greatly increased rate of fire; ▲ More damage; ▼ More base spread; ▼ Longer reload time"
+    },
+    {
+      "overclockId": "1bda353b53bbc83d",
+      "objectPath": "/Game/WeaponsNTools/Crossbow/Overclocks/OC_Crossbow_CryoArrow.OC_Crossbow_CryoArrow",
+      "weaponFolder": "Crossbow",
+      "nameZh": "冰冻弩箭",
+      "nameEn": "Cryo Bolt",
+      "effectZh": "▼ 弩箭无法回收；▼ 降低造成的伤害",
+      "effectEn": "▼ Bolts cannot be retrieved; ▼ Reduced damage"
+    },
+    {
+      "overclockId": "e7a270f6c51ada36",
+      "objectPath": "/Game/WeaponsNTools/Crossbow/Overclocks/OC_Crossbow_BodkinPoints.OC_Crossbow_BodkinPoints",
+      "weaponFolder": "Crossbow",
+      "nameZh": "乘胜锥击",
+      "nameEn": "Bodkin Points",
+      "effectZh": "▲ 弩箭会贯穿并从目标身上弹射；▼ 降低直接伤害；▼ 更长的换弹时间",
+      "effectEn": "▲ Bolts pierce and ricochet from targets; ▼ Reduced direct damage; ▼ Longer reload time"
+    },
+    {
+      "overclockId": "ebb8175ad07c3e6c",
+      "objectPath": "/Game/WeaponsNTools/Crossbow/Overclocks/OC_Crossbow_FireArrow.OC_Crossbow_FireArrow",
+      "weaponFolder": "Crossbow",
+      "nameZh": "火焰弩箭",
+      "nameEn": "Fire Bolt",
+      "effectZh": "▼ 弩箭无法回收；▼ 降低造成的伤害",
+      "effectEn": "▼ Bolts cannot be retrieved; ▼ Reduced damage"
+    },
+    {
+      "overclockId": "b7af7ee96ea46169",
+      "objectPath": "/Game/WeaponsNTools/Crossbow/Overclocks/OC_Crossbow_QuickFire.OC_Crossbow_QuickFire",
+      "weaponFolder": "Crossbow",
+      "nameZh": "速射模式",
+      "nameEn": "Quick Fire",
+      "effectZh": "▲ 更快的换弹速度；▲ 更高的弩箭飞行速度",
+      "effectEn": "▲ Faster reloads; ▲ Faster bolts"
+    },
+    {
+      "overclockId": "0c41f4b3a2503d83",
+      "objectPath": "/Game/WeaponsNTools/Crossbow/Overclocks/OC_Crossbow_Specialist.OC_Crossbow_Specialist",
+      "weaponFolder": "Crossbow",
+      "nameZh": "行家里手",
+      "nameEn": "The Specialist",
+      "effectZh": "▲ 更多的特殊弩箭；▲ 特殊弩箭效果的持续时间延长",
+      "effectEn": "▲ More special bolts; ▲ Longer special-bolt effect duration"
+    },
+    {
+      "overclockId": "84edb7e5d5a46d5f",
+      "objectPath": "/Game/WeaponsNTools/Crossbow/Overclocks/OC_Crossbow_Trifork.OC_Crossbow_Trifork",
+      "weaponFolder": "Crossbow",
+      "nameZh": "一箭三连",
+      "nameEn": "Trifork Volley",
+      "effectZh": "▲ 一次射出三支弩箭；▲ 更多弹药；▼ 弩箭无法回收；▼ 显著降低伤害并延长换弹时间",
+      "effectEn": "▲ Fires three bolts at once; ▲ More ammo; ▼ Bolts cannot be retrieved; ▼ Much less damage and longer reload time"
+    },
+    {
+      "overclockId": "fad978297c25efc3",
+      "objectPath": "/Game/WeaponsNTools/Cryospray/Overclocks/OC_StickyCrystals_U.OC_StickyCrystals_U",
+      "weaponFolder": "Cryospray",
+      "nameZh": "冰气凝棘",
+      "nameEn": "Crystal Nucleation",
+      "effectZh": "▲ 命中地形将留下带有减速和伤害效果的冰棘；▲ 冰棘效果受冰冻效果及伤害升级影响；▼ 降低备弹量",
+      "effectEn": "▲ Terrain hits leave ice crystals that slow and damage enemies; ▲ Ice crystals are affected by freezing-power and damage upgrades; ▼ Reduced reserve ammo"
+    },
+    {
+      "overclockId": "fef89a78656d8f8b",
+      "objectPath": "/Game/WeaponsNTools/Cryospray/Overclocks/OC_Cryospray_IceStorm_U.OC_Cryospray_IceStorm_U",
+      "weaponFolder": "Cryospray",
+      "nameZh": "冰刃风暴",
+      "nameEn": "Ice Storm",
+      "effectZh": "▲ 极大提升伤害，并对被冻结目标造成额外伤害；▼ 降低备弹量；▲ 更弱的冰冻效果；▲ 压力仓降压速度变快",
+      "effectEn": "▲ Massively increased damage, with bonus damage to frozen targets; ▼ Reduced reserve ammo; ▲ Less freezing power; ▲ Faster pressure-chamber depletion"
+    },
+    {
+      "overclockId": "585d96aa4938f3b8",
+      "objectPath": "/Game/WeaponsNTools/Cryospray/Overclocks/OC_Cryospray_Icicle_U.OC_Cryospray_Icicle_U",
+      "weaponFolder": "Cryospray",
+      "nameZh": "冰锥",
+      "nameEn": "Ice Spear",
+      "effectZh": "▲ 发射巨大的冰锥，造成大量伤害并对大多数敌人造成击晕；▼ 更长的压力恢复延迟",
+      "effectEn": "▲ Fires a huge ice spear, dealing heavy damage and stunning most enemies; ▼ Longer repressurization delay"
+    },
+    {
+      "overclockId": "4cbd4b19a673a08a",
+      "objectPath": "/Game/WeaponsNTools/Cryospray/Overclocks/OC_Cryospray_Ammo+PressureDrop_C.OC_Cryospray_Ammo+PressureDrop_C",
+      "weaponFolder": "Cryospray",
+      "nameZh": "改良热效率",
+      "nameEn": "Improved Thermal Efficiency",
+      "effectZh": "▲ 更多弹药；▲ 重新加压前的持续喷射时间变长",
+      "effectEn": "▲ More ammo; ▲ Longer sustained spray before repressurization"
+    },
+    {
+      "overclockId": "da9e7dc8f0cf1966",
+      "objectPath": "/Game/WeaponsNTools/Cryospray/Overclocks/OC_Cryospray_FastFlow_B.OC_Cryospray_FastFlow_B",
+      "weaponFolder": "Cryospray",
+      "nameZh": "流量扩充",
+      "nameEn": "Flow Rate Expansion",
+      "effectZh": "▲ 提升流速；▲ 重新加压前的持续喷射时间变短",
+      "effectEn": "▲ Increased flow rate; ▲ Shorter sustained spray before repressurization"
+    },
+    {
+      "overclockId": "15f37599d43262ee",
+      "objectPath": "/Game/WeaponsNTools/Cryospray/Overclocks/OC_Cryospray_Snowball_U.OC_Cryospray_Snowball_U",
+      "weaponFolder": "Cryospray",
+      "nameZh": "雪球",
+      "nameEn": "Snowball",
+      "effectZh": "▲ 发射带范围冰冻效果的发射物，瞬间冻住着弹点附近的所有生物；▲ 受发射物影响的目标升温速率会暂时性地降低；▼ 显著延长压力恢复延迟；▼ 降低备弹量",
+      "effectEn": "▲ Fires an area-freezing projectile that instantly freezes creatures near impact; ▲ Affected targets temporarily heat up more slowly; ▼ Much longer repressurization delay; ▼ Reduced reserve ammo"
+    },
+    {
+      "overclockId": "e53610592d44f655",
+      "objectPath": "/Game/WeaponsNTools/Cryospray/Overclocks/OC_Cryospray_Cooling+Rof_B.OC_Cryospray_Cooling+Rof_B",
+      "weaponFolder": "Cryospray",
+      "nameZh": "制冷调整",
+      "nameEn": "Tuned Cooler",
+      "effectZh": "▲ 更强的冰冻效果；▲ 提升冷冻剂流速；▲ 提升流速；▼ 降低压力仓重新填充速率",
+      "effectEn": "▲ More freezing power; ▲ Increased cryofuel flow rate; ▲ Increased flow rate; ▼ Slower pressure-chamber refill"
+    },
+    {
+      "overclockId": "9e35656d328361c5",
+      "objectPath": "/Game/WeaponsNTools/DualMachinePistols/Overclocks/OC_DualMP_CryoMines_U.OC_DualMP_CryoMines_U",
+      "weaponFolder": "DualMachinePistols",
+      "nameZh": "冰冻陷阱",
+      "nameEn": "Cryo Minelets",
+      "effectZh": "▲ 子弹在击中地面后变成冰冻陷阱；▼ 略微减少伤害；▼ 降低弹匣容量",
+      "effectEn": "▲ Shots become cryo minelets on terrain impact; ▼ Slightly reduced damage; ▼ Reduced magazine size"
+    },
+    {
+      "overclockId": "7b15e7fd6ac58e44",
+      "objectPath": "/Game/WeaponsNTools/DualMachinePistols/Overclocks/OC_DualMP_CustomCasings_B.OC_DualMP_CustomCasings_B",
+      "weaponFolder": "DualMachinePistols",
+      "nameZh": "定制弹壳",
+      "nameEn": "Custom Casings",
+      "effectZh": "▲ 显著提升弹匣容量；▼ 降低射速",
+      "effectEn": "▲ Greatly increased magazine size; ▼ Reduced rate of fire"
+    },
+    {
+      "overclockId": "07e4b2b2f3bc7952",
+      "objectPath": "/Game/WeaponsNTools/DualMachinePistols/Overclocks/OC_DualMP_ReloadSpeed_C.OC_DualMP_ReloadSpeed_C",
+      "weaponFolder": "DualMachinePistols",
+      "nameZh": "精简弹匣",
+      "nameEn": "Minimal Magazines",
+      "effectZh": "▲ 更快的换弹速度；▲ 提高射速",
+      "effectEn": "▲ Faster reloads; ▲ Increased rate of fire"
+    },
+    {
+      "overclockId": "ac2689f6880ee0f5",
+      "objectPath": "/Game/WeaponsNTools/DualMachinePistols/Overclocks/OC_DualMP_ExplosiveReload.OC_DualMP_ExplosiveReload",
+      "weaponFolder": "DualMachinePistols",
+      "nameZh": "内置起爆",
+      "nameEn": "Embedded Detonators",
+      "effectZh": "▲ 换弹时引爆射入目标体内的微型炸药，造成大量伤害；▼ 显著减少备弹量；▼ 显著减少直接伤害；▼ 降低弹匣容量",
+      "effectEn": "▲ Reloading detonates explosives embedded in targets for heavy damage; ▼ Greatly reduced reserve ammo; ▼ Greatly reduced direct damage; ▼ Reduced magazine size"
+    },
+    {
+      "overclockId": "4ce1e1bf2473952b",
+      "objectPath": "/Game/WeaponsNTools/DualMachinePistols/Overclocks/OC_DualMP_Damage_U.OC_DualMP_Damage_U",
+      "weaponFolder": "DualMachinePistols",
+      "nameZh": "热气回收",
+      "nameEn": "Gas Recycling",
+      "effectZh": "▲ 显著提升伤害和护甲破坏效果；▼ 扩大基础散布；▲ 无弱点伤害加成；▼ 更慢的射击时移速",
+      "effectEn": "▲ Greatly increased damage and armor breaking; ▼ More base spread; ▲ No weakpoint damage bonus; ▼ Slower movement while firing"
+    },
+    {
+      "overclockId": "1bd7f7bbc933305e",
+      "objectPath": "/Game/WeaponsNTools/FlameThrower/Overclocks/OC_Flamethrower_ClipSize_B.OC_Flamethrower_ClipSize_B",
+      "weaponFolder": "FlameThrower",
+      "nameZh": "紧凑阀门",
+      "nameEn": "Compact Feed Valves",
+      "effectZh": "▲ 提高储罐容量；▲ 更多弹药；▼ 更长的换弹时间；▼ 降低最大射程",
+      "effectEn": "▲ Increased tank capacity; ▲ More ammo; ▼ Longer reload time; ▼ Reduced maximum range"
+    },
+    {
+      "overclockId": "253536db121d2913",
+      "objectPath": "/Game/WeaponsNTools/FlameThrower/Overclocks/OC_Flamethrower_StickyDuration_U.OC_Flamethrower_StickyDuration_U",
+      "weaponFolder": "FlameThrower",
+      "nameZh": "黏性燃油",
+      "nameEn": "Sticky Fuel",
+      "effectZh": "▲ 大幅提升火墙持续时间；▲ 提升火墙造成的伤害；▼ 降低储罐容量；▼ 降低备弹量",
+      "effectEn": "▲ Greatly increased sticky-flame duration; ▲ Increased sticky-flame damage; ▼ Reduced tank capacity; ▼ Reduced reserve ammo"
+    },
+    {
+      "overclockId": "189536a9c4df97c8",
+      "objectPath": "/Game/WeaponsNTools/FlameThrower/Overclocks/OC_Flamethrower_StickyFlameDuration_C.OC_Flamethrower_StickyFlameDuration_C",
+      "weaponFolder": "FlameThrower",
+      "nameZh": "黏性助剂",
+      "nameEn": "Sticky Additive",
+      "effectZh": "▼ 更长火墙持续时间；▲ 略微提升伤害",
+      "effectEn": "▼ Longer sticky-flame duration; ▲ Slightly increased damage"
+    },
+    {
+      "overclockId": "456ea9d9484d607d",
+      "objectPath": "/Game/WeaponsNTools/FlameThrower/Overclocks/OC_Flamethrower_MaxAmmo_C.OC_Flamethrower_MaxAmmo_C",
+      "weaponFolder": "FlameThrower",
+      "nameZh": "轻量油罐",
+      "nameEn": "Lighter Tanks",
+      "effectZh": "▲ 更多弹药",
+      "effectEn": "▲ More ammo"
+    },
+    {
+      "overclockId": "198ea5859dc118ad",
+      "objectPath": "/Game/WeaponsNTools/FlameThrower/Overclocks/OC_Flamethrower_Range_B.OC_Flamethrower_Range_B",
+      "weaponFolder": "FlameThrower",
+      "nameZh": "燃油流扩散器",
+      "nameEn": "Fuel Stream Diffuser",
+      "effectZh": "▲ 提升射程；▼ 降低射速",
+      "effectEn": "▲ Increased range; ▼ Reduced rate of fire"
+    },
+    {
+      "overclockId": "5393db91512b5d14",
+      "objectPath": "/Game/WeaponsNTools/FlameThrower/Overclocks/OC_Flamethrower_DMG_U.OC_Flamethrower_DMG_U",
+      "weaponFolder": "FlameThrower",
+      "nameZh": "物理融穿",
+      "nameEn": "Face Melter",
+      "effectZh": "▲ 更大的伤害；▲ 提升流速；▼ 降低最大射程；▼ 降低储罐容量",
+      "effectEn": "▲ More damage; ▲ Increased flow rate; ▼ Reduced maximum range; ▼ Reduced tank capacity"
+    },
+    {
+      "overclockId": "33256293a3561e96",
+      "objectPath": "/Game/WeaponsNTools/FlameThrower/Overclocks/OC_Flamethrower_Hellfire_U.OC_Flamethrower_Hellfire_U",
+      "weaponFolder": "FlameThrower",
+      "nameZh": "灼热浪潮",
+      "nameEn": "Scorching Tide",
+      "effectZh": "▲ 长按换弹键充能并射出横向高温发射物；▼ 充能射击消耗大量弹药；▼ 大幅减少充能期间的移动速度",
+      "effectEn": "▲ Hold reload to charge and fire a horizontal spread of hot projectiles; ▼ Charged shots consume much more ammo; ▼ Much slower movement while charging"
+    },
+    {
+      "overclockId": "30c69e3c7dd95426",
+      "objectPath": "/Game/WeaponsNTools/GatlingGun/Overclocks/OC_Gatling_AmmoNew_C.OC_Gatling_AmmoNew_C",
+      "weaponFolder": "GatlingGun",
+      "nameZh": "超薄鼓壁",
+      "nameEn": "Thinned Drum Walls",
+      "effectZh": "▲ 更多弹药；▲ 加快冷却速率",
+      "effectEn": "▲ More ammo; ▲ Faster cooling"
+    },
+    {
+      "overclockId": "d36bc06b2f36b584",
+      "objectPath": "/Game/WeaponsNTools/GatlingGun/Overclocks/OC_Gatling_DamageNew_C.OC_Gatling_DamageNew_C",
+      "weaponFolder": "GatlingGun",
+      "nameZh": "多转快点！小妞！",
+      "nameEn": "A Little More Oomph!",
+      "effectZh": "▲ 略微提升伤害；▲ 更快的起转速度",
+      "effectEn": "▲ Slightly increased damage; ▲ Faster spin-up"
+    },
+    {
+      "overclockId": "f70a26fb0a1f9326",
+      "objectPath": "/Game/WeaponsNTools/GatlingGun/Overclocks/OC_Gatling_Ammo_B.OC_Gatling_Ammo_B",
+      "weaponFolder": "GatlingGun",
+      "nameZh": "紧凑送弹",
+      "nameEn": "Compact Feed Mechanism",
+      "effectZh": "▲ 相当多的弹药；▼ 降低射速",
+      "effectEn": "▲ Much more ammo; ▼ Reduced rate of fire"
+    },
+    {
+      "overclockId": "6b09217a8e797e8a",
+      "objectPath": "/Game/WeaponsNTools/GatlingGun/Overclocks/OC_Gatling_Flame_B.OC_Gatling_Flame_B",
+      "weaponFolder": "GatlingGun",
+      "nameZh": "烈火地狱",
+      "nameEn": "Burning Hell",
+      "effectZh": "▲ 点燃枪口正前方的任何事物；▼ 武器更快过热",
+      "effectEn": "▲ Ignites everything directly in front of the muzzle; ▼ Overheats faster"
+    },
+    {
+      "overclockId": "7d6904c410bcb92b",
+      "objectPath": "/Game/WeaponsNTools/GatlingGun/Overclocks/OC_Gatling_DamageB_B.OC_Gatling_DamageB_B",
+      "weaponFolder": "GatlingGun",
+      "nameZh": "排气引导",
+      "nameEn": "Exhaust Vectoring",
+      "effectZh": "▲ 更大的伤害；▼ 扩大基础散布",
+      "effectEn": "▲ More damage; ▼ More base spread"
+    },
+    {
+      "overclockId": "3eda92bf84a1fcb9",
+      "objectPath": "/Game/WeaponsNTools/GatlingGun/Overclocks/OC_Gatling_Damage_U.OC_Gatling_Damage_U",
+      "weaponFolder": "GatlingGun",
+      "nameZh": "铅弹风暴",
+      "nameEn": "Lead Storm",
+      "effectZh": "▲ 大幅提升伤害；▼ 射击时无法移动；▼ 极大降低击晕几率和持续时间",
+      "effectEn": "▲ Greatly increased damage; ▼ Cannot move while firing; ▼ Much lower stun chance and duration"
+    },
+    {
+      "overclockId": "2f6408736d66c431",
+      "objectPath": "/Game/WeaponsNTools/GatlingGun/Overclocks/OC_Gatling_SuperCooling.OC_Gatling_SuperCooling",
+      "weaponFolder": "GatlingGun",
+      "nameZh": "转轮过载",
+      "nameEn": "Rotary Overdrive",
+      "effectZh": "▼ 冷冻剂注射次数有限，可通过补给回复；▼ 冷冻剂可降低武器热量，且可立刻解除过热；▲ 提高射速；▼ 武器更快过热",
+      "effectEn": "▼ Limited coolant injections; replenished by resupply; ▼ Coolant lowers weapon heat and immediately clears overheating; ▲ Increased rate of fire; ▼ Overheats faster"
+    },
+    {
+      "overclockId": "0c533e8dcdfd9f3a",
+      "objectPath": "/Game/WeaponsNTools/GatlingGun/Overclocks/OC_Gatling_Ricochet_U.OC_Gatling_Ricochet_U",
+      "weaponFolder": "GatlingGun",
+      "nameZh": "子弹地狱",
+      "nameEn": "Bullet Hell",
+      "effectZh": "▲ 子弹将弹射到附近的敌人身上；▼ 显著减少伤害；▼ 扩大基础散布",
+      "effectEn": "▲ Shots ricochet into nearby enemies; ▼ Greatly reduced damage; ▼ More base spread"
+    },
+    {
+      "overclockId": "df3572e03443cecf",
+      "objectPath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_GC_ImpactMixture_B.OC_GC_ImpactMixture_B",
+      "weaponFolder": "GooCannon",
+      "nameZh": "及蚀刑乐",
+      "nameEn": "Volatile Impact Mixture",
+      "effectZh": "▲ 提升普通射击伤害；▲ 大幅提高充能射击伤害；▲ 更短的腐蚀与减速效果持续时间；▲ 缩短蚀泥坑持续时间",
+      "effectEn": "▲ Increased normal-shot damage; ▲ Greatly increased charged-shot damage; ▲ Shorter corrosion and slowdown duration; ▲ Shorter sludge-puddle duration"
+    },
+    {
+      "overclockId": "2669166fea5f46e7",
+      "objectPath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_GC_VolatilePuddles_U.OC_GC_VolatilePuddles_U",
+      "weaponFolder": "GooCannon",
+      "nameZh": "泥浆炸裂",
+      "nameEn": "Combustive Goo Mix",
+      "effectZh": "▲ 点燃蚀泥坑或被蚀泥包裹的敌人将引发爆炸；▲ 燃烧中的敌人将引爆附着在身上的蚀泥；▼ 增加充能射击的弹药消耗；▲ 燃烧中的敌人爆炸后将停止燃烧",
+      "effectEn": "▲ Igniting sludge puddles or sludge-covered enemies causes explosions; ▲ Burning enemies detonate sludge attached to them; ▼ Charged shots consume more ammo; ▲ Burning enemies stop burning after exploding"
+    },
+    {
+      "overclockId": "6e23da4ef9b44a4a",
+      "objectPath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_GC_GravityAndVelocity_C.OC_GC_GravityAndVelocity_C",
+      "weaponFolder": "GooCannon",
+      "nameZh": "让泥浆飞",
+      "nameEn": "AG Mixture",
+      "effectZh": "▲ 发射物飞行速度更快；▲ 发射物的下落速度更慢",
+      "effectEn": "▲ Faster projectiles; ▲ Slower projectile drop"
+    },
+    {
+      "overclockId": "d5b6d7b5a469ef0e",
+      "objectPath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_GC_HydrogenIon_C.OC_GC_HydrogenIon_C",
+      "weaponFolder": "GooCannon",
+      "nameZh": "蚀骨泥潭",
+      "nameEn": "Hydrogen Ion Additive",
+      "effectZh": "▲ 增强直接命中时腐蚀效果造成的持续伤害；▲ 更强的直接命中减速效果",
+      "effectEn": "▲ More corrosion damage over time on direct hits; ▲ Stronger slowdown on direct hits"
+    },
+    {
+      "overclockId": "1088283c521e7517",
+      "objectPath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_GC_Disperser_B.OC_GC_Disperser_B",
+      "weaponFolder": "GooCannon",
+      "nameZh": "蚀泥迸裂",
+      "nameEn": "Disperser Compound",
+      "effectZh": "▲ 提升碎块数量和伤害；▼ 减少充能射击伤害",
+      "effectEn": "▲ Increased fragment count and damage; ▼ Reduced charged-shot damage"
+    },
+    {
+      "overclockId": "301c800ec1db7d66",
+      "objectPath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_GooCannon_Buckshot2_U.OC_GooCannon_Buckshot2_U",
+      "weaponFolder": "GooCannon",
+      "nameZh": "霰射泥浆",
+      "nameEn": "Sludge Blast",
+      "effectZh": "▲ 充能射击变为强力的霰射；▼ 更长的换弹时间；▼ 降低备弹量",
+      "effectEn": "▲ Charged shots become a powerful shotgun blast; ▼ Longer reload time; ▼ Reduced reserve ammo"
+    },
+    {
+      "overclockId": "f73c7099628adc1c",
+      "objectPath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_GC_GooTrail_U.OC_GC_GooTrail_U",
+      "weaponFolder": "GooCannon",
+      "nameZh": "粘液轰炸",
+      "nameEn": "Goo Bomber Special",
+      "effectZh": "▲ 充能发射物在飞行时洒下碎块；▲ 提升碎块数量和伤害；▲ 大幅延长蚀泥坑持续时间；▲ 充能发射物不会在撞击后产生碎块",
+      "effectEn": "▲ Charged projectiles shed fragments during flight; ▲ Increased fragment count and damage; ▲ Much longer sludge-puddle duration; ▲ Charged projectiles do not fragment on impact"
+    },
+    {
+      "overclockId": "449343c5849c4a5e",
+      "objectPath": "/Game/WeaponsNTools/GrenadeLauncher/Overclocks/OC_PGL_Ammo_C.OC_PGL_Ammo_C",
+      "weaponFolder": "GrenadeLauncher",
+      "nameZh": "仓鼠",
+      "nameEn": "Pack Rat",
+      "effectZh": "▲ 更多弹药",
+      "effectEn": "▲ More ammo"
+    },
+    {
+      "overclockId": "b8ee637afc919ec3",
+      "objectPath": "/Game/WeaponsNTools/GrenadeLauncher/Overclocks/OC_PGL_SuperFast_U.OC_PGL_SuperFast_U",
+      "weaponFolder": "GrenadeLauncher",
+      "nameZh": "超推进剂",
+      "nameEn": "Hyper Propellant",
+      "effectZh": "▲ 可以对单个目标造成巨额伤害的超高速弹头；▼ 大幅减小作用范围；▼ 降低备弹量",
+      "effectEn": "▲ High-velocity projectiles deal massive single-target damage; ▼ Greatly reduced effect radius; ▼ Reduced reserve ammo"
+    },
+    {
+      "overclockId": "0b474c33b3fa3a1b",
+      "objectPath": "/Game/WeaponsNTools/GrenadeLauncher/Overclocks/OC_PGL_Radius_C.OC_PGL_Radius_C",
+      "weaponFolder": "GrenadeLauncher",
+      "nameZh": "大扫除",
+      "nameEn": "Clean Sweep",
+      "effectZh": "▲ 略微增大作用范围；▲ 略微提高范围伤害",
+      "effectEn": "▲ Slightly increased effect radius; ▲ Slightly increased area damage"
+    },
+    {
+      "overclockId": "734621718170ef81",
+      "objectPath": "/Game/WeaponsNTools/GrenadeLauncher/Overclocks/OC_PGL_MiniNukes_U.OC_PGL_MiniNukes_U",
+      "weaponFolder": "GrenadeLauncher",
+      "nameZh": "胖男孩",
+      "nameEn": "Fat Boy",
+      "effectZh": "▲ 发射迷你核弹头，在较大的范围内造成大量伤害；▼ 极低的备弹量；▼ 降低发射物飞行速度和射程",
+      "effectEn": "▲ Fires a miniature nuclear warhead, dealing heavy damage over a wide area; ▼ Very little reserve ammo; ▼ Less projectile speed and range"
+    },
+    {
+      "overclockId": "ff174ea64780e591",
+      "objectPath": "/Game/WeaponsNTools/GrenadeLauncher/Overclocks/OC_PGL_AmmoB_B.OC_PGL_AmmoB_B",
+      "weaponFolder": "GrenadeLauncher",
+      "nameZh": "压缩弹药",
+      "nameEn": "Compact Rounds",
+      "effectZh": "▲ 相当多的弹药；▼ 略微减小作用半径；▼ 略微减少伤害",
+      "effectEn": "▲ Much more ammo; ▼ Slightly reduced effect radius; ▼ Slightly reduced damage"
+    },
+    {
+      "overclockId": "d9af68d46f11a057",
+      "objectPath": "/Game/WeaponsNTools/GrenadeLauncher/Overclocks/OC_PGL_RocketJump_B.OC_PGL_RocketJump_B",
+      "weaponFolder": "GrenadeLauncher",
+      "nameZh": "RJ250化合物",
+      "nameEn": "RJ250 Compound",
+      "effectZh": "▲ 用武器造成的冲击波上升到新的境界；▲ 相当多的弹药；▼ 降低造成的伤害",
+      "effectEn": "▲ Weapon blastwaves propel you to greater heights; ▲ Much more ammo; ▼ Reduced damage"
+    },
+    {
+      "overclockId": "99ea61ad7cc2346f",
+      "objectPath": "/Game/WeaponsNTools/HeavyParticleCannon/Overclocks/OC_HeavyParticleCannon_FeedbackLoop.OC_HeavyParticleCannon_FeedbackLoop",
+      "weaponFolder": "HeavyParticleCannon",
+      "nameZh": "反馈循环",
+      "nameEn": "Feedback Loop",
+      "effectZh": "▲ 随开火时长增强范围伤害和作用半径；▼ 降低备弹量",
+      "effectEn": "▲ Area damage and radius increase while firing; ▼ Reduced reserve ammo"
+    },
+    {
+      "overclockId": "4da573abeaf3fdeb",
+      "objectPath": "/Game/WeaponsNTools/HeavyParticleCannon/Overclocks/OC_HeavyParticleCannon_ProjectionModule.OC_HeavyParticleCannon_ProjectionModule",
+      "weaponFolder": "HeavyParticleCannon",
+      "nameZh": "聚能爆炸",
+      "nameEn": "Plascrete Catalyst",
+      "effectZh": "▲ 光束命中平台时显著提高伤害半径和伤害；▲ 光束持续命中平台时会引发剧烈爆炸；▼ 更慢的充能速率；▼ 略微减少备弹量",
+      "effectEn": "▲ Beam hits on platforms greatly increase damage and radius; ▲ Sustained beam hits on platforms cause a powerful explosion; ▼ Slower charging; ▼ Slightly reduced reserve ammo"
+    },
+    {
+      "overclockId": "bbdb7dd711d1b3e6",
+      "objectPath": "/Game/WeaponsNTools/HeavyParticleCannon/Overclocks/OC_HeavyParticleCannon_ReloadActivatesBooster.OC_HeavyParticleCannon_ReloadActivatesBooster",
+      "weaponFolder": "HeavyParticleCannon",
+      "nameZh": "聚能过载",
+      "nameEn": "Overdrive Booster",
+      "effectZh": "▲ 过载模式下显著提高伤害输出；▼ 过载模式下无法移动；▼ 过载模式后的充能时间更长；▼ 过载模式将持续至电容完全放电",
+      "effectEn": "▲ Greatly increased damage output in overdrive mode; ▼ Cannot move in overdrive mode; ▼ Longer recharge time after overdrive mode; ▼ Overdrive mode continues until the capacitor is empty"
+    },
+    {
+      "overclockId": "18b2907fca21c44d",
+      "objectPath": "/Game/WeaponsNTools/HeavyParticleCannon/Overclocks/OC_HeavyParticleCannon_VolatileImpact.OC_HeavyParticleCannon_VolatileImpact",
+      "weaponFolder": "HeavyParticleCannon",
+      "nameZh": "熔火核心",
+      "nameEn": "Volatile Impact Reactor",
+      "effectZh": "▲ 光束在击中地形时会将其变成熔岩；▼ 更小的伤害半径；▼ 降低电容容量",
+      "effectEn": "▲ Beam hits turn terrain into magma; ▼ Smaller damage radius; ▼ Reduced capacitor capacity"
+    },
+    {
+      "overclockId": "0fe9f989ed13a12a",
+      "objectPath": "/Game/WeaponsNTools/HeavyParticleCannon/Overclocks/OC_HeavyParticleCannon_RapidCycle.OC_HeavyParticleCannon_RapidCycle",
+      "weaponFolder": "HeavyParticleCannon",
+      "nameZh": "效率调整",
+      "nameEn": "Efficiency Tweaks",
+      "effectZh": "▲ 小幅提升电池容量；▲ 提高电容容量",
+      "effectEn": "▲ Slightly increased battery capacity; ▲ Increased capacitor capacity"
+    },
+    {
+      "overclockId": "089029e84d6f24a9",
+      "objectPath": "/Game/WeaponsNTools/HeavyParticleCannon/Overclocks/OC_HeavyParticleCannon_ForcedBeam.OC_HeavyParticleCannon_ForcedBeam",
+      "weaponFolder": "HeavyParticleCannon",
+      "nameZh": "自动光控",
+      "nameEn": "Automated Beam Controller",
+      "effectZh": "▲ 提升放电和充电速率；▲ 相当多的弹药；▼ 射击将持续至电容完全放电；▼ 降低电容容量",
+      "effectEn": "▲ Increased discharge and recharge rates; ▲ Much more ammo; ▼ Firing continues until the capacitor is empty; ▼ Reduced capacitor capacity"
+    },
+    {
+      "overclockId": "7f3761b7d0cd1dad",
+      "objectPath": "/Game/WeaponsNTools/LineCutter/Overclocks/OC_LineCutter_FireDamage_U.OC_LineCutter_FireDamage_U",
+      "weaponFolder": "LineCutter",
+      "nameZh": "地狱火",
+      "nameEn": "Inferno",
+      "effectZh": "▲ 点燃路径内的大多数敌人；▼ 降低造成的伤害；▼ 降低对护甲造成的伤害",
+      "effectEn": "▲ Ignites most enemies in its path; ▼ Reduced damage; ▼ Less armor damage"
+    },
+    {
+      "overclockId": "5efefb5c39e60155",
+      "objectPath": "/Game/WeaponsNTools/LineCutter/Overclocks/OC_LineCutter_ElectricSTE_B.OC_LineCutter_ElectricSTE_B",
+      "weaponFolder": "LineCutter",
+      "nameZh": "高压转接",
+      "nameEn": "High Voltage Crossover",
+      "effectZh": "▲ 使被命中的敌人触电；▼ 降低弹匣容量",
+      "effectEn": "▲ Electrocutes enemies on hit; ▼ Reduced magazine size"
+    },
+    {
+      "overclockId": "1c9a770707aeeeca",
+      "objectPath": "/Game/WeaponsNTools/LineCutter/Overclocks/OC_LineCutter_ReverseIt_B.OC_LineCutter_ReverseIt_B",
+      "weaponFolder": "LineCutter",
+      "nameZh": "冷血追命",
+      "nameEn": "Return to Sender",
+      "effectZh": "▲ 松开开火按钮将使等离子线往反方向移动；▼ 降低备弹量",
+      "effectEn": "▲ Release fire to reverse the plasma beam; ▼ Reduced reserve ammo"
+    },
+    {
+      "overclockId": "78d2f2cae6266340",
+      "objectPath": "/Game/WeaponsNTools/LineCutter/Overclocks/OC_LineCutter_DMG+1_C.OC_LineCutter_DMG+1_C",
+      "weaponFolder": "LineCutter",
+      "nameZh": "强化电浆流",
+      "nameEn": "Stronger Plasma Current",
+      "effectZh": "▲ 略微提升伤害；▼ 更长的发射物寿命",
+      "effectEn": "▲ Slightly increased damage; ▼ Longer projectile lifetime"
+    },
+    {
+      "overclockId": "641ea30949b91136",
+      "objectPath": "/Game/WeaponsNTools/LineCutter/Overclocks/OC_LineCutter_Ammo_C.OC_LineCutter_Ammo_C",
+      "weaponFolder": "LineCutter",
+      "nameZh": "轻量匣壁",
+      "nameEn": "Light-Weight Cases",
+      "effectZh": "▲ 更多弹药；▲ 更快的换弹速度",
+      "effectEn": "▲ More ammo; ▲ Faster reloads"
+    },
+    {
+      "overclockId": "94d47d8646526372",
+      "objectPath": "/Game/WeaponsNTools/LineCutter/Overclocks/OC_LineCutter_YawMan_U.OC_LineCutter_YawMan_U",
+      "weaponFolder": "LineCutter",
+      "nameZh": "死亡圆舞",
+      "nameEn": "Spinning Death",
+      "effectZh": "▲ 射线水平旋转并缓慢前进，持续造成伤害；▲ 延长等离子线持续时间和宽度；▼ 更低的射线伤害；▼ 极低的弹药和载弹量",
+      "effectEn": "▲ Beam spins horizontally and advances slowly, dealing continuous damage; ▲ Longer-lasting and wider plasma beams; ▼ Less beam damage; ▼ Very little reserve ammo and magazine capacity"
+    },
+    {
+      "overclockId": "9c221f73b85f4341",
+      "objectPath": "/Game/WeaponsNTools/LineCutter/Overclocks/OC_LineCutter_RollControl_C.OC_LineCutter_RollControl_C",
+      "weaponFolder": "LineCutter",
+      "nameZh": "旋转控制",
+      "nameEn": "Roll Control",
+      "effectZh": "▼ 旋转的等离子射线飞行距离更长且覆盖范围更广；▲ 按住开火按钮可操控等离子射线转向",
+      "effectEn": "▼ Rotating plasma beams travel farther and cover a wider area; ▲ Hold fire to steer the plasma beam"
+    },
+    {
+      "overclockId": "21d377aaebf6c9b9",
+      "objectPath": "/Game/WeaponsNTools/LockOnRifle/Overclocks/OC_LockOnRifle_Automatic_B.OC_LockOnRifle_Automatic_B",
+      "weaponFolder": "LockOnRifle",
+      "nameZh": "“大聪明”扳机系统",
+      "nameEn": "Smart Trigger OS",
+      "effectZh": "▲ “大聪明” 扳机系统™；▲ 自动射击已锁定的敌人，射击频率取决于锁定速率；▲ 显著提升锁定速率；▼ 降低最大锁定层数",
+      "effectEn": "▲ Smart Trigger OS; ▲ Automatically fires at locked enemies; firing rate depends on lock speed; ▲ Greatly increased lock speed; ▼ Reduced maximum locks"
+    },
+    {
+      "overclockId": "4c1ecb8b64d6d80e",
+      "objectPath": "/Game/WeaponsNTools/LockOnRifle/Overclocks/OC_LockOnRifle_Seeker_C.OC_LockOnRifle_Seeker_C",
+      "weaponFolder": "LockOnRifle",
+      "nameZh": "夺命凶弹",
+      "nameEn": "Seeker Rounds",
+      "effectZh": "▲ 锁定射击必定命中目标且无视护甲；▲ 提升锁定维持角度；▼ 降低射击速度；▼ 更长的换弹时间",
+      "effectEn": "▲ Locked shots always hit and ignore armor; ▲ Increased lock retention angle; ▼ Reduced rate of fire; ▼ Longer reload time"
+    },
+    {
+      "overclockId": "fe4083b63ce8ad5d",
+      "objectPath": "/Game/WeaponsNTools/LockOnRifle/Overclocks/OC_LockOnRifle_LockExplosions_B.OC_LockOnRifle_LockExplosions_B",
+      "weaponFolder": "LockOnRifle",
+      "nameZh": "连锁爆弹",
+      "nameEn": "Explosive Chemical Rounds",
+      "effectZh": "▲ 使命中被锁定 3 层以上的目标的最后一发子弹爆炸；▼ 降低造成的伤害；▼ 降低备弹量",
+      "effectEn": "▲ The last shot at a target with at least 3 locks explodes; ▼ Reduced damage; ▼ Reduced reserve ammo"
+    },
+    {
+      "overclockId": "2a55419ac10caa5b",
+      "objectPath": "/Game/WeaponsNTools/LockOnRifle/Overclocks/OC_LockOnRifle_ArmorBreaking_C.OC_LockOnRifle_ArmorBreaking_C",
+      "weaponFolder": "LockOnRifle",
+      "nameZh": "破甲模块",
+      "nameEn": "Armor Break Module",
+      "effectZh": "▲ 达到最大锁定上限时对护甲造成更高伤害",
+      "effectEn": "▲ More armor damage at maximum locks"
+    },
+    {
+      "overclockId": "dda30b2693927327",
+      "objectPath": "/Game/WeaponsNTools/LockOnRifle/Overclocks/OC_LockOnRifle_SlowEnemyOnLock_B.OC_LockOnRifle_SlowEnemyOnLock_B",
+      "weaponFolder": "LockOnRifle",
+      "nameZh": "神经套索",
+      "nameEn": "Neuro-Lasso",
+      "effectZh": "▲ 使被锁定的目标减速；▼ 限制锁定持续时间",
+      "effectEn": "▲ Slows locked targets; ▼ Limited lock duration"
+    },
+    {
+      "overclockId": "bcece4f245a32985",
+      "objectPath": "/Game/WeaponsNTools/LockOnRifle/Overclocks/OC_LockOnRifle_Executioner_BB.OC_LockOnRifle_Executioner_BB",
+      "weaponFolder": "LockOnRifle",
+      "nameZh": "死刑宣判",
+      "nameEn": "Executioner",
+      "effectZh": "▲ 在满锁定层数时显著增加弱点伤害；▲ 非常快的锁定速度；▼ 降低最大锁定层数；▼ 降低弹匣容量和备弹量",
+      "effectEn": "▲ Greatly increased weakpoint damage at full locks; ▲ Much faster locking; ▼ Reduced maximum locks; ▼ Reduced magazine size and reserve ammo"
+    },
+    {
+      "overclockId": "760004cfab32cd95",
+      "objectPath": "/Game/WeaponsNTools/LockOnRifle/Overclocks/OC_LockOnRifle_Erraser_C.OC_LockOnRifle_Erraser_C",
+      "weaponFolder": "LockOnRifle",
+      "nameZh": "肃清威胁",
+      "nameEn": "Eraser",
+      "effectZh": "▲ 增加最大锁定层数；▲ 提升弹匣容量",
+      "effectEn": "▲ Increased maximum locks; ▲ Increased magazine size"
+    },
+    {
+      "overclockId": "6faf5dbc3e78da00",
+      "objectPath": "/Game/WeaponsNTools/MicroMissileLauncher/Overclocks/OC_MML_Mines_B.OC_MML_Mines_B",
+      "weaponFolder": "MicroMissileLauncher",
+      "nameZh": "布雷系统",
+      "nameEn": "Minelayer System",
+      "effectZh": "▲ 击中地形时布置强力地雷；▲ 地雷的伤害和爆炸范围更为优异；▼ 飞弹无制导功能；▼ 略微减少备弹量",
+      "effectEn": "▲ Creates powerful mines on terrain impact; ▲ More mine damage and blast radius; ▼ No missile guidance; ▼ Slightly reduced reserve ammo"
+    },
+    {
+      "overclockId": "220597296af8dfc9",
+      "objectPath": "/Game/WeaponsNTools/MicroMissileLauncher/Overclocks/OC_MML_Penetration_B.OC_MML_Penetration_B",
+      "weaponFolder": "MicroMissileLauncher",
+      "nameZh": "贯穿爆破",
+      "nameEn": "Plasma Burster Missiles",
+      "effectZh": "▲ 飞弹会贯穿敌人；▲ 提升飞弹机动性；▼ 降低造成的伤害；▼ 降低备弹量",
+      "effectEn": "▲ Missiles pierce enemies; ▲ Increased missile maneuverability; ▼ Reduced damage; ▼ Reduced reserve ammo"
+    },
+    {
+      "overclockId": "bfd1882b4d06a939",
+      "objectPath": "/Game/WeaponsNTools/MicroMissileLauncher/Overclocks/OC_MML_RoF_Velocity_C.OC_MML_RoF_Velocity_C",
+      "weaponFolder": "MicroMissileLauncher",
+      "nameZh": "过载供弹",
+      "nameEn": "Overtuned Feed Mechanism",
+      "effectZh": "▲ 提高射速；▲ 提升飞弹最大速度",
+      "effectEn": "▲ Increased rate of fire; ▲ Increased missile top speed"
+    },
+    {
+      "overclockId": "b4d82f4a75ed56c0",
+      "objectPath": "/Game/WeaponsNTools/MicroMissileLauncher/Overclocks/OC_MML_GuidanceCutoff_C.OC_MML_GuidanceCutoff_C",
+      "weaponFolder": "MicroMissileLauncher",
+      "nameZh": "火箭弹幕",
+      "nameEn": "Rocket Barrage",
+      "effectZh": "▲ 显著提高射速；▲ 相当多的弹药；▼ 飞弹无制导功能；▼ 更低的单发伤害",
+      "effectEn": "▲ Greatly increased rate of fire; ▲ Much more ammo; ▼ No missile guidance; ▼ Less damage per shot"
+    },
+    {
+      "overclockId": "0b19e60256201005",
+      "objectPath": "/Game/WeaponsNTools/MicroMissileLauncher/Overclocks/OC_MML_JetFuel_U.OC_MML_JetFuel_U",
+      "weaponFolder": "MicroMissileLauncher",
+      "nameZh": "极速飞弹",
+      "nameEn": "Jet Fuel Homebrew",
+      "effectZh": "▲ 飞弹射出后瞬间开始提速且可达到更高速度；▲ 显著增加直接伤害；▼ 爆炸的范围和伤害减少；▼ 降低弹匣容量和备弹量",
+      "effectEn": "▲ Missiles accelerate instantly and reach a higher top speed; ▲ Greatly increased direct damage; ▼ Less explosion damage and radius; ▼ Reduced magazine size and reserve ammo"
+    },
+    {
+      "overclockId": "e144b19cb11c705b",
+      "objectPath": "/Game/WeaponsNTools/MicroMissileLauncher/Overclocks/OC_MML_ClusterMissiles.OC_MML_ClusterMissiles",
+      "weaponFolder": "MicroMissileLauncher",
+      "nameZh": "集束轰炸",
+      "nameEn": "Cluster Charges",
+      "effectZh": "▲ 按住换弹键可以使飞弹释放小型炸弹；▲ 显著提升伤害；▼ 低速发射物；▼ 降低弹匣容量和备弹量",
+      "effectEn": "▲ Hold reload to release small bombs from missiles; ▲ Greatly increased damage; ▼ Slow projectiles; ▼ Reduced magazine size and reserve ammo"
+    },
+    {
+      "overclockId": "822f6523b4c426a0",
+      "objectPath": "/Game/WeaponsNTools/MicroMissileLauncher/Overclocks/OC_MML_AoEDamage_Radius_C.OC_MML_AoEDamage_Radius_C",
+      "weaponFolder": "MicroMissileLauncher",
+      "nameZh": "破片飞弹",
+      "nameEn": "Fragmentation Missiles",
+      "effectZh": "▲ 略微增大作用范围；▲ 略微提高范围伤害",
+      "effectEn": "▲ Slightly increased effect radius; ▲ Slightly increased area damage"
+    },
+    {
+      "overclockId": "23972979dfe0bca8",
+      "objectPath": "/Game/WeaponsNTools/MicroMissileLauncher/Overclocks/OC_MML_ChargeMechanism_U.OC_MML_ChargeMechanism_U",
+      "weaponFolder": "MicroMissileLauncher",
+      "nameZh": "齐射模块",
+      "nameEn": "Salvo Module",
+      "effectZh": "▲ 同时发射至多 9 枚飞弹；▲ 根据已填装的飞弹数增加额外伤害；▼ 齐射的飞弹无法被引导",
+      "effectEn": "▲ Fires up to 9 missiles at once; ▲ Bonus damage based on the number of loaded missiles; ▼ Salvo missiles cannot be guided"
+    },
+    {
+      "overclockId": "7c112a3e182ba2f8",
+      "objectPath": "/Game/WeaponsNTools/MicrowaveGun/Overclocks/OC_MicrowaveGun_MegaPowerSupply.OC_MicrowaveGun_MegaPowerSupply",
+      "weaponFolder": "MicrowaveGun",
+      "nameZh": "超级电容",
+      "nameEn": "Mega Power Supply",
+      "effectZh": "▲ 提高射速；▲ 相当多的弹药；▼ 降低冷却速率；▼ 更慢的过热后恢复时间",
+      "effectEn": "▲ Increased rate of fire; ▲ Much more ammo; ▼ Reduced cooling rate; ▼ Slower overheat recovery"
+    },
+    {
+      "overclockId": "c60ab7d44bbd0a17",
+      "objectPath": "/Game/WeaponsNTools/MicrowaveGun/Overclocks/OC_SuperFocusLens.OC_SuperFocusLens",
+      "weaponFolder": "MicrowaveGun",
+      "nameZh": "超聚镜头",
+      "nameEn": "Super Focus Lens",
+      "effectZh": "▲ 增加近距离伤害",
+      "effectEn": "▲ Increased close-range damage"
+    },
+    {
+      "overclockId": "e23afe436667e2b4",
+      "objectPath": "/Game/WeaponsNTools/MicrowaveGun/Overclocks/OC_MicrowaveGun_GammaContamination.OC_MicrowaveGun_GammaContamination",
+      "weaponFolder": "MicrowaveGun",
+      "nameZh": "伽马污染",
+      "nameEn": "Gamma Contamination",
+      "effectZh": "▲ 有几率对敌人造成放射性污染；▼ 备弹量和伤害减少；▼ 大幅减小作用范围",
+      "effectEn": "▲ Chance to irradiate enemies; ▼ Less reserve ammo and damage; ▼ Greatly reduced effect radius"
+    },
+    {
+      "overclockId": "a02a11ebe1d5c0f5",
+      "objectPath": "/Game/WeaponsNTools/MicrowaveGun/Overclocks/OC_DiffusionRay.OC_DiffusionRay",
+      "weaponFolder": "MicrowaveGun",
+      "nameZh": "扩散射线",
+      "nameEn": "Diffusion Ray",
+      "effectZh": "▲ 微波可贯穿更多敌人；▲ 命中敌人时使其减速；▼ 降低造成的伤害",
+      "effectEn": "▲ Microwaves penetrate more enemies; ▲ Hits slow enemies; ▼ Reduced damage"
+    },
+    {
+      "overclockId": "3bdd4f9861747937",
+      "objectPath": "/Game/WeaponsNTools/MicrowaveGun/Overclocks/OC_BlisteringNecrosis.OC_BlisteringNecrosis",
+      "weaponFolder": "MicrowaveGun",
+      "nameZh": "脓包坏死",
+      "nameEn": "Blistering Necrosis",
+      "effectZh": "▲ 有几率在敌人身上熔出弱点；▼ 每次射击产生更多热量；▼ 降低冷却速率",
+      "effectEn": "▲ Chance to create weakpoints on enemies; ▼ More heat per shot; ▼ Reduced cooling rate"
+    },
+    {
+      "overclockId": "4988dee70722508f",
+      "objectPath": "/Game/WeaponsNTools/MicrowaveGun/Overclocks/OC_LiquidCooler.OC_LiquidCooler",
+      "weaponFolder": "MicrowaveGun",
+      "nameZh": "液冷系统",
+      "nameEn": "Liquid Cooling System",
+      "effectZh": "▲ 加快冷却速率；▲ 过热后更快恢复；▼ 每次射击产生更少热量",
+      "effectEn": "▲ Faster cooling; ▲ Faster overheat recovery; ▼ Less heat per shot"
+    },
+    {
+      "overclockId": "ae870f9e484cd5a5",
+      "objectPath": "/Game/WeaponsNTools/Pistol/Overclocks/OC_Pistol_ExplosiveReload_U.OC_Pistol_ExplosiveReload_U",
+      "weaponFolder": "Pistol",
+      "nameZh": "爆破装填",
+      "nameEn": "Explosive Reload",
+      "effectZh": "▲ 换弹时引爆射入目标体内的微型炸药，造成大量伤害；▼ 显著减少备弹量；▼ 显著减少弹匣容量",
+      "effectEn": "▲ Reloading detonates explosives embedded in targets for heavy damage; ▼ Greatly reduced reserve ammo; ▼ Greatly reduced magazine size"
+    },
+    {
+      "overclockId": "d9333c719c85c05b",
+      "objectPath": "/Game/WeaponsNTools/Pistol/Overclocks/OC_Pistol_ClipSize_B.OC_Pistol_ClipSize_B",
+      "weaponFolder": "Pistol",
+      "nameZh": "超大弹夹",
+      "nameEn": "Oversized Magazine",
+      "effectZh": "▲ 显著提升弹匣容量；▼ 更长的换弹时间",
+      "effectEn": "▲ Greatly increased magazine size; ▼ Longer reload time"
+    },
+    {
+      "overclockId": "d4791239062c5258",
+      "objectPath": "/Game/WeaponsNTools/Pistol/Overclocks/OC_Pistol_ChainHit_C.OC_Pistol_ChainHit_C",
+      "weaponFolder": "Pistol",
+      "nameZh": "连锁打击",
+      "nameEn": "Chain Hit",
+      "effectZh": "▲ 命中弱点的子弹将弹射到附近的敌人身上",
+      "effectEn": "▲ Weakpoint hits ricochet into nearby enemies"
+    },
+    {
+      "overclockId": "27b075a4970c1c81",
+      "objectPath": "/Game/WeaponsNTools/Pistol/Overclocks/OC_Pistol_FullAuto_U.OC_Pistol_FullAuto_U",
+      "weaponFolder": "Pistol",
+      "nameZh": "全自动射击",
+      "nameEn": "Automatic Fire",
+      "effectZh": "▲ 射击模式变为全自动；▲ 显著提高射速；▼ 扩大基础散布；▼ 更强的后坐力",
+      "effectEn": "▲ Changes firing mode to full auto; ▲ Greatly increased rate of fire; ▼ More base spread; ▼ More recoil"
+    },
+    {
+      "overclockId": "4ec0e577e7787962",
+      "objectPath": "/Game/WeaponsNTools/Pistol/Overclocks/OC_Pistol_TranqDarts_U.OC_Pistol_TranqDarts_U",
+      "weaponFolder": "Pistol",
+      "nameZh": "镇定弹药",
+      "nameEn": "Tranquilizer Rounds",
+      "effectZh": "▼ 对大多数敌人造成更长时间的击晕和减速；▼ 降低射速；▼ 降低弹匣容量",
+      "effectEn": "▼ Longer stun and slowdown against most enemies; ▼ Reduced rate of fire; ▼ Reduced magazine size"
+    },
+    {
+      "overclockId": "1861f345d66af269",
+      "objectPath": "/Game/WeaponsNTools/Pistol/Overclocks/OC_Pistol_RandomDamageNew_C.OC_Pistol_RandomDamageNew_C",
+      "weaponFolder": "Pistol",
+      "nameZh": "自制火药",
+      "nameEn": "Homebrew Powder",
+      "effectZh": "▲ 每发造成 80% 至 140% 伤害",
+      "effectEn": "▲ Each shot deals 80% to 140% damage"
+    },
+    {
+      "overclockId": "3c69072a966c0caa",
+      "objectPath": "/Game/WeaponsNTools/PlasmaCarbine/Overclocks/OC_PlasmaCarbine_OverheatAoE_B.OC_PlasmaCarbine_OverheatAoE_B",
+      "weaponFolder": "PlasmaCarbine",
+      "nameZh": "暴力散热",
+      "nameEn": "Aggressive Venting",
+      "effectZh": "▲ 过热时造成大范围燃烧伤害；▲ 过热后更快恢复",
+      "effectEn": "▲ Deals fire damage over a wide area on overheating; ▲ Faster overheat recovery"
+    },
+    {
+      "overclockId": "5b134d4f16283b5a",
+      "objectPath": "/Game/WeaponsNTools/PlasmaCarbine/Overclocks/OC_PlasmaCarbine_MoreDamageLessAccuracy_U.OC_PlasmaCarbine_MoreDamageLessAccuracy_U",
+      "weaponFolder": "PlasmaCarbine",
+      "nameZh": "爆能电浆",
+      "nameEn": "Overtuned Particle Accelerator",
+      "effectZh": "▲ 显著提升伤害；▼ 扩大基础散布；▼ 每次射击产生更多热量；▼ 降低备弹量",
+      "effectEn": "▲ Greatly increased damage; ▼ More base spread; ▼ More heat per shot; ▼ Reduced reserve ammo"
+    },
+    {
+      "overclockId": "9fdd2326d74aaa2e",
+      "objectPath": "/Game/WeaponsNTools/PlasmaCarbine/Overclocks/OC_PlasmaCarbine_Bouncy_C.OC_PlasmaCarbine_Bouncy_C",
+      "weaponFolder": "PlasmaCarbine",
+      "nameZh": "弹跳电浆",
+      "nameEn": "Impact Deflection",
+      "effectZh": "▲ 发射物可以弹跳；▼ 降低射速",
+      "effectEn": "▲ Projectiles can bounce; ▼ Reduced rate of fire"
+    },
+    {
+      "overclockId": "cb0de1234044ea53",
+      "objectPath": "/Game/WeaponsNTools/PlasmaCarbine/Overclocks/OC_PlasmaCarbine_HeatBuildUpDamage_U.OC_PlasmaCarbine_HeatBuildUpDamage_U",
+      "weaponFolder": "PlasmaCarbine",
+      "nameZh": "废热回导",
+      "nameEn": "Thermal Exhaust Feedback",
+      "effectZh": "▲ 武器积累热量高于 50% 时， 每增加 10% 热量都将提升等离子体附带的温度和火焰伤害；▼ 每次射击产生更多热量；▼ 更长过热持续时间",
+      "effectEn": "▲ Above 50% heat, every additional 10% heat increases projectile heat and fire damage; ▼ More heat per shot; ▼ Longer overheat duration"
+    },
+    {
+      "overclockId": "28fdcb152e9e0d1e",
+      "objectPath": "/Game/WeaponsNTools/PlasmaCarbine/Overclocks/OC_PlasmaCarbine_ElementalWeakness.OC_PlasmaCarbine_ElementalWeakness",
+      "weaponFolder": "PlasmaCarbine",
+      "nameZh": "恒温电导",
+      "nameEn": "Conductive Thermals",
+      "effectZh": "▲ 命中敌人将在短时间内增加其受到的燃烧、冻结、电击伤害；▼ 命中敌人将在短时间内降低其燃烧或冻结的阈值；▼ 降低造成的伤害；▼ 每次射击产生更多热量",
+      "effectEn": "▲ Hits briefly increase the fire, frost and electric damage targets take; ▼ Hits temporarily lower targets' burn and freeze thresholds; ▼ Reduced damage; ▼ More heat per shot"
+    },
+    {
+      "overclockId": "9cc80c848ca9d909",
+      "objectPath": "/Game/WeaponsNTools/PlasmaCarbine/Overclocks/OC_ShieldVelocityDamage_U.OC_ShieldVelocityDamage_U",
+      "weaponFolder": "PlasmaCarbine",
+      "nameZh": "护盾协能",
+      "nameEn": "Shield Battery Booster",
+      "effectZh": "▲ 略微提高射速和电池容量；▲ 满护盾时显著提高发射物飞行速度和伤害；▼ 显著降低护盾充能延迟；▼ 每发射击产生更多的热量，武器过热将使护盾瓦解",
+      "effectEn": "▲ Slightly increased rate of fire and battery capacity; ▲ Greatly increased projectile speed and damage at full shields; ▼ Greatly reduced shield recharge delay; ▼ More heat per shot; overheating collapses your shield"
+    },
+    {
+      "overclockId": "22b32f17474341de",
+      "objectPath": "/Game/WeaponsNTools/PlasmaCarbine/Overclocks/OC_PlasmaCarbine_AmmoReturn_B.OC_PlasmaCarbine_AmmoReturn_B",
+      "weaponFolder": "PlasmaCarbine",
+      "nameZh": "模块重调",
+      "nameEn": "Rewiring Mod",
+      "effectZh": "▲ 过热冷却期间回退弹药；▼ 更慢的过热后恢复时间；▼ 降低备弹量",
+      "effectEn": "▲ Regenerates ammo during overheat recovery; ▼ Slower overheat recovery; ▼ Reduced reserve ammo"
+    },
+    {
+      "overclockId": "377391cba6a58b91",
+      "objectPath": "/Game/WeaponsNTools/PlasmaCarbine/Overclocks/OC_PlasmaCarbine_CoolingRateAndLessHeatPerShot_C.OC_PlasmaCarbine_CoolingRateAndLessHeatPerShot_C",
+      "weaponFolder": "PlasmaCarbine",
+      "nameZh": "液冷散热",
+      "nameEn": "Thermal Liquid Coolant",
+      "effectZh": "▲ 加快冷却速率；▼ 每次射击产生更少热量",
+      "effectEn": "▲ Faster cooling; ▼ Less heat per shot"
+    },
+    {
+      "overclockId": "6f27f78130094b42",
+      "objectPath": "/Game/WeaponsNTools/Revolver/Overclocks/OC_Revolver_Damage2x_U.OC_Revolver_Damage2x_U",
+      "weaponFolder": "Revolver",
+      "nameZh": "巨像弹药",
+      "nameEn": "Elephant Rounds",
+      "effectZh": "▲ 大幅提升伤害和精准度；▼ 大幅增加后坐力和每发散布；▼ 显著减少备弹量；▼ 换弹速度较慢的三发弹巢",
+      "effectEn": "▲ Greatly increased damage and accuracy; ▼ Much more recoil and spread per shot; ▼ Greatly reduced reserve ammo; ▼ Three-round cylinder with slower reloads"
+    },
+    {
+      "overclockId": "487002dbfd3e56fc",
+      "objectPath": "/Game/WeaponsNTools/Revolver/Overclocks/OC_Revolver_LuckyBullets_C.OC_Revolver_LuckyBullets_C",
+      "weaponFolder": "Revolver",
+      "nameZh": "连锁打击",
+      "nameEn": "Chain Hit",
+      "effectZh": "▲ 命中弱点的子弹将弹射到附近的敌人身上",
+      "effectEn": "▲ Weakpoint hits ricochet into nearby enemies"
+    },
+    {
+      "overclockId": "f2ef14a6140c367f",
+      "objectPath": "/Game/WeaponsNTools/Revolver/Overclocks/OC_Revolver_ClipSize_B.OC_Revolver_ClipSize_B",
+      "weaponFolder": "Revolver",
+      "nameZh": "六连射手",
+      "nameEn": "Six Shooter",
+      "effectZh": "▲ 射速更快的六发转轮；▲ 更多弹药；▼ 扩大基础散布；▼ 更长的换弹时间",
+      "effectEn": "▲ Faster-firing six-round cylinder; ▲ More ammo; ▼ More base spread; ▼ Longer reload time"
+    },
+    {
+      "overclockId": "79d04705c6a5e6a1",
+      "objectPath": "/Game/WeaponsNTools/Revolver/Overclocks/OC_Revolver_MagicBullets_U.OC_Revolver_MagicBullets_U",
+      "weaponFolder": "Revolver",
+      "nameZh": "魔法子弹",
+      "nameEn": "Magic Bullets",
+      "effectZh": "▲ 命中岩体的子弹将弹跳射中附近目标；▲ 更多弹药；▼ 显著减少伤害",
+      "effectEn": "▲ Shots ricochet off terrain into nearby targets; ▲ More ammo; ▼ Greatly reduced damage"
+    },
+    {
+      "overclockId": "40d45435ff044024",
+      "objectPath": "/Game/WeaponsNTools/Revolver/Overclocks/OC_Revolver_RoF_B.OC_Revolver_RoF_B",
+      "weaponFolder": "Revolver",
+      "nameZh": "易燃子弹",
+      "nameEn": "Volatile Bullets",
+      "effectZh": "▲ 对点燃目标造成额外燃烧伤害；▼ 显著减少直接伤害",
+      "effectEn": "▲ Bonus fire damage to burning targets; ▼ Greatly reduced direct damage"
+    },
+    {
+      "overclockId": "07b1bb14580141d1",
+      "objectPath": "/Game/WeaponsNTools/Revolver/Overclocks/OC_Revolver_RandomDamageNew_C.OC_Revolver_RandomDamageNew_C",
+      "weaponFolder": "Revolver",
+      "nameZh": "自制火药",
+      "nameEn": "Homebrew Powder",
+      "effectZh": "▲ 最高造成 200% 伤害；▼ 最低造成 75% 伤害",
+      "effectEn": "▲ Up to 200% damage; ▼ At least 75% damage"
+    },
+    {
+      "overclockId": "c029d71147ccc0bd",
+      "objectPath": "/Game/WeaponsNTools/SawedOffShotgun/Overclocks/OC_SawedOff_Damage_U.OC_SawedOff_Damage_U",
+      "weaponFolder": "SawedOffShotgun",
+      "nameZh": "超大弹壳",
+      "nameEn": "Jumbo Shells",
+      "effectZh": "▲ 大幅提升伤害；▼ 显著减少备弹量；▼ 更长的换弹时间",
+      "effectEn": "▲ Greatly increased damage; ▼ Greatly reduced reserve ammo; ▼ Longer reload time"
+    },
+    {
+      "overclockId": "15733f9099f9e5bc",
+      "objectPath": "/Game/WeaponsNTools/SawedOffShotgun/Overclocks/OC_SawedOff_DoubleBarrel_C.OC_SawedOff_DoubleBarrel_C",
+      "weaponFolder": "SawedOffShotgun",
+      "nameZh": "双管齐下",
+      "nameEn": "Double Barrel",
+      "effectZh": "▲ 同时射出两发霰弹；▲ 极大地提升冲击波的伤害",
+      "effectEn": "▲ Fires both barrels at once; ▲ Massively increased blastwave damage"
+    },
+    {
+      "overclockId": "5fdf4b9b639f7778",
+      "objectPath": "/Game/WeaponsNTools/SawedOffShotgun/Overclocks/OC_SawedOff_ShotgunJump_C.OC_SawedOff_ShotgunJump_C",
+      "weaponFolder": "SawedOffShotgun",
+      "nameZh": "特殊火药",
+      "nameEn": "Special Powder",
+      "effectZh": "▲ 利用霰弹枪的冲击将自己推向空中",
+      "effectEn": "▲ Shotgun recoil launches you into the air"
+    },
+    {
+      "overclockId": "407aa0fdec2f3610",
+      "objectPath": "/Game/WeaponsNTools/SawedOffShotgun/Overclocks/OC_SawedOff_DMG_C.OC_SawedOff_DMG_C",
+      "weaponFolder": "SawedOffShotgun",
+      "nameZh": "填充弹壳",
+      "nameEn": "Stuffed Shells",
+      "effectZh": "▲ 每发霰弹射出更多弹丸；▲ 略微提升伤害",
+      "effectEn": "▲ More pellets per shot; ▲ Slightly increased damage"
+    },
+    {
+      "overclockId": "5fd9e7894a667d15",
+      "objectPath": "/Game/WeaponsNTools/SawedOffShotgun/Overclocks/OC_SawedOff_MaxAmmo_C.OC_SawedOff_MaxAmmo_C",
+      "weaponFolder": "SawedOffShotgun",
+      "nameZh": "压缩弹壳",
+      "nameEn": "Compact Shells",
+      "effectZh": "▲ 更多弹药；▲ 更快的换弹速度",
+      "effectEn": "▲ More ammo; ▲ Faster reloads"
+    },
+    {
+      "overclockId": "c03803c987044002",
+      "objectPath": "/Game/WeaponsNTools/SawedOffShotgun/Overclocks/OC_SawedOff_Accuracy_B.OC_SawedOff_Accuracy_B",
+      "weaponFolder": "SawedOffShotgun",
+      "nameZh": "异形弹壳",
+      "nameEn": "Shaped Shells",
+      "effectZh": "▲ 显著缩小基础散布；▼ 略微减少备弹量",
+      "effectEn": "▲ Greatly reduced base spread; ▼ Slightly reduced reserve ammo"
+    },
+    {
+      "overclockId": "7079496eac164b54",
+      "objectPath": "/Game/WeaponsNTools/SMG/Overclocks/OC_SMG_ConductorBullets_U.OC_SMG_ConductorBullets_U",
+      "weaponFolder": "SMG",
+      "nameZh": "导体附加",
+      "nameEn": "Micro-Conductor Add-On",
+      "effectZh": "▲ 射击平台和炮台将使其通电；▲ 通电炮台可作为电弧节点；▼ 降低射速；▼ 降低备弹量",
+      "effectEn": "▲ Shooting platforms and sentries electrifies them; ▲ Electrified sentries act as electric-arc nodes; ▼ Reduced rate of fire; ▼ Reduced reserve ammo"
+    },
+    {
+      "overclockId": "2be4c110e96d02fe",
+      "objectPath": "/Game/WeaponsNTools/SMG/Overclocks/OC_SMG_RoF_U.OC_SMG_RoF_U",
+      "weaponFolder": "SMG",
+      "nameZh": "电磁反馈",
+      "nameEn": "EM Refire Booster",
+      "effectZh": "▲ 显著提高射速；▲ 子弹附加电击伤害；▼ 扩大基础散布",
+      "effectEn": "▲ Greatly increased rate of fire; ▲ Shots deal additional electric damage; ▼ More base spread"
+    },
+    {
+      "overclockId": "180e720fc46a1828",
+      "objectPath": "/Game/WeaponsNTools/SMG/Overclocks/OC_SMG_SpreadDampener.OC_SMG_SpreadDampener",
+      "weaponFolder": "SMG",
+      "nameZh": "合金部件",
+      "nameEn": "Hyperalloy Assembly",
+      "effectZh": "▲ 显著缩小基础散布；▲ 提高弱点伤害；▼ 很大的后坐力；▼ 降低弹匣容量",
+      "effectEn": "▲ Greatly reduced base spread; ▲ Increased weakpoint damage; ▼ Heavy recoil; ▼ Reduced magazine size"
+    },
+    {
+      "overclockId": "be23e1fca7b7b882",
+      "objectPath": "/Game/WeaponsNTools/SMG/Overclocks/OC_SMG_RoF-new_C.OC_SMG_RoF-new_C",
+      "weaponFolder": "SMG",
+      "nameZh": "精心保养",
+      "nameEn": "Well-Oiled Machine",
+      "effectZh": "▲ 提高射速；▲ 更快的换弹速度",
+      "effectEn": "▲ Increased rate of fire; ▲ Faster reloads"
+    },
+    {
+      "overclockId": "bffcca7a845ce1f3",
+      "objectPath": "/Game/WeaponsNTools/SMG/Overclocks/OC_SMG_Turret-AoE-Discharge_U.OC_SMG_Turret-AoE-Discharge_U",
+      "weaponFolder": "SMG",
+      "nameZh": "炮塔电磁爆炸",
+      "nameEn": "Turret EM Discharge",
+      "effectZh": "▲ 射击炮台将使炮台进行一次大型放电；▼ 降低造成的伤害；▼ 略微减少弹匣容量",
+      "effectEn": "▲ Shooting a sentry triggers a large electric discharge; ▼ Reduced damage; ▼ Slightly reduced magazine size"
+    },
+    {
+      "overclockId": "98d924800069aaed",
+      "objectPath": "/Game/WeaponsNTools/SMG/Overclocks/OC_SMG_Ammo_B.OC_SMG_Ammo_B",
+      "weaponFolder": "SMG",
+      "nameZh": "轻量弹药",
+      "nameEn": "Light-Weight Rounds",
+      "effectZh": "▲ 相当多的弹药；▼ 降低射速；▼ 略微减少伤害",
+      "effectEn": "▲ Much more ammo; ▼ Reduced rate of fire; ▼ Slightly reduced damage"
+    },
+    {
+      "overclockId": "aaa7786d7ee14b3a",
+      "objectPath": "/Game/WeaponsNTools/SMG/Overclocks/OC_SMG_SuperSlim_C.OC_SMG_SuperSlim_C",
+      "weaponFolder": "SMG",
+      "nameZh": "细致弹药",
+      "nameEn": "Super-Slim Rounds",
+      "effectZh": "▲ 提升弹匣容量；▲ 缩小基础散布",
+      "effectEn": "▲ Increased magazine size; ▲ Less base spread"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "schema": "dor.contributor.authoring-manifest.v1",
+  "status": "Public semantic authoring, current-source preparation and clean contributor build locally validated through Generate, saved readback, Cook, Mirror, cooked readback and exact test PAK verification. Supported Amount5 edit propagated; delivered recipe restored to baseline. Shipping constructor behavior and gameplay are not certified by editor checks.",
+  "recipes": [
+    {
+      "path": "Authoring/recipes/gf02.json",
+      "family": "gf02",
+      "rows": 105,
+      "legacySchema": "dor.gf02.batch-recipes.v1",
+      "role": "Maintained recipe; optional outputOverride on existing generated numeric leaf; identity/source/order locked"
+    },
+    {
+      "path": "Authoring/recipes/gf03.json",
+      "family": "gf03",
+      "rows": 79,
+      "legacySchema": "dor.gf03.batch-recipes.v1",
+      "role": "Maintained recipe; optional outputOverride on existing generated numeric leaf; identity/source/order locked"
+    },
+    {
+      "path": "Authoring/recipes/gf04.json",
+      "family": "gf04",
+      "rows": 63,
+      "legacySchema": "dor.gf04.batch-recipes.v1",
+      "role": "Maintained recipe; optional outputOverride on existing generated numeric leaf; identity/source/order locked"
+    },
+    {
+      "path": "Authoring/recipes/remaining.json",
+      "family": "remaining",
+      "rows": 47,
+      "legacySchema": "dor.remaining.batch-recipes.v1",
+      "role": "Maintained recipe; optional outputOverride on existing generated numeric leaf; identity/source/order locked"
+    }
+  ],
+  "maps": [
+    "Authoring/gf01-pairs.json",
+    "Authoring/classification.json",
+    "Authoring/families.json",
+    "Authoring/stable-identities.json",
+    "Authoring/overclock-identities.json",
+    "Authoring/admission.json",
+    "Authoring/runtime-base.json",
+    "Authoring/native-compatibility.json",
+    "Authoring/native-dependencies.json",
+    "Authoring/native-editor-staging.json"
+  ],
+  "policies": [
+    "Analysis/data/manual/pair-overrides.json",
+    "Analysis/data/manual/implementation-overrides.json",
+    "Analysis/data/manual/numeric-stack-policy.json",
+    "Analysis/data/manual/high-load-policy.json",
+    "Analysis/config/weapon-mirrors.vertical.json"
+  ],
+  "display": "Mod/Generated/display-overrides.json",
+  "baseline": {
+    "version": "dor.contributor.runtime-baseline.v2",
+    "catalogPairs": 456,
+    "admittedPairs": 453,
+    "manifestHash": "284ddf933a931813e52a71ac36e32ca0150a1dc07b66e6e206f6c53e4101ee0c",
+    "previousManifestHash": "a49387dd59331a3c952e2d500d28e64776d0564dffd010d3494c7c72005aacc6",
+    "migration": "Reproduced v1 from unchanged isolated historical private inputs. Added only runtime259 rj250Double metadata; row259 hash and manifest hash changed. All other fields recursively equal; current live manifest exact match. No private authority bytes changed."
+  },
+  "preservation": "All recipe numerical, occurrence, operation, ordering, GUID and stable identity fields retained. Only explicit historical provenance/status metadata was projected away. Legacy contracts remain unchanged in private snapshot.",
+  "integration": "Scripts/Prepare-DORNativeInputs.ps1 then Scripts/Build-DORAuthoring.ps1 and Scripts/Build-DORMod.ps1 -PreparedInputs; complete maintained evidence route. Whole-game hashes are provenance; consumed source semantics admit inputs. Phase-specific native-editor-staging.json preserves the full provenance cache and selects exact editor consumers. See Engineering/PUBLIC-TOOLCHAIN.md.",
+  "baselineHistory": [
+    {
+      "version": "dor.contributor.runtime-baseline.v1",
+      "catalogPairs": 456,
+      "admittedPairs": 453,
+      "manifestHash": "a49387dd59331a3c952e2d500d28e64776d0564dffd010d3494c7c72005aacc6",
+      "role": "Historical baseline retained unchanged"
+    }
+  ],
+  "mechanismAugmentations": [
+    {
+      "testIndex": 259,
+      "pairId": "8a3b70ef101cffc8",
+      "field": "rj250Double",
+      "owner": "Runtime generator metadata and C++ mechanism emission",
+      "numericRecipeLeaves": 9,
+      "generatedMechanismLeaves": 1,
+      "publicEditingSupported": false
+    }
+  ],
+  "supportedEdit": "Only optional outputOverride:{value,reason} on existing emitted numeric leaves; native source facts, selections, IDs and ordering remain immutable."
+}

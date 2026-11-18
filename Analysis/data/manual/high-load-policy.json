@@ -1,0 +1,155 @@
+{
+  "schema": "dor.high-load-policy.v1",
+  "defaultEnabled": false,
+  "assessmentKind": "conservative-engineering-inference-no-benchmarks",
+  "exclusions": [
+    {
+      "pairId": "27a11f316881b8ad",
+      "runtimeCode": 187
+    },
+    {
+      "pairId": "1d60d2384f51a821",
+      "runtimeCode": 191
+    },
+    {
+      "pairId": "54c2676cafa22cd1",
+      "runtimeCode": 193
+    },
+    {
+      "pairId": "af47249a9c64e6fa",
+      "runtimeCode": 198
+    },
+    {
+      "pairId": "3232e6f6a10cd620",
+      "runtimeCode": 199
+    },
+    {
+      "pairId": "6afa22d96d8a977b",
+      "runtimeCode": 230
+    },
+    {
+      "pairId": "7cd39dd9b62b9ad1",
+      "runtimeCode": 231
+    },
+    {
+      "pairId": "11185079f4000d12",
+      "runtimeCode": 232
+    },
+    {
+      "pairId": "33564c3d905bd43c",
+      "runtimeCode": 233
+    },
+    {
+      "pairId": "a5029b7554da737d",
+      "runtimeCode": 234
+    },
+    {
+      "pairId": "27d5856bec622c42",
+      "runtimeCode": 235
+    },
+    {
+      "pairId": "7ae8d77491143621",
+      "runtimeCode": 236
+    },
+    {
+      "pairId": "43192334319af5e2",
+      "runtimeCode": 237
+    },
+    {
+      "pairId": "b78cc9fe861e698e",
+      "runtimeCode": 238
+    },
+    {
+      "pairId": "77001cad4e15a528",
+      "runtimeCode": 239
+    },
+    {
+      "pairId": "8f422151e59968ce",
+      "runtimeCode": 240
+    },
+    {
+      "pairId": "5c38d57479fb019d",
+      "runtimeCode": 241
+    },
+    {
+      "pairId": "729d4897bc95daeb",
+      "runtimeCode": 242
+    },
+    {
+      "pairId": "459227e2b662d5f2",
+      "runtimeCode": 243
+    },
+    {
+      "pairId": "ba873f605c6d3132",
+      "runtimeCode": 244
+    },
+    {
+      "pairId": "a2386a32ff9adf95",
+      "runtimeCode": 246
+    },
+    {
+      "pairId": "ac72b198823d2eed",
+      "runtimeCode": 247
+    },
+    {
+      "pairId": "7e2182530076d048",
+      "runtimeCode": 248
+    },
+    {
+      "pairId": "183aed1a2ab5be16",
+      "runtimeCode": 249
+    },
+    {
+      "pairId": "c13d1c8bd4f850ab",
+      "runtimeCode": 267
+    },
+    {
+      "pairId": "4be18ee33b0c96d6",
+      "runtimeCode": 271
+    },
+    {
+      "pairId": "c6366cbffa45a59e",
+      "runtimeCode": 273
+    },
+    {
+      "pairId": "ce8deaf654b1feb3",
+      "runtimeCode": 329
+    },
+    {
+      "pairId": "5feabfc9c453cabe",
+      "runtimeCode": 338
+    },
+    {
+      "pairId": "d3741858aa76e2bc",
+      "runtimeCode": 339
+    },
+    {
+      "pairId": "72eab4f1424c13af",
+      "runtimeCode": 343
+    },
+    {
+      "pairId": "47c90cc87697a98d",
+      "runtimeCode": 349
+    },
+    {
+      "pairId": "fd9faf803880e04b",
+      "runtimeCode": 354
+    },
+    {
+      "pairId": "79c731e7dd86051c",
+      "runtimeCode": 435
+    },
+    {
+      "pairId": "d1113f3cfbe7ce93",
+      "runtimeCode": 453
+    },
+    {
+      "pairId": "26918ee6482be728",
+      "runtimeCode": 454
+    },
+    {
+      "pairId": "e5423b1218935a31",
+      "runtimeCode": 456
+    }
+  ]
+}

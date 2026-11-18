@@ -1,0 +1,440 @@
+{
+  "schema": "dor.native-dependencies.v1",
+  "selectors": [
+    {
+      "packagePath": "/Game/Audio/SFX/WeaponsNTools/WPN_CryoSpray/SnowballExplosion_Cryocannon_Cue",
+      "consumer": "Generate/Cook native seed; Mod/Source/DOREditor/Private/DORBulldogCryoReadback.inl"
+    },
+    {
+      "packagePath": "/Game/GameElements/Damage/DMG_Cold",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/GameElements/Schematics/Categories/SCAT_OC_Unstable",
+      "consumer": "Mod/Source/DOREditor/Private/DORRewardContainment.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/AssaultRifle/ID_AssaultRifle",
+      "consumer": "Mod/Source/DOREditor/Private/DORGenerateAssetsCommandlet.cpp; Mod/Source/DOREditor/Private/DORNativeDescriptor.inl; Mod/Source/DOREditor/Private/DORNativeExecution.inl; Mod/Source/DOREditor/Private/DORNativeLegacyFlow.inl; Mod/Source/DOREditor/Private/DORRemote435ReadOnly.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/AssaultRifle/WPN_AssaultRifle",
+      "consumer": "Mod/Source/DOREditor/Private/DORGenerateAssetsCommandlet.cpp"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/ChargeBlaster/ID_ChargeBlaster",
+      "consumer": "Mod/Source/DOREditor/Private/DORGenerateAssetsCommandlet.cpp; Mod/Source/DOREditor/Private/DORRemote359.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/ChargeBlaster/PRJ_ChargedBlasterShot",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/CombatShotgun/ID_CombatShotgun",
+      "consumer": "Mod/Source/DOREditor/Private/DORNativeLegacyFlow.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/Cryospray/Overclocks/OC_BonusesAndPenalties/OC_Bonus_Snowball",
+      "consumer": "Mod/Source/DOREditor/Private/DORBulldogCryoReadback.inl; Mod/Source/DOREditor/Private/DORSludgeAdaptations.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/Cryospray/Overclocks/OC_Cryospray_Icicle_U",
+      "consumer": "Mod/Source/DOREditor/Private/DORRewardContainment.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/Cryospray/PRJ_Crye_SnowBall",
+      "consumer": "Generate/Cook native seed; Mod/Source/DOREditor/Private/DORBulldogCryoReadback.inl; Mod/Source/DOREditor/Private/DORCryoSnowball.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/Cryospray/PRJ_Cryocannon",
+      "consumer": "Generate/Cook native seed; Mod/Source/DOREditor/Private/DORBulldogCryoReadback.inl; Mod/Source/DOREditor/Private/DORCryoSnowball.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/Cryospray/Particles/P_Snowball_Explosion_Cryocannon",
+      "consumer": "Generate/Cook native seed; Mod/Source/DOREditor/Private/DORBulldogCryoReadback.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/Cryospray/STE_Snowball_LingeringCold",
+      "consumer": "Generate/Cook native seed; Mod/Source/DOREditor/Private/DORBulldogCryoReadback.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GatlingGun/Overclocks/OC_BonusesAndPenalties/Bonus_ManualCooldownOnReload_Gatling",
+      "consumer": "Mod/Source/DOREditor/Private/DORRotaryPresentation.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GatlingGun/Overclocks/OC_Gatling_SuperCooling",
+      "consumer": "Mod/Source/DOREditor/Private/DORGenerateAssetsCommandlet.cpp"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GatlingGun/UI/HUD_GatlingGun_Additional",
+      "consumer": "Mod/Source/DOREditor/Private/DORRotaryPresentation.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/BP_GooCannon_GooPuddle",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/BP_GooCannon_GooPuddle_ImprovedPoison",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/BP_GooCannon_GooPuddle_ImprovedSlow",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/BP_GooExplosion",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/BP_GooExplosiontComponent",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/NOTUSED/OC_GC_Stabilizer_C",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_ArcStartAngle_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_BuckshotDamage",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_BuckshotProjectile_GC",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_BuckshotVelocity_GC",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_Buckshot_Enabled_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_ChargeShotCount_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_ChargedShotDamage_GC",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_ExplosiveGoo_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_FragmentAmount2_GC",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_FragmentAmount_GooCannon",
+      "consumer": "Generate/Cook native seed; Mod/Source/DOREditor/Private/DORSludgeCount.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_FragmentDamageNormal_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_FragmentDamageSmall_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_InreaseVelocity_10p_GC",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_NormalShotDamage_GC",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_PoisonDamageSmall_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_PuddleLifeTimeBig_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_PuddleLifeTime_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_ReduceGravity_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_SlowdownSmall_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_TrailShot_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_Vacuum_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Bonus_Volatile_Puddles_GooCannon",
+      "consumer": "Generate/Cook native seed; Mod/Source/DOREditor/Private/DORSludgeAdaptations.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Penalty_ChargeCost_2_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Penalty_ChargedShotDamage_20_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Penalty_MaxAmmo_20P_GC",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Penalty_PuddleLifeTime_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Penalty_ReloadSpeed_GC",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_BonusesAndPenalties/Penalty_STEDuration_GC",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_GC_Disperser_B",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_GC_GooTrail_U",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_GC_GravityAndVelocity_C",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_GC_HydrogenIon_C",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_GC_ImpactMixture_B",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_GC_VolatilePuddles_U",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OC_GooCannon_Buckshot2_U",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Overclocks/OSB_GooCannon",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/PRJ_BaseBigGooProjectile",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/PRJ_BaseGooProjectile",
+      "consumer": "Generate/Cook native seed; Mod/Source/DOREditor/Private/DORSludgeAdaptations.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/PRJ_BaseNormalGooProjectile",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/PRJ_BigGooProjectile",
+      "consumer": "Generate/Cook native seed; Mod/Source/DOREditor/Private/DORSludgeActualProbe.inl; Mod/Source/DOREditor/Private/DORSludgeCount.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/PRJ_BigGooProjectile_Trail",
+      "consumer": "Generate/Cook native seed; Mod/Source/DOREditor/Private/DORSludgeAdaptations.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/PRJ_BigGoo_Buckshot",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/PRJ_GooProjectile_Fragment_Base",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/PRJ_GooProjectile_Fragment_GooBomoberSpecial",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/PRJ_GooProjectile_Fragment_Normal",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/PRJ_NormalGooProjectile",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/STE_ExplosiveGoo_Component",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GooCannon/Upgrades/UPG_Goo_B_FragmentAmount",
+      "consumer": "Mod/Source/DOREditor/Private/DORSludgeCount.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GrenadeLauncher/ID_GrenadeLauncher",
+      "consumer": "Mod/Source/DOREditor/Private/DORGenerateAssetsCommandlet.cpp; Mod/Source/DOREditor/Private/DORNativeExecution.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/GrenadeLauncher/PRJ_GrenadeLauncher",
+      "consumer": "Mod/Source/DOREditor/Private/DORMaintenance165.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/HeavyParticleCannon/WPN_HeavyParticleCannon",
+      "consumer": "Mod/Source/DOREditor/Private/DORNativeLegacyFlow.inl; Mod/Source/DOREditor/Private/DORNativeProof.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/LockOnRifle/BP_LockOnRifleAutoFireComponent",
+      "consumer": "Generate/Cook native seed; Mod/Source/DOREditor/Private/DORLockOnFullLock.inl; Mod/Source/DOREditor/Private/DORSelectedSixReadback.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/LockOnRifle/Overclocks/OC_BonusesAndPenalties/OC_Bonus_AutoShoot_LockOnRifle",
+      "consumer": "Mod/Source/DOREditor/Private/DORSludgeAdaptations.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/LockOnRifle/Overclocks/OC_LockOnRifle_ArmorBreaking_C",
+      "consumer": "Mod/Source/DOREditor/Private/DORRewardContainment.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/MicroMissileLauncher/BP_ClusterFragment_MicroMissileLauncher",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/MicroMissileLauncher/CRV_MML_Acceleration",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/MicroMissileLauncher/CRV_MML_InstantAcceleration",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/MicroMissileLauncher/PRJ_MicroMissile",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/MicroMissileLauncher/PRJ_MicroMissile_Buck",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/MicroMissileLauncher/PRJ_MicroMissile_Cluster",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/MicroMissileLauncher/PRJ_MicroMissile_Mine_Head",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/MicroMissileLauncher/PRJ_MicroMissile_PlasmaBurster",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/Pistol/ID_Pistol",
+      "consumer": "Mod/Source/DOREditor/Private/DORGenerateAssetsCommandlet.cpp; Mod/Source/DOREditor/Private/DORRemote359.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/Pistol/Overclocks/OC_BonusesAndPenalties/BP_ExplosiveReloadComponent",
+      "consumer": "Mod/Source/DOREditor/Private/DORNativeProof.inl; Mod/Source/DOREditor/Private/DORRemote359.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/Pistol/Overclocks/OC_Pistol_ExplosiveReload_U",
+      "consumer": "Mod/Source/DOREditor/Private/DORGenerateAssetsCommandlet.cpp"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/PlasmaCarbine/ID_PlasmaCarbine",
+      "consumer": "Mod/Source/DOREditor/Private/DORGenerateAssetsCommandlet.cpp"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/PlasmaCarbine/PRJ_PlasmaCarbineShot",
+      "consumer": "Generate/Cook native seed"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/Revolver/Overclocks/OC_Revolver_LuckyBullets_C",
+      "consumer": "Mod/Source/DOREditor/Private/DORRewardContainment.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/SMG/ID_SMG",
+      "consumer": "Mod/Source/DOREditor/Private/DORGenerateAssetsCommandlet.cpp; Mod/Source/DOREditor/Private/DORRemote435ReadOnly.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/SMG/Overclocks/OC_SMG_Turret-AoE-Discharge_U",
+      "consumer": "Mod/Source/DOREditor/Private/DORNativeDescriptor.inl"
+    },
+    {
+      "packagePath": "/Game/WeaponsNTools/_UpgradeCategories/UPC_ProjectileSpeed",
+      "consumer": "Generate/Cook native seed"
+    }
+  ],
+  "runtimeOnlyExpectations": [
+    {
+      "packagePath": "/Game/LevelElements/Droppod/BP_DropPod_Landing",
+      "usage": "runtime-only",
+      "consumer": "Mod/Source/DOREditor/Private/DOROrdinaryRewards.inl"
+    }
+  ],
+  "ownership": [
+    {
+      "packagePath": "/Game/DualOverclockReward",
+      "usage": "generated",
+      "consumer": "Mod/Source/DOREditor/Private/DORGenerateAssetsCommandlet.cpp"
+    },
+    {
+      "packagePath": "/Game/_ModHub/IHubMod",
+      "usage": "generated",
+      "consumer": "Mod/Source/DOREditor/Private/DORModHub.inl"
+    },
+    {
+      "packagePath": "/Game/_ModHub/IHubPageWidget",
+      "usage": "generated",
+      "consumer": "Mod/Source/DOREditor/Private/DORModHub.inl"
+    },
+    {
+      "packagePath": "/Game/ModHub/UI/Widgets/PageTab",
+      "usage": "generated",
+      "consumer": "Mod/Source/DOREditor/Private/DORGenerateAssetsCommandlet.cpp"
+    },
+    {
+      "packagePath": "/Game/UI/Menu_Loadout/Overclocks/ITM_Overclocks_Equip_Item",
+      "usage": "generated",
+      "consumer": "Mod/Source/DOREditor/Private/DORGenerateAssetsCommandlet.cpp"
+    },
+    {
+      "packagePath": "/Game/Equipment/TestBank",
+      "usage": "test",
+      "consumer": "Mod/Source/DOREditor/Private/DORNativeBankJournal.inl"
+    },
+    {
+      "packagePath": "/Game/Foreign/Weapon",
+      "usage": "test",
+      "consumer": "Mod/Source/DOREditor/Private/DORNativeBankJournal.inl"
+    },
+    {
+      "packagePath": "/Game/Unknown/OC",
+      "usage": "test",
+      "consumer": "Mod/Source/DOREditor/Private/DORNativeInputs.inl"
+    },
+    {
+      "packagePath": "/Game/Unrelated/Weapon",
+      "usage": "test",
+      "consumer": "Mod/Source/DOREditor/Private/DORNativeInputs.inl"
+    },
+    {
+      "packagePath": "/Game/LevelElements/Droppod/BP_DropPod_Landing",
+      "usage": "runtime-only",
+      "consumer": "Mod/Source/DOREditor/Private/DOROrdinaryRewards.inl"
+    }
+  ]
+}

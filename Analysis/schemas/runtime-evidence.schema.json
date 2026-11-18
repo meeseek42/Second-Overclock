@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dual-overclock-reward.runtime-evidence.v1",
+  "type": "object",
+  "required": ["schema", "records"],
+  "properties": {
+    "schema": { "const": "dual-overclock-reward.runtime-evidence.v1" },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["overclockId", "claimId", "observation", "authority", "result"],
+        "properties": {
+          "overclockId": { "type": "string" },
+          "claimId": { "type": "string" },
+          "observation": { "type": "string" },
+          "authority": { "enum": ["solo", "host", "server", "client"] },
+          "result": { "enum": ["confirmed", "rejected", "inconclusive"] },
+          "gameBuild": { "type": "string" },
+          "evidenceFile": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

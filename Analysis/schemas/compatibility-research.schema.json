@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dual-overclock-reward.compatibility-research.schema.json",
+  "title": "DualOverclockReward save and multiplayer compatibility research manifest",
+  "type": "object",
+  "required": [
+    "schema",
+    "sourceManifestHash",
+    "buildTag",
+    "safetyDefaults",
+    "deployedRegistration",
+    "registrationTiers",
+    "cleanCandidates",
+    "networkAssetPolicy",
+    "commands",
+    "testMatrix"
+  ],
+  "properties": {
+    "schema": { "const": "dual-overclock-reward.compatibility-research.v1" },
+    "sourceManifestHash": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "buildTag": { "type": "string" },
+    "deployedRegistration": {
+      "type": "object",
+      "required": ["count", "pairTestIndices", "status"],
+      "properties": {
+        "count": { "const": 7 },
+        "pairTestIndices": {
+          "type": "array",
+          "const": [277, 359, 385, 388, 435, 438, 444]
+        },
+        "status": { "type": "string" }
+      }
+    },
+    "registrationTiers": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["count", "pairTestIndices", "pairIds", "selectionHash"]
+      }
+    },
+    "cleanCandidates": { "type": "array" },
+    "commands": {
+      "type": "array",
+      "minItems": 11,
+      "items": {
+        "type": "object",
+        "required": ["command", "purpose", "runtimeAvailability"]
+      }
+    },
+    "testMatrix": { "type": "array", "minItems": 4, "maxItems": 4 }
+  }
+}

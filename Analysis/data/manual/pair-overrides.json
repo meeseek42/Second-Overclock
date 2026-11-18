@@ -1,0 +1,543 @@
+{
+  "schema": "dual-overclock-reward.pair-overrides.v1",
+  "pairs": {
+    "71b1dd3faca3d85f": {
+      "collision": {
+        "explanationZh": "冰冻弩箭与火焰弩箭都替换普通弩箭的ProjectileClass，并重复写入DamageDefault惩罚；最终方案不用先后覆盖，而是由一条融合投射物统一承担命中效果。"
+      },
+      "reasons": {
+        "bugZh": "若仍顺序应用两个WeaponSwitchProjectileUpgrade，后应用者会覆盖前者；承伤标记必须由服务器只添加一份。",
+        "performanceZh": "",
+        "strengthFriendlyFireZh": "以5++为基准，单次固定骤变伤害不足以稳定击杀战士；再附加不叠层承伤标记后属于高收益单体辅助，但不会直接形成无限清群。"
+      },
+      "recommendation": {
+        "nameZh": "冷热脆化矢",
+        "funChangeZh": "新增PRJ_Crossbow_ThermalFracture并替换双方ProjectileClass。保留普通弩箭弹道；服务器OnImpact命中生物时先结算一次固定骤变伤害，但不写入Temperature、Heat或Cold；随后施加5秒、30%承伤提高的“冷热脆化”状态，重复命中只刷新持续时间不叠层。两枚超频各自的DamageDefault惩罚仍各应用一次；命中地形不留下冷热区域。【创意改动：原版冷热驻留区改为直接骤变与脆化标记】",
+        "protectionBoundaryZh": "投射物使用bFusionImpactResolved一次性位；状态按目标唯一、刷新不叠层；伤害和状态仅由服务器结算并复制结果；禁止触发原版升温、降温或由本次伤害递归触发新的骤变。",
+        "creativeTriggerChange": true
+      },
+      "scores": {
+        "implementationComplexity": 4,
+        "mechanicConflict": 4,
+        "destructivePower": 3,
+        "performanceRisk": 1,
+        "bugRisk": 2
+      },
+      "feasibility": "需要定制融合",
+      "route": "定制融合",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "eeea2c40848d1380": {
+      "collision": {
+        "explanationZh": "冰锥与雪球共用急冻炮的PressurizedProjectile特殊发射槽；必须把两个ProjectileClass合并为一次服务器特殊射击，不能同时注册两个按R行为。"
+      },
+      "reasons": {
+        "bugZh": "若保留两个特殊投射物槽，客户端可能显示一种弹体而服务器发射另一种；结算顺序错误还会让冰锥直伤吃到自身制造的冻结倍率。",
+        "performanceZh": "",
+        "strengthFriendlyFireZh": "先直伤后冻结可避免本发冰锥利用自身冻结倍率；仍然是高伤直击加范围硬控，强度很高但受50发冷冻剂消耗和压力恢复限制。"
+      },
+      "recommendation": {
+        "nameZh": "冰川穿刺弹",
+        "funChangeZh": "新增PRJ_Cryocannon_IceSpearSnowball并占用唯一PressurizedProjectile槽。按R由服务器校验至少50发冷冻剂后发射；命中时严格按“冰锥直接/范围伤害与眩晕→雪球范围冰冻与回温抑制”顺序结算，同一发只生成一次冰爆。保留双方压力恢复与备弹惩罚。",
+        "protectionBoundaryZh": "特殊发射RPC只保留一个入口；弹药在服务器预扣一次；投射物用bImpactResolved阻止重复碰撞；先完成冰锥伤害再施加冻结，禁止本发获得自身冻结倍率。",
+        "creativeTriggerChange": true
+      },
+      "scores": {
+        "implementationComplexity": 4,
+        "mechanicConflict": 4,
+        "destructivePower": 3,
+        "performanceRisk": 0,
+        "bugRisk": 2
+      },
+      "feasibility": "需要定制融合",
+      "route": "定制融合",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "5dd43c2715d8da9c": {
+      "collision": {
+        "explanationZh": "霰射泥浆改写充能射击为多枚散射母弹，粘液轰炸改写充能母弹的飞行路径洒落逻辑；融合后每条霰射弹道都必须成为真实飞行的轰炸母弹。"
+      },
+      "reasons": {
+        "bugZh": "不能同时保留两个充能投射物替换项；每条母弹的路径采样器和落泥生成器必须独立，避免共享计数导致漏洒或重复洒落。",
+        "performanceZh": "多条真实飞行的轰炸母弹会分别周期生成下落碎块，负载约为轨迹数×采样点×碎块数。",
+        "strengthFriendlyFireZh": "三条近距离轰炸带能瞬间铺开大面积泥潭，并保留霰射的贴身爆发，清群和封路能力显著提高。"
+      },
+      "recommendation": {
+        "nameZh": "扇形地毯轰炸",
+        "funChangeZh": "新增PRJ_Sludge_GooBomberShotgun。一次充能默认生成3条带水平夹角的真实飞行母弹；每条母弹沿自身轨迹按原粘液轰炸的距离间隔生成并抛落原版飞行碎块，碎块落地后形成泥潭。母弹射程和寿命缩短，使三条轨迹在近中距离展开；母弹撞击后仍不追加终点碎裂。弹丸数量加点最多把轨迹提高到5条。",
+        "protectionBoundaryZh": "服务器为每条母弹保存独立DistanceAccumulator；每次充能最多5条母弹、每条最多8个洒落采样点；飞行碎块使用对象池并按距离回收；母弹和碎块各自只处理一次销毁事件。",
+        "creativeTriggerChange": false
+      },
+      "scores": {
+        "implementationComplexity": 4,
+        "mechanicConflict": 4,
+        "destructivePower": 3,
+        "performanceRisk": 3,
+        "bugRisk": 2
+      },
+      "feasibility": "需要定制融合",
+      "route": "定制融合",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "37b17eb4809a2ce6": {
+      "collision": {
+        "explanationZh": "双方读取同一FireHoldRelease输入，但时序可以兼容：按住阶段只负责旋转控制，松开阶段停止旋转并触发冷血追命返回。"
+      },
+      "reasons": {
+        "bugZh": "需要显式区分OutboundControlled、Returning和Finished三态，否则松开事件可能同时停止旋转并重复反转；切枪或倒地必须清理当前受控射线。",
+        "performanceZh": "",
+        "strengthFriendlyFireZh": ""
+      },
+      "recommendation": {
+        "nameZh": "回旋追命",
+        "funChangeZh": "发射后进入OutboundControlled：持续按住开火时沿用旋转控制RPC改变射线姿态；松开时服务器只执行一次StopRotation并立即切入Returning，关闭后续操控，以当前速度直线返回玩家当前位置。返回阶段沿用投射物当时的剩余LifeSpan，不重置、不额外补时；寿命耗尽则原地销毁。",
+        "protectionBoundaryZh": "使用单一复制状态枚举和ReleaseHandled一次性位；Returning状态拒绝新的旋转输入和再次反转；切枪、倒地、投射物销毁时服务器清空LastControlledProjectile引用。",
+        "creativeTriggerChange": false
+      },
+      "scores": {
+        "implementationComplexity": 3,
+        "mechanicConflict": 2,
+        "destructivePower": 2,
+        "performanceRisk": 0,
+        "bugRisk": 2
+      },
+      "feasibility": "需要桥接",
+      "route": "轻量桥接",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "61207721031e8a31": {
+      "collision": {
+        "explanationZh": "布雷系统与贯穿爆破都替换飓风母弹ProjectileClass；融合类以贯穿飞弹的敌人命中逻辑为主体，并在地形碰撞分支追加有限次数的布雷。"
+      },
+      "reasons": {
+        "bugZh": "地形滑动、反弹或同帧多碰撞可能重复生成地雷；原版贯穿飞弹撞击地形后的销毁/继续飞行行为仍需实机确认。",
+        "performanceZh": "每枚仍在飞行的贯穿母弹最多额外留下3枚地雷；设置活动地雷上限后属于线性增加。",
+        "strengthFriendlyFireZh": "飞弹既能多次穿透大型目标又能把地形接触转化为地雷，兼顾对单和封路。"
+      },
+      "recommendation": {
+        "nameZh": "穿地布雷弹",
+        "funChangeZh": "新增PRJ_MML_PlasmaBursterMine并继承贯穿飞弹的敌人命中、穿透次数和制导行为。TerrainHit时先查询/执行原版贯穿飞弹的地形响应：若原逻辑会销毁，则在销毁前生成1枚地雷；若原逻辑会继续飞行或反弹，则仅在MineDropCount<3时生成地雷并递增计数，然后继续原响应。达到3次后仍保留原飞行逻辑但不再布雷。",
+        "protectionBoundaryZh": "MineDropCount由服务器复制；同一SurfaceHit使用碰撞序号和0.10秒去重窗只结算一次；每名玩家最多保留24枚活动地雷，超限回收最老地雷；敌人穿透回调不得进入TerrainHit布雷分支。",
+        "creativeTriggerChange": false
+      },
+      "scores": {
+        "implementationComplexity": 4,
+        "mechanicConflict": 4,
+        "destructivePower": 3,
+        "performanceRisk": 2,
+        "bugRisk": 2
+      },
+      "feasibility": "需要定制融合",
+      "route": "定制融合",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录",
+      "evidence": {
+        "highestConfidence": "unresolved",
+        "unresolved": [
+          "贯穿爆破母弹撞击地形后的原版销毁/反弹/继续飞行行为需实机确认"
+        ]
+      }
+    },
+    "d1113f3cfbe7ce93": {
+      "collision": {
+        "explanationZh": "火箭弹幕和布雷系统都替换默认飓风投射物；需要一个同时具备弹幕无制导属性与MineHead地形转换逻辑的融合类。"
+      },
+      "reasons": {
+        "bugZh": "顺序应用会由后一个ProjectileClass覆盖前一个；融合类必须只在地形碰撞生成一次地雷。",
+        "performanceZh": "弹幕射速和弹药量会提高单位时间落地地雷数，但只有一种地雷Actor。",
+        "strengthFriendlyFireZh": "高射速低单发火箭可快速把地面铺成雷区，清群能力明显高于任一单超频。"
+      },
+      "recommendation": {
+        "nameZh": "速射布雷炮",
+        "funChangeZh": "新增PRJ_MML_DumbfireMineHead。武器侧沿用火箭弹幕的射速、弹药、散布、伤害与无制导参数；投射物侧沿用布雷系统的TerrainHit→Mine转换和地雷爆炸参数。命中敌人按弹幕低单发伤害立即爆炸，命中地形只转换为1枚地雷。",
+        "protectionBoundaryZh": "每枚火箭用bMineSpawned防止同帧多碰撞重复布雷；服务器维护每名玩家32枚活动地雷的宽松上限，超限回收最老对象；客户端只播放复制后的落雷表现。",
+        "creativeTriggerChange": false
+      },
+      "scores": {
+        "implementationComplexity": 4,
+        "mechanicConflict": 4,
+        "destructivePower": 3,
+        "performanceRisk": 2,
+        "bugRisk": 2
+      },
+      "feasibility": "需要定制融合",
+      "route": "定制融合",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "26918ee6482be728": {
+      "collision": {
+        "explanationZh": "火箭弹幕替换为无制导Dumbfire投射物，贯穿爆破替换为可反复穿透的PlasmaBurster投射物；融合方案保留弹幕弹道并把贯穿改成直线有限穿透。"
+      },
+      "reasons": {
+        "bugZh": "高射速下同一敌人的多个碰撞体可能让一枚飞弹重复结算；需要每弹目标集合和总贯穿次数。",
+        "performanceZh": "射速和备弹提高碰撞查询次数，但没有持续区域或额外子弹生成。",
+        "strengthFriendlyFireZh": "大量低伤飞弹获得直线穿透后，对密集虫群和大型目标都有明显提升。"
+      },
+      "recommendation": {
+        "nameZh": "穿甲火箭风暴",
+        "funChangeZh": "新增PRJ_MML_DumbfirePiercing。沿用火箭弹幕的无制导、射速、备弹、散布和伤害；敌人命中后不销毁，保持当前速度与方向继续飞行。每枚火箭最多有效命中4个目标，同一Actor只结算一次；命中地形立即按普通弹幕爆炸并销毁，不执行折返或制导。",
+        "protectionBoundaryZh": "服务器保存HitActorSet和PenetrationCount；组件级重复碰撞合并到Actor级；达到4次或寿命结束立即销毁；集合在投射物回收时清空。",
+        "creativeTriggerChange": false
+      },
+      "scores": {
+        "implementationComplexity": 4,
+        "mechanicConflict": 4,
+        "destructivePower": 3,
+        "performanceRisk": 2,
+        "bugRisk": 2
+      },
+      "feasibility": "需要定制融合",
+      "route": "定制融合",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "5500da996ed18da2": {
+      "collision": {
+        "explanationZh": "集束轰炸和布雷系统都替换母弹ProjectileClass；融合后未分裂母弹与分裂子弹需要使用两种明确的地雷转换规格。"
+      },
+      "reasons": {
+        "bugZh": "母弹分裂、地形碰撞和销毁可能在同帧竞争；必须保证一枚母弹只走“大雷”或“分裂”其中一个终态。",
+        "performanceZh": "一次集束释放可让多枚子炸弹分别落地成为小型地雷，活动Actor数量存在明显乘法。",
+        "strengthFriendlyFireZh": "不分裂时得到单个高伤大雷，分裂时得到大范围小雷阵，兼具爆发和区域封锁。"
+      },
+      "recommendation": {
+        "nameZh": "集束雷场",
+        "funChangeZh": "新增PRJ_MML_ClusterMineMother与PRJ_MML_ClusterMineChild。未执行集束释放的母弹命中地形时生成1枚高伤害、大半径地雷并销毁；长按换弹释放后，母弹进入Released终态且不再生成大雷，生成的每枚子弹不可再次分裂。子弹命中敌人按集束小炸弹立即爆炸，命中地形则转换为低伤害、小半径地雷。",
+        "protectionBoundaryZh": "母弹使用Unreleased/Released/TerrainResolved互斥终态；每名玩家最多保留4枚大型雷和24枚小型雷，分别回收最老对象；子弹类不注册集束接口，彻底禁止二次分裂。",
+        "creativeTriggerChange": false
+      },
+      "scores": {
+        "implementationComplexity": 4,
+        "mechanicConflict": 4,
+        "destructivePower": 4,
+        "performanceRisk": 4,
+        "bugRisk": 2
+      },
+      "feasibility": "需要定制融合",
+      "route": "定制融合",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "bcb0ac9904f94af0": {
+      "collision": {
+        "explanationZh": "集束轰炸母弹默认一次释放后结束集束资格，贯穿爆破要求母弹继续飞行并多次命中；融合类需把一次性布尔状态改成有限次数释放计数。"
+      },
+      "reasons": {
+        "bugZh": "一次按住换弹会遍历多枚活动母弹，需原子扣弹并同步各母弹ReleaseCount；客户端预测不得自行生成子弹。",
+        "performanceZh": "多枚仍在飞行的贯穿母弹可各自释放多轮子炸弹，瞬时生成量很高。",
+        "strengthFriendlyFireZh": "贯穿母弹反复命中并持续散布集束弹，拥有极高对单和区域爆发；额外释放消耗弹药可限制免费收益。"
+      },
+      "recommendation": {
+        "nameZh": "巡航集束母舰",
+        "funChangeZh": "新增PRJ_MML_PlasmaBursterClusterMother。母弹保留贯穿爆破的制导、敌人穿透和继续飞行；长按换弹0.5秒时，服务器按发射时间从老到新遍历活动母弹。ReleaseCount<3且武器弹匣仍有弹药的母弹消耗1发当前弹匣弹药，生成一轮集束子弹并ReleaseCount+1，但母弹不销毁、仍可继续贯穿。子弹使用普通集束子弹类且bClusterCapable=false，绝不再次分裂。",
+        "protectionBoundaryZh": "每枚母弹最多释放3轮；每轮每枚实际响应的母弹各扣1发，弹药不足时只处理最老的若干枚；扣弹、计数和子弹生成在同一服务器事务中完成；ReleaseCount复制给客户端用于表现。",
+        "creativeTriggerChange": true
+      },
+      "scores": {
+        "implementationComplexity": 5,
+        "mechanicConflict": 4,
+        "destructivePower": 4,
+        "performanceRisk": 4,
+        "bugRisk": 3
+      },
+      "feasibility": "需要定制融合",
+      "route": "定制融合",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "e5423b1218935a31": {
+      "collision": {
+        "explanationZh": "集束轰炸要求可响应长按换弹的Cluster母弹，火箭弹幕要求无制导Dumbfire母弹；融合类保留弹幕武器参数并为每枚Dumbfire母弹注册一次集束资格。"
+      },
+      "reasons": {
+        "bugZh": "高射速下活动母弹列表更新频繁，长按换弹必须使用服务器快照，避免销毁中的母弹重复响应。",
+        "performanceZh": "弹幕射速与备弹会显著提高活动集束母弹数量，一次指令可能同时生成大量子炸弹。",
+        "strengthFriendlyFireZh": "大量低伤火箭均可主动散布小炸弹，是极强的大范围爆发和节目效果组合。"
+      },
+      "recommendation": {
+        "nameZh": "蜂群集束弹幕",
+        "funChangeZh": "新增PRJ_MML_ClusterDumbfire。沿用火箭弹幕的无制导、射速、备弹、散布与低单发伤害；每枚母弹注册到服务器ActiveClusterMissiles，长按换弹0.5秒后可释放一次原版集束子弹并销毁/结束母弹资格。子弹不具备集束接口。",
+        "protectionBoundaryZh": "一次指令最多让最老的12枚活动母弹响应；服务器先取得稳定快照再逐枚释放；子弹生成进入队列并分2—3帧执行，单帧不超过24个SpawnActor；超出响应上限的母弹保留到下一次指令。",
+        "creativeTriggerChange": false
+      },
+      "scores": {
+        "implementationComplexity": 4,
+        "mechanicConflict": 4,
+        "destructivePower": 4,
+        "performanceRisk": 4,
+        "bugRisk": 3
+      },
+      "feasibility": "需要定制融合",
+      "route": "定制融合",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "27a11f316881b8ad": {
+      "collision": {
+        "explanationZh": "两枚超频只修改同一套原版StickyFlame参数；不会各自生成一种火墙Actor，也不需要混合区域。"
+      },
+      "reasons": {
+        "bugZh": "",
+        "performanceZh": "持续时间叠加会让同一类原版火墙同时存在得更久，但没有第二类持续对象或额外Tick系统。",
+        "strengthFriendlyFireZh": "火墙伤害与持续时间同时提升，5++防守场景的封路能力明显增强。"
+      },
+      "recommendation": {
+        "nameZh": "长燃黏性燃油",
+        "funChangeZh": "按CombinedUpgrades稳定顺序直接应用两枚超频：黏性助剂的伤害与持续时间加成先写入武器，黏性燃油再写入持续时间、火墙伤害、弹匣和备弹修正。最终仍由原版StickyFlame生成器创建唯一一种火墙Actor，不复制组件、不增加第二套范围查询。",
+        "protectionBoundaryZh": "沿用原版火墙销毁和合并逻辑；实机压力测试前不设影响玩法的软上限。仅保留每名玩家128块活动火墙的故障保险，超限时回收最老火墙并记录诊断日志。",
+        "creativeTriggerChange": false
+      },
+      "scores": {
+        "implementationComplexity": 0,
+        "mechanicConflict": 1,
+        "destructivePower": 3,
+        "performanceRisk": 1,
+        "bugRisk": 0
+      },
+      "feasibility": "可直接实现",
+      "route": "直接叠加",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "6afa22d96d8a977b": {
+      "collision": {
+        "explanationZh": "及蚀刑乐修改普通/充能直伤和腐蚀、减速、泥潭持续时间；泥浆炸裂注册点燃爆炸事件。二者不替换同一对象，也不生成两类持续区域。"
+      },
+      "reasons": {
+        "bugZh": "",
+        "performanceZh": "只增加原版点燃条件满足时的一次爆炸回调；及蚀刑乐缩短状态和泥潭寿命，通常不会增加场上对象。",
+        "strengthFriendlyFireZh": "更高直击伤害叠加点燃爆炸，能够形成较强瞬时爆发，但需要泥浆与火焰条件。"
+      },
+      "recommendation": {
+        "nameZh": "速蚀燃爆",
+        "funChangeZh": "直接展开并应用双方叶级升级。及蚀刑乐只修改武器直击/充能伤害及持续时间字段；泥浆炸裂继续使用原版泥浆或被泥浆包裹目标的点燃事件。不要新建泥潭Actor、额外Debuff组件或第二套Tick。",
+        "protectionBoundaryZh": "沿用泥浆炸裂原版“爆炸后停止燃烧”闭环；同一目标或泥潭的一次点燃事件只允许一次爆炸回调；无额外对象上限。",
+        "creativeTriggerChange": false
+      },
+      "scores": {
+        "implementationComplexity": 0,
+        "mechanicConflict": 1,
+        "destructivePower": 3,
+        "performanceRisk": 1,
+        "bugRisk": 0
+      },
+      "feasibility": "可直接实现",
+      "route": "直接叠加",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "52719af9436041bb": {
+      "collision": {
+        "explanationZh": "蚀泥迸裂增加充能碎块数量/伤害，粘液轰炸把充能母弹改为沿途洒落且终点不碎裂；融合需要把新增碎块移动到母弹的路径采样事件中。"
+      },
+      "reasons": {
+        "bugZh": "路径采样点若同时调用原版轰炸洒落和蚀泥迸裂终点碎裂，会重复生成；小碎块只允许落地一次并直接生成泥潭。",
+        "performanceZh": "每个路径采样点生成多枚仍需飞行和碰撞的小碎块，数量约为采样点×每点碎块数。",
+        "strengthFriendlyFireZh": "长距离轨迹横向铺开多块强化泥潭，封路覆盖显著扩大。"
+      },
+      "recommendation": {
+        "nameZh": "空爆散布航线",
+        "funChangeZh": "新增PRJ_Sludge_GooBomberDisperser。保留1枚真实飞行的粘液轰炸母弹；每达到原版洒落距离间隔，读取蚀泥迸裂的碎块数量并生成多枚小型飞行碎块，赋予横向散布和向下初速度。小碎块保留飞行、重力和碰撞，第一次命中地形时直接生成对应泥潭并销毁，不再执行撞击炸开或二次碎裂；母弹终点仍不生成碎块。",
+        "protectionBoundaryZh": "每个采样点最多4枚小碎块、每枚母弹最多8个采样点；碎块带bPuddleSpawned一次性位并使用对象池；相邻落点过近时复用/刷新已有泥潭，远离玩家的最老碎块优先回收。",
+        "creativeTriggerChange": false
+      },
+      "scores": {
+        "implementationComplexity": 3,
+        "mechanicConflict": 2,
+        "destructivePower": 3,
+        "performanceRisk": 3,
+        "bugRisk": 2
+      },
+      "feasibility": "需要桥接",
+      "route": "轻量桥接",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "a2386a32ff9adf95": {
+      "collision": {
+        "explanationZh": "及蚀刑乐是伤害与持续时间字段修改，粘液轰炸是充能母弹与路径洒落逻辑；没有第二种持续区域或对象乘法。"
+      },
+      "reasons": {
+        "bugZh": "",
+        "performanceZh": "及蚀刑乐缩短泥潭、腐蚀和减速持续时间；组合负载不高于粘液轰炸本身。",
+        "strengthFriendlyFireZh": "及蚀刑乐提高的是普通/充能投射物直接伤害，不会自动提高沿途泥潭的持续伤害。"
+      },
+      "recommendation": {
+        "nameZh": "短效重载轰炸",
+        "funChangeZh": "先应用及蚀刑乐的普通射击、充能母弹直接伤害与状态/泥潭持续时间修正，再把充能ProjectileClass切换为粘液轰炸母弹。沿途泥潭仍使用粘液轰炸原参数，但寿命读取及蚀刑乐修正后的最终字段；只有母弹直接命中敌人时获得提高后的充能直伤。",
+        "protectionBoundaryZh": "不新建状态组件或泥潭类型；最终持续时间在武器升级完成后只快照一次；沿用原版母弹、碎块和泥潭回收。",
+        "creativeTriggerChange": false
+      },
+      "scores": {
+        "implementationComplexity": 0,
+        "mechanicConflict": 0,
+        "destructivePower": 2,
+        "performanceRisk": 1,
+        "bugRisk": 0
+      },
+      "feasibility": "可直接实现",
+      "route": "直接叠加",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "ac72b198823d2eed": {
+      "collision": {
+        "explanationZh": "粘液轰炸沿途生成大量原版泥潭，泥浆炸裂为这些泥潭和被泥浆包裹目标注册点燃爆炸；只有一种泥潭Actor，但点燃时可能出现爆炸事件突发。"
+      },
+      "reasons": {
+        "bugZh": "相邻泥潭同帧互相点燃时可能重复排队，需按对象与点燃序号去重并阻止爆炸递归触发。",
+        "performanceZh": "长轨迹上的许多泥潭可能在同一帧满足点燃条件并进行范围伤害查询，形成短时CPU尖峰。",
+        "strengthFriendlyFireZh": "一条轰炸带可被点燃为连续爆炸线，清群和破甲爆发很高。"
+      },
+      "recommendation": {
+        "nameZh": "燃爆轰炸带",
+        "funChangeZh": "保留粘液轰炸母弹、飞行碎块和泥潭生成；为每个泥潭及被泥浆包裹目标只注册一次泥浆炸裂点燃监听。服务器收到点燃事件后写入IgnitionSequenceId并把爆炸请求加入当帧队列；同一对象同一序号只结算一次。空间上相邻且同帧的请求可合并为一次伤害查询，但各落点仍播放局部爆炸表现。",
+        "protectionBoundaryZh": "禁止本次爆炸重新触发自身或已处理对象；按1.5米空间桶合并同帧范围查询；沿用原版“目标爆炸后停止燃烧”；每名玩家泥潭保留宽松上限并优先回收最老、最远对象。",
+        "creativeTriggerChange": false
+      },
+      "scores": {
+        "implementationComplexity": 2,
+        "mechanicConflict": 1,
+        "destructivePower": 3,
+        "performanceRisk": 3,
+        "bugRisk": 2
+      },
+      "feasibility": "需要保护",
+      "route": "顺序保护",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "183aed1a2ab5be16": {
+      "collision": {
+        "explanationZh": "蚀骨泥潭只强化直接命中附加的腐蚀持续伤害和减速，粘液轰炸负责充能母弹及沿途泥潭；不会生成第二种泥潭或第二套Tick。"
+      },
+      "reasons": {
+        "bugZh": "",
+        "performanceZh": "组合对象数量与粘液轰炸单独使用相同。",
+        "strengthFriendlyFireZh": "强化只作用于普通射击和轰炸母弹的直接命中目标，不会自动强化沿途每个泥潭。"
+      },
+      "recommendation": {
+        "nameZh": "蚀骨航线",
+        "funChangeZh": "直接应用蚀骨泥潭的DirectHit腐蚀伤害与减速字段，再启用粘液轰炸充能母弹。普通射击和母弹直接命中敌人时读取增强后的DirectHit状态；路径洒落碎块和地面泥潭继续使用原版泥潭状态，不额外复制蚀骨效果。",
+        "protectionBoundaryZh": "DirectHit状态只由实际投射物命中回调添加一次；泥潭Overlap不得调用DirectHit分支；沿用原版状态刷新和对象清理。",
+        "creativeTriggerChange": false
+      },
+      "scores": {
+        "implementationComplexity": 0,
+        "mechanicConflict": 0,
+        "destructivePower": 2,
+        "performanceRisk": 1,
+        "bugRisk": 0
+      },
+      "feasibility": "可直接实现",
+      "route": "直接叠加",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "ce8deaf654b1feb3": {
+      "collision": {
+        "explanationZh": "过载供弹只修改RateOfFire与MaxVelocity；集束轰炸提供母弹类、特殊换弹输入和子弹生成器，不存在第二类持续区域。"
+      },
+      "reasons": {
+        "bugZh": "需要确认MaxVelocity升级写入集束母弹类，而不是只命中默认PRJ_MicroMissile。",
+        "performanceZh": "更高射速会提高单位时间内可释放集束的母弹数量，但没有新增Actor类型。",
+        "strengthFriendlyFireZh": "射速补回集束轰炸的部分射速惩罚，使爆发和弹药倾泻速度上升。"
+      },
+      "recommendation": {
+        "nameZh": "过载集束供弹",
+        "funChangeZh": "保持集束轰炸的ProjectileClass、0.5秒长按换弹与一次释放逻辑；在武器Upgraded完成后，把过载供弹的RateOfFire写入武器，把MaxVelocity倍率应用到集束母弹ProjectileComponent。子弹数量、子弹类和释放次数完全不变。",
+        "protectionBoundaryZh": "速度修正只应用一次并在投射物CDO/生成参数中验证；活动母弹列表仍由服务器维护；不增加子弹数量或额外持续对象。",
+        "creativeTriggerChange": false
+      },
+      "scores": {
+        "implementationComplexity": 1,
+        "mechanicConflict": 1,
+        "destructivePower": 3,
+        "performanceRisk": 2,
+        "bugRisk": 1
+      },
+      "feasibility": "可直接实现",
+      "route": "直接叠加",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "a1b60a0815231449": {
+      "collision": {
+        "explanationZh": "极速飞弹只修改直伤、弹速、范围伤害/半径、弹匣和备弹字段；集束轰炸负责母弹替换和子弹释放，不存在第二类持续区域。"
+      },
+      "reasons": {
+        "bugZh": "需确认针对默认飞弹的速度升级能正确作用于集束母弹；不要把同一倍率再次手工复制到子弹。",
+        "performanceZh": "更高弹速缩短母弹在场时间；对象数量仍由集束轰炸决定。",
+        "strengthFriendlyFireZh": "集束轰炸与极速飞弹都提高直击收益，母弹直击可能很强；同时范围伤害、半径和弹药惩罚仍保留。"
+      },
+      "recommendation": {
+        "nameZh": "超高速集束母弹",
+        "funChangeZh": "先按原叶级顺序计算极速飞弹的直伤、速度、范围伤害/半径、弹匣和备弹最终值，再启用集束母弹ProjectileClass。母弹生成时从武器最终属性快照速度与直接/范围伤害；集束子弹继续使用集束轰炸自己的生成参数，不额外复制极速飞弹倍率。",
+        "protectionBoundaryZh": "所有数值倍率仅进入一次最终属性快照；母弹与子弹使用不同DamageContext标记；长按换弹和每枚母弹一次释放规则不变。",
+        "creativeTriggerChange": false
+      },
+      "scores": {
+        "implementationComplexity": 2,
+        "mechanicConflict": 2,
+        "destructivePower": 3,
+        "performanceRisk": 1,
+        "bugRisk": 1
+      },
+      "feasibility": "需要保护",
+      "route": "顺序保护",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    },
+    "663e081a8cfafb0f": {
+      "collision": {
+        "explanationZh": "破片飞弹只修改RadialDamage与RadialRange；集束轰炸负责母弹、特殊输入和子弹生成，不存在第二类持续区域。"
+      },
+      "reasons": {
+        "bugZh": "集束子弹若使用独立DamageComponent，必须确保范围修正只复制一次，避免母弹快照和子弹初始化重复叠乘。",
+        "performanceZh": "投射物数量不变，但每枚子弹的爆炸半径增大后，单次集束释放的范围查询目标数会上升。",
+        "strengthFriendlyFireZh": "多枚子弹同时获得更高范围伤害与半径时，重叠爆炸区的清群能力显著提高。"
+      },
+      "recommendation": {
+        "nameZh": "广域破片集束",
+        "funChangeZh": "按原顺序把破片飞弹的RadialDamage和RadialRange写入武器最终范围伤害参数，再启用集束轰炸。母弹直接读取最终参数；UClusterbombSpawner生成子弹时，把最终范围伤害与半径各快照一次写入子弹DamageComponent，使破片加成确实作用于集束子弹，但不改变子弹数量、寿命或释放方式。",
+        "protectionBoundaryZh": "母弹和子弹分别带RadialStatsApplied一次性位；子弹生成器禁止再次乘算已快照数值；保持每枚母弹一次释放且子弹不可再分裂。",
+        "creativeTriggerChange": false
+      },
+      "scores": {
+        "implementationComplexity": 2,
+        "mechanicConflict": 1,
+        "destructivePower": 3,
+        "performanceRisk": 2,
+        "bugRisk": 1
+      },
+      "feasibility": "需要保护",
+      "route": "顺序保护",
+      "ownerDecisionRequired": false,
+      "includeInReviewWorkbook": true,
+      "reviewStatus": "用户方案已记录"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dor.gf02.resolved-native-inputs.v1",
+  "type": "object",
+  "required": ["schema", "contractSha256", "shippingExeSha256", "inputs"],
+  "properties": {
+    "schema": {"const": "dor.gf02.resolved-native-inputs.v1"},
+    "contractSha256": {"type": "string", "pattern": "^[0-9a-fA-F]{64}$"},
+    "shippingExeSha256": {"type": "string", "pattern": "^[0-9a-fA-F]{64}$"},
+    "inputs": {"type": "array", "items": {
+      "type": "object",
+      "required": ["sourceObjectPath", "classPath", "fields", "exportEvidence", "packageEvidence"],
+      "properties": {
+        "sourceObjectPath": {"type": "string"},
+        "classPath": {"type": "string"},
+        "fields": {"type": "object"},
+        "archetype": {"type": "string"},
+        "amountState": {"enum": ["omitted-inherit-native-CDO", "explicit-numeric-zero", "serialized-numeric"]},
+        "exportEvidence": {"$ref": "#/$defs/reference"},
+        "packageEvidence": {"$ref": "#/$defs/reference"},
+        "nativeEvidence": {"type": "array", "items": {"$ref": "#/$defs/reference"}}
+      }
+    }}
+  },
+  "$defs": {"reference": {
+    "type": "object", "required": ["path", "sha256"],
+    "properties": {"path": {"type": "string"}, "sha256": {"type": "string", "pattern": "^[0-9a-fA-F]{64}$"}}
+  }}
+}
